@@ -1,0 +1,206 @@
+"""
+Instagram Profile Scraper - Main Module
+Phase 1: Foundation, Login & Backup Accounts
+
+This module serves as the main entry point for core functionality.
+"""
+
+import json
+import time
+import sys
+import os
+from typing import Dict, List, Optional
+
+# Add the core files directory to path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "."))
+
+from scraper import InstagramScraper
+from utils import setup_logging
+
+
+class InstagramProfileScraper:
+    """Main Instagram Profile Scraper class for Phase 1."""
+    
+    def __init__(self):
+        self.logger = setup_logging()
+        self.scraper = None
+        self.session_data = {}
+        
+    def initialize(self) -> bool:
+        """Initialize the scraper and attempt login."""
+        try:
+            self.logger.info("=== Instagram Profile Scraper - Phase 1 ===")
+            self.logger.info("Initializing scraper with backup account support...")
+            
+            # Create scraper instance
+            self.scraper = InstagramScraper()
+            
+            # Attempt login with backup support
+            login_success = self.scraper.login_with_backup_support()
+            
+            if login_success:
+                self.logger.info("Scraper initialized successfully")
+                current_account = self.scraper.session_manager.get_current_account()
+                self.session_data = {
+                    "current_account": current_account['username'],
+                    "login_time": time.time(),
+                    "total_accounts": self.scraper.session_manager.get_account_count(),
+                    "remaining_accounts": self.scraper.session_manager.get_remaining_accounts()
+                }
+                return True
+            else:
+                self.logger.error("Failed to initialize scraper - login unsuccessful")
+                return False
+                
+        except Exception as e:
+            self.logger.error(f"Critical error during initialization: {str(e)}")
+            return False
+    
+    def get_session_info(self) -> Dict:
+        """Get current session information."""
+        return {
+            "session_data": self.session_data,
+            "status": "active" if self.scraper else "inactive",
+            "timestamp": time.time()
+        }
+    
+    def test_basic_navigation(self) -> bool:
+        """Test basic navigation to verify the scraper is working."""
+        try:
+            if not self.scraper or not self.scraper.driver:
+                self.logger.error("Scraper not initialized")
+                return False
+            
+            self.logger.info("Testing basic navigation...")
+            
+            # Navigate to Instagram home
+            self.scraper.driver.get("https://www.instagram.com/")
+            time.sleep(3)
+            
+            # Take a screenshot for verification
+            self.scraper.take_screenshot("phase1_navigation_test.png")
+            
+            current_url = self.scraper.driver.current_url
+            self.logger.info(f"Current URL: {current_url}")
+            
+            # Check if we're still logged in
+            if "instagram.com/accounts/login" in current_url:
+                self.logger.warning("Redirected to login page - session may have expired")
+                return False
+            
+            self.logger.info("Basic navigation test successful")
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Error during navigation test: {str(e)}")
+            return False
+    
+    def save_phase1_results(self) -> str:
+        """Save Phase 1 results to JSON file."""
+        try:
+            results = {
+                "phase": 1,
+                "description": "Foundation, Login & Backup Accounts",
+                "timestamp": time.time(),
+                "session_info": self.get_session_info(),
+                "status": "completed",
+                "features_implemented": [
+                    "Virtual environment setup",
+                    "Selenium WebDriver configuration", 
+                    "ChromeDriver auto-detection",
+                    "Instagram login automation",
+                    "Session persistence with cookies",
+                    "Multiple backup account support",
+                    "Rate limiting to avoid bans",
+                    "Comprehensive error handling",
+                    "Logging system with file output"
+                ],
+                "next_steps": [
+                    "Phase 2: Profile extraction functionality",
+                    "Phase 3: Post scraping implementation",
+                    "Phase 4: Advanced parsing and cleaning"
+                ]
+            }
+            
+            # Ensure output directory exists
+            os.makedirs("output", exist_ok=True)
+            
+            # Save results
+            output_file = "output/phase1_results.json"
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(results, f, indent=2, ensure_ascii=False)
+            
+            # Create backup with timestamp
+            backup_file = f"output/backup_phase1_{int(time.time())}.json"
+            with open(backup_file, 'w', encoding='utf-8') as f:
+                json.dump(results, f, indent=2, ensure_ascii=False)
+            
+            self.logger.info(f"Phase 1 results saved to: {output_file}")
+            self.logger.info(f"Backup saved to: {backup_file}")
+            
+            return output_file
+            
+        except Exception as e:
+            self.logger.error(f"Error saving Phase 1 results: {str(e)}")
+            return ""
+    
+    def run_phase1_complete(self) -> bool:
+        """Run complete Phase 1 workflow."""
+        try:
+            self.logger.info("=== Starting Phase 1: Foundation, Login & Backup Accounts ===")
+            
+            # Step 1: Initialize scraper and login
+            if not self.initialize():
+                return False
+            
+            # Step 2: Test basic functionality
+            if not self.test_basic_navigation():
+                self.logger.warning("Basic navigation test failed, but login was successful")
+            
+            # Step 3: Save results
+            output_file = self.save_phase1_results()
+            if not output_file:
+                self.logger.error("Failed to save Phase 1 results")
+                return False
+            
+            self.logger.info("=== Phase 1 completed successfully ===")
+            self.logger.info(f"Session active with account: {self.session_data.get('current_account', 'Unknown')}")
+            self.logger.info(f"Remaining backup accounts: {self.session_data.get('remaining_accounts', 0)}")
+            
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Critical error during Phase 1 execution: {str(e)}")
+            return False
+        finally:
+            # Keep the session active for next phases
+            pass
+    
+    def cleanup(self):
+        """Clean up resources."""
+        try:
+            if self.scraper:
+                self.scraper.close()
+                self.logger.info("Scraper resources cleaned up")
+        except Exception as e:
+            self.logger.error(f"Error during cleanup: {str(e)}")
+    
+    def __enter__(self):
+        """Context manager entry."""
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """Context manager exit."""
+        self.cleanup()
+
+
+if __name__ == "__main__":
+    # This allows the main module to be run directly for testing
+    with InstagramProfileScraper() as scraper:
+        success = scraper.run_phase1_complete()
+        if success:
+            print("Phase 1 completed successfully!")
+            print("Ready to proceed to Phase 2: Profile Extraction")
+        else:
+            print("Phase 1 failed. Please check the logs for details.")
+            sys.exit(1)

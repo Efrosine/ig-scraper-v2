@@ -1,0 +1,87 @@
+2025-06-25 22:09:12,312 - ig_scraper - INFO - === Testing Environment Setup ===
+2025-06-25 22:09:12,313 - ig_scraper - INFO - ✓ Environment configuration file found
+2025-06-25 22:09:12,313 - ig_scraper - INFO - ✓ Requirements file found
+2025-06-25 22:09:12,313 - ig_scraper - INFO - ✓ Selenium imports successful
+2025-06-25 22:09:12,313 - ig_scraper - INFO - ✓ Python-dotenv import successful
+2025-06-25 22:09:12,313 - ig_scraper - INFO - ✓ ChromeDriver found at: /usr/bin/chromedriver
+2025-06-25 22:09:12,313 - ig_scraper - INFO - === Environment Setup Test Completed ===
+2025-06-25 22:09:12,313 - ig_scraper - INFO - === Phase 1 Development Execution ===
+2025-06-25 22:09:12,313 - ig_scraper - INFO - Features to implement:
+2025-06-25 22:09:12,313 - ig_scraper - INFO - - Virtual environment and dependencies
+2025-06-25 22:09:12,314 - ig_scraper - INFO - - ChromeDriver configuration
+2025-06-25 22:09:12,314 - ig_scraper - INFO - - Selenium-based Instagram login
+2025-06-25 22:09:12,314 - ig_scraper - INFO - - Session persistence with cookies
+2025-06-25 22:09:12,314 - ig_scraper - INFO - - Multiple backup account support
+2025-06-25 22:09:12,314 - ig_scraper - INFO - - Basic error handling
+2025-06-25 22:09:12,314 - ig_scraper - INFO - === Starting Phase 1: Foundation, Login & Backup Accounts ===
+2025-06-25 22:09:12,314 - ig_scraper - INFO - === Starting Phase 1: Foundation, Login & Backup Accounts ===
+2025-06-25 22:09:12,314 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-25 22:09:12,314 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-25 22:09:12,315 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-25 22:09:12,315 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-25 22:09:12,315 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-25 22:09:12,315 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-25 22:09:12,315 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-25 22:09:15,502 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-25 22:09:15,502 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-25 22:09:15,502 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-25 22:09:15,502 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-25 22:09:15,502 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-25 22:09:15,502 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-25 22:09:43,453 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-25 22:09:43,453 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-25 22:09:43,453 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-25 22:09:43,453 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-25 22:09:43,453 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-25 22:09:43,453 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-25 22:09:43,454 - ig_scraper - INFO - Testing basic navigation...
+2025-06-25 22:09:43,454 - ig_scraper - INFO - Testing basic navigation...
+2025-06-25 22:09:43,454 - ig_scraper - INFO - Testing basic navigation...
+2025-06-25 22:09:47,782 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-25 22:09:47,782 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-25 22:09:47,782 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-25 22:09:47,798 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-25 22:09:47,798 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-25 22:09:47,798 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-25 22:09:47,799 - ig_scraper - INFO - Basic navigation test successful
+2025-06-25 22:09:47,799 - ig_scraper - INFO - Basic navigation test successful
+2025-06-25 22:09:47,799 - ig_scraper - INFO - Basic navigation test successful
+2025-06-25 22:09:47,801 - ig_scraper - INFO - Phase 1 results saved to: output/phase1_results.json
+2025-06-25 22:09:47,801 - ig_scraper - INFO - Phase 1 results saved to: output/phase1_results.json
+2025-06-25 22:09:47,801 - ig_scraper - INFO - Phase 1 results saved to: output/phase1_results.json
+2025-06-25 22:09:47,802 - ig_scraper - INFO - Backup saved to: output/backup_phase1_1750864187.json
+2025-06-25 22:09:47,802 - ig_scraper - INFO - Backup saved to: output/backup_phase1_1750864187.json
+2025-06-25 22:09:47,802 - ig_scraper - INFO - Backup saved to: output/backup_phase1_1750864187.json
+2025-06-25 22:09:47,803 - ig_scraper - INFO - === Phase 1 completed successfully ===
+2025-06-25 22:09:47,803 - ig_scraper - INFO - === Phase 1 completed successfully ===
+2025-06-25 22:09:47,803 - ig_scraper - INFO - === Phase 1 completed successfully ===
+2025-06-25 22:09:47,803 - ig_scraper - INFO - Session active with account: eprosine009
+2025-06-25 22:09:47,803 - ig_scraper - INFO - Session active with account: eprosine009
+2025-06-25 22:09:47,803 - ig_scraper - INFO - Session active with account: eprosine009
+2025-06-25 22:09:47,803 - ig_scraper - INFO - Remaining backup accounts: 1
+2025-06-25 22:09:47,803 - ig_scraper - INFO - Remaining backup accounts: 1
+2025-06-25 22:09:47,803 - ig_scraper - INFO - Remaining backup accounts: 1
+2025-06-25 22:09:47,804 - ig_scraper - INFO - === Phase 1 Development Completed Successfully ===
+2025-06-25 22:09:47,804 - ig_scraper - INFO - === Phase 1 Development Completed Successfully ===
+2025-06-25 22:09:47,804 - ig_scraper - INFO - === Phase 1 Development Completed Successfully ===
+2025-06-25 22:09:47,804 - ig_scraper - INFO - Session Information:
+2025-06-25 22:09:47,804 - ig_scraper - INFO - Session Information:
+2025-06-25 22:09:47,804 - ig_scraper - INFO - Session Information:
+2025-06-25 22:09:47,804 - ig_scraper - INFO - - Current Account: eprosine009
+2025-06-25 22:09:47,804 - ig_scraper - INFO - - Current Account: eprosine009
+2025-06-25 22:09:47,804 - ig_scraper - INFO - - Current Account: eprosine009
+2025-06-25 22:09:47,805 - ig_scraper - INFO - - Total Accounts: 2
+2025-06-25 22:09:47,805 - ig_scraper - INFO - - Total Accounts: 2
+2025-06-25 22:09:47,805 - ig_scraper - INFO - - Total Accounts: 2
+2025-06-25 22:09:47,805 - ig_scraper - INFO - - Remaining Backups: 1
+2025-06-25 22:09:47,805 - ig_scraper - INFO - - Remaining Backups: 1
+2025-06-25 22:09:47,805 - ig_scraper - INFO - - Remaining Backups: 1
+2025-06-25 22:09:47,805 - ig_scraper - INFO - Ready to proceed to Phase 2: Profile Extraction
+2025-06-25 22:09:47,805 - ig_scraper - INFO - Ready to proceed to Phase 2: Profile Extraction
+2025-06-25 22:09:47,805 - ig_scraper - INFO - Ready to proceed to Phase 2: Profile Extraction
+2025-06-25 22:09:48,094 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-25 22:09:48,094 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-25 22:09:48,094 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-25 22:09:48,094 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-25 22:09:48,094 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-25 22:09:48,094 - ig_scraper - INFO - Scraper resources cleaned up

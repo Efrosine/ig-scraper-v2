@@ -1,0 +1,21 @@
+# Instagram Profile Scraper Dependencies
+# Core automation and web scraping
+selenium==4.15.2
+beautifulsoup4==4.12.2
+
+# HTTP server for API
+flask==2.0.1
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Utilities
+pyperclip==1.8.2
+requests==2.31.0
+
+# Logging and data handling
+pyyaml==6.0.1
+
+# Testing
+pytest==7.4.3
+pytest-mock==3.12.0
