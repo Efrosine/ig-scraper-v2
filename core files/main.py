@@ -98,46 +98,36 @@ class InstagramProfileScraper:
     def save_phase1_results(self) -> str:
         """Save Phase 1 results to JSON file."""
         try:
+            timestamp = int(time.time())
             results = {
                 "phase": 1,
-                "description": "Foundation, Login & Backup Accounts",
-                "timestamp": time.time(),
+                "title": "Foundation, Login & Backup Accounts",
+                "timestamp": timestamp,
                 "session_info": self.get_session_info(),
                 "status": "completed",
                 "features_implemented": [
-                    "Virtual environment setup",
-                    "Selenium WebDriver configuration", 
-                    "ChromeDriver auto-detection",
+                    "Selenium WebDriver setup",
                     "Instagram login automation",
                     "Session persistence with cookies",
-                    "Multiple backup account support",
-                    "Rate limiting to avoid bans",
-                    "Comprehensive error handling",
-                    "Logging system with file output"
-                ],
-                "next_steps": [
-                    "Phase 2: Profile extraction functionality",
-                    "Phase 3: Post scraping implementation",
-                    "Phase 4: Advanced parsing and cleaning"
+                    "Backup account support",
+                    "Rate limiting",
+                    "Error handling and logging"
                 ]
             }
             
-            # Ensure output directory exists
+            # Save main results
+            output_file = os.path.join("output", "phase1_results.json")
             os.makedirs("output", exist_ok=True)
             
-            # Save results
-            output_file = "output/phase1_results.json"
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)
             
-            # Create backup with timestamp
-            backup_file = f"output/backup_phase1_{int(time.time())}.json"
+            # Save backup
+            backup_file = os.path.join("output", f"backup_phase1_{timestamp}.json")
             with open(backup_file, 'w', encoding='utf-8') as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)
             
-            self.logger.info(f"Phase 1 results saved to: {output_file}")
-            self.logger.info(f"Backup saved to: {backup_file}")
-            
+            self.logger.info(f"Phase 1 results saved to {output_file}")
             return output_file
             
         except Exception as e:
@@ -269,6 +259,84 @@ class InstagramProfileScraper:
             self.logger.error(f"Error saving Phase 2 results: {str(e)}")
             return ""
 
+    def scrape_profile_posts(self, username: str, post_count: int = 10, comment_count: int = 5) -> Dict:
+        """
+        Scrape posts from Instagram profile - Phase 3 functionality.
+        
+        Args:
+            username: Instagram username to scrape
+            post_count: Number of posts to extract
+            comment_count: Number of comments per post
+            
+        Returns:
+            Dictionary containing scraped posts data
+        """
+        try:
+            if not self.scraper:
+                raise Exception("Scraper not initialized. Call initialize() first.")
+                
+            self.logger.info(f"=== Phase 3: Post Scraping ===")
+            self.logger.info(f"Scraping posts from @{username}")
+            
+            # Use scraper's post scraping functionality
+            result = self.scraper.scrape_posts(username, post_count, comment_count)
+            
+            # Add metadata
+            result.update({
+                "phase": 3,
+                "scraper_version": "1.0",
+                "extraction_settings": {
+                    "post_count": post_count,
+                    "comment_count": comment_count,
+                    "username": username
+                }
+            })
+            
+            return result
+            
+        except Exception as e:
+            self.logger.error(f"Error in profile post scraping: {str(e)}")
+            return {
+                "phase": 3,
+                "error": str(e),
+                "username": username,
+                "results": []
+            }
+    
+    def save_phase3_results(self, results: Dict, username: str) -> str:
+        """Save Phase 3 post scraping results to JSON file."""
+        try:
+            timestamp = int(time.time())
+            
+            # Prepare results with metadata
+            output_data = {
+                "phase": 3,
+                "title": "Post Scraping",
+                "timestamp": timestamp,
+                "target_username": username,
+                "scraping_results": results,
+                "status": "completed" if "error" not in results else "error"
+            }
+            
+            # Save main results
+            output_file = os.path.join("output", f"phase3_posts_{username}_{timestamp}.json")
+            os.makedirs("output", exist_ok=True)
+            
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+            
+            # Also save in standard format for compatibility
+            latest_file = os.path.join("output", "phase3_latest_results.json")
+            with open(latest_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+            
+            self.logger.info(f"Phase 3 results saved to {output_file}")
+            return output_file
+            
+        except Exception as e:
+            self.logger.error(f"Error saving Phase 3 results: {str(e)}")
+            return ""
+    
     def cleanup(self):
         """Clean up resources."""
         try:

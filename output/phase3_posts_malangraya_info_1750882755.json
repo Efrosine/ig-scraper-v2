@@ -1,0 +1,75 @@
+{
+  "phase": 3,
+  "title": "Post Scraping",
+  "timestamp": 1750882755,
+  "target_username": "malangraya_info",
+  "scraping_results": {
+    "results": [
+      {
+        "usernamePost": "",
+        "urlPost": "https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/",
+        "releaseDate": "2025-04-02T07:12:19.000Z",
+        "caption": "malangraya_info",
+        "comments": {
+          "0": "Soekarno Hatta waterpark ... Imbas dari pelebaran jalan . Jadi gorong²e menyempit dan terutamanya bnyak sampah .... Klu menurut ku 😂",
+          "1": "😂 tidak bisa berkata2...",
+          "2": "Untungnya aku kabupaten Malang. Nggak ada yang banjir😍"
+        }
+      },
+      {
+        "usernamePost": "",
+        "urlPost": "https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/",
+        "releaseDate": "2025-06-25T17:53:06.000Z",
+        "caption": "malangraya_info",
+        "comments": {
+          "0": "Buat hacker, Terimakasih sudah mewakili rakyat JATIM",
+          "1": "good job, gubernur ndlogok kdu dipendem ae",
+          "2": "Pahlawan yang sebenarnya 👏"
+        }
+      },
+      {
+        "usernamePost": "",
+        "urlPost": "https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/",
+        "releaseDate": "2025-06-25T15:57:02.000Z",
+        "caption": "malangraya_info",
+        "comments": {
+          "0": "Uniqq kandani",
+          "1": "iseng\" cek profil kepala arjosari eh timbak e podo😂"
+        }
+      },
+      {
+        "usernamePost": "aremamedia",
+        "urlPost": "https://www.instagram.com/malangraya_info/p/DLVEGQ-TOAu/",
+        "releaseDate": "2025-06-25T15:39:53.000Z",
+        "caption": "aremamedia\nand\nmalangraya_info",
+        "comments": {
+          "0": "Segera ae terus",
+          "1": "Pelatih Sik, terus rekrut pemain... Jarno pelatih golek pemain e Dewe...",
+          "2": "Menejemen tolol Gonta ganti mulu"
+        }
+      },
+      {
+        "usernamePost": "",
+        "urlPost": "https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/",
+        "releaseDate": "2025-06-25T15:14:27.000Z",
+        "caption": "malangraya_info",
+        "comments": {
+          "0": "Mending 😂",
+          "1": "Barokahe gelut 3 pemain utama gak main..ajuur juuum",
+          "2": "Memang bagus tim kediri kota, josss"
+        }
+      }
+    ],
+    "total_scraped": 5,
+    "requested_count": 5,
+    "username": "malangraya_info",
+    "phase": 3,
+    "scraper_version": "1.0",
+    "extraction_settings": {
+      "post_count": 5,
+      "comment_count": 3,
+      "username": "malangraya_info"
+    }
+  },
+  "status": "completed"
+}

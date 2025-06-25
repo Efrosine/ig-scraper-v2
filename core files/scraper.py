@@ -527,3 +527,280 @@ class InstagramScraper:
                 
         except (ValueError, TypeError):
             return 0
+    
+    def scrape_posts(self, username: str, post_count: int = 10, comment_count: int = 5) -> Dict:
+        """
+        Scrape posts from Instagram profile - Phase 3 functionality.
+        
+        Args:
+            username: Instagram username to scrape
+            post_count: Number of posts to extract  
+            comment_count: Number of comments per post
+            
+        Returns:
+            Dictionary containing scraped posts data
+        """
+        try:
+            self.logger.info(f"Starting post scraping for @{username}")
+            
+            # Navigate to profile first
+            if not self.navigate_to_profile(username):
+                return {"error": f"Failed to navigate to profile @{username}", "results": []}
+            
+            # Scroll to load posts
+            self.logger.info("Scrolling to load posts...")
+            self._scroll_to_load_posts(post_count)
+            
+            # Get post links
+            post_links = self._get_post_links(post_count)
+            if not post_links:
+                return {"error": "No posts found", "results": []}
+            
+            self.logger.info(f"Found {len(post_links)} post links")
+            
+            # Scrape each post
+            scraped_posts = []
+            for i, post_url in enumerate(post_links[:post_count]):
+                self.logger.info(f"Scraping post {i+1}/{min(post_count, len(post_links))}: {post_url}")
+                
+                try:
+                    post_data = self._scrape_individual_post(post_url, comment_count)
+                    if post_data:
+                        scraped_posts.append(post_data)
+                        
+                    # Rate limiting between posts
+                    time.sleep(2)
+                    
+                except Exception as e:
+                    self.logger.error(f"Error scraping post {post_url}: {str(e)}")
+                    continue
+            
+            return {
+                "results": scraped_posts,
+                "total_scraped": len(scraped_posts),
+                "requested_count": post_count,
+                "username": username
+            }
+            
+        except Exception as e:
+            self.logger.error(f"Error in post scraping: {str(e)}")
+            return {"error": str(e), "results": []}
+    
+    def _get_post_links(self, max_posts: int) -> List[str]:
+        """Extract post links from the profile page."""
+        try:
+            # Wait for posts to load
+            time.sleep(3)
+            
+            # Find post links
+            post_elements = self.driver.find_elements(
+                By.CSS_SELECTOR, 
+                "article a[href*='/p/'], article a[href*='/reel/']"
+            )
+            
+            post_links = []
+            for element in post_elements[:max_posts]:
+                href = element.get_attribute('href')
+                if href and (('/p/' in href) or ('/reel/' in href)):
+                    post_links.append(href)
+            
+            self.logger.info(f"Extracted {len(post_links)} post links")
+            return post_links
+            
+        except Exception as e:
+            self.logger.error(f"Error getting post links: {str(e)}")
+            return []
+    
+    def _scrape_individual_post(self, post_url: str, comment_count: int) -> Dict:
+        """
+        Scrape data from an individual post.
+        
+        Returns:
+            Dict with post data in the required format
+        """
+        try:
+            # Navigate to post
+            self.driver.get(post_url)
+            time.sleep(3)
+            
+            # Take screenshot for debugging
+            self.take_screenshot(f"post_scraping_{int(time.time())}.png")
+            
+            # Initialize post data
+            post_data = {
+                "usernamePost": "",
+                "urlPost": post_url,
+                "releaseDate": "",
+                "caption": "",
+                "comments": {}
+            }
+            
+            # Extract username
+            try:
+                username_element = self.driver.find_element(By.CSS_SELECTOR, "article header a")
+                post_data["usernamePost"] = username_element.text.strip()
+            except:
+                self.logger.warning("Could not extract username from post")
+            
+            # Extract release date
+            try:
+                # Look for time element
+                time_elements = self.driver.find_elements(By.CSS_SELECTOR, "time")
+                if time_elements:
+                    datetime_attr = time_elements[0].get_attribute('datetime')
+                    if datetime_attr:
+                        post_data["releaseDate"] = datetime_attr
+                    else:
+                        post_data["releaseDate"] = time_elements[0].get_attribute('title') or ""
+            except:
+                self.logger.warning("Could not extract release date from post")
+            
+            # Extract caption
+            try:
+                # Multiple selectors for caption
+                caption_selectors = [
+                    "article div[data-testid='post-caption'] span",
+                    "article div span:first-child",
+                    "article div span[dir='auto']"
+                ]
+                
+                for selector in caption_selectors:
+                    try:
+                        caption_element = self.driver.find_element(By.CSS_SELECTOR, selector)
+                        caption_text = caption_element.text.strip()
+                        if caption_text and len(caption_text) > 10:  # Reasonable caption length
+                            post_data["caption"] = caption_text
+                            break
+                    except:
+                        continue
+                        
+            except:
+                self.logger.warning("Could not extract caption from post")
+            
+            # Extract comments
+            try:
+                post_data["comments"] = self._extract_comments(comment_count)
+            except:
+                self.logger.warning("Could not extract comments from post")
+            
+            self.logger.info(f"Successfully scraped post: {post_data['usernamePost']}")
+            return post_data
+            
+        except Exception as e:
+            self.logger.error(f"Error scraping individual post {post_url}: {str(e)}")
+            return None
+    
+    def _extract_comments(self, max_comments: int) -> Dict[str, str]:
+        """Extract comments from the current post."""
+        try:
+            comments = {}
+            
+            # Try to load more comments if available
+            try:
+                load_more_buttons = self.driver.find_elements(
+                    By.CSS_SELECTOR, 
+                    "button[aria-label*='more comments'], button[aria-label*='Load more comments']"
+                )
+                for button in load_more_buttons[:2]:  # Click up to 2 load more buttons
+                    try:
+                        self.driver.execute_script("arguments[0].click();", button)
+                        time.sleep(2)
+                    except:
+                        pass
+            except:
+                pass
+            
+            # Find comment elements
+            comment_selectors = [
+                "article div[role='button'] span[dir='auto']",
+                "article div span[dir='auto']",
+                "article ul li div span"
+            ]
+            
+            comment_elements = []
+            for selector in comment_selectors:
+                try:
+                    elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
+                    if elements:
+                        comment_elements = elements
+                        break
+                except:
+                    continue
+            
+            # Extract comment text
+            comment_count = 0
+            for element in comment_elements:
+                if comment_count >= max_comments:
+                    break
+                    
+                try:
+                    comment_text = element.text.strip()
+                    
+                    # Filter out non-comment text (usernames, etc.)
+                    if (comment_text and 
+                        len(comment_text) > 3 and 
+                        not comment_text.startswith('@') and
+                        '•' not in comment_text and
+                        'ago' not in comment_text.lower() and
+                        'like' not in comment_text.lower() and
+                        'reply' not in comment_text.lower()):
+                        
+                        comments[str(comment_count)] = comment_text
+                        comment_count += 1
+                        
+                except:
+                    continue
+            
+            self.logger.info(f"Extracted {len(comments)} comments")
+            return comments
+            
+        except Exception as e:
+            self.logger.error(f"Error extracting comments: {str(e)}")
+            return {}
+
+    def _scroll_to_load_posts(self, target_count: int):
+        """Scroll to load enough posts for scraping."""
+        try:
+            self.logger.info(f"Scrolling to load at least {target_count} posts")
+            
+            last_height = self.driver.execute_script("return document.body.scrollHeight")
+            scroll_attempts = 0
+            max_scrolls = 10
+            
+            while scroll_attempts < max_scrolls:
+                # Check current post count
+                posts = self.driver.find_elements(
+                    By.CSS_SELECTOR, 
+                    "article a[href*='/p/'], article a[href*='/reel/']"
+                )
+                
+                if len(posts) >= target_count:
+                    self.logger.info(f"Found {len(posts)} posts, sufficient for target {target_count}")
+                    break
+                
+                # Scroll down
+                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(3)
+                
+                # Check if we've reached the bottom
+                new_height = self.driver.execute_script("return document.body.scrollHeight")
+                if new_height == last_height:
+                    self.logger.info("Reached bottom of page")
+                    break
+                    
+                last_height = new_height
+                scroll_attempts += 1
+                
+                self.logger.info(f"Scroll attempt {scroll_attempts}, found {len(posts)} posts")
+            
+        except Exception as e:
+            self.logger.error(f"Error during post loading scroll: {str(e)}")
+
+    def close(self):
+        """Close the WebDriver instance."""
+        try:
+            if self.driver:
+                self.driver.quit()
+                self.logger.info("WebDriver closed successfully")
+        except Exception as e:
+            self.logger.error(f"Error closing WebDriver: {str(e)}")
