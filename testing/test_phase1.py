@@ -79,15 +79,20 @@ class TestPhase1Integration:
     
     @patch('scraper.InstagramScraper._setup_driver')
     @patch('scraper.InstagramScraper.login_with_backup_support')
-    @patch('scraper.InstagramScraper.driver')
-    def test_basic_navigation_test(self, mock_driver, mock_login, mock_setup):
+    def test_basic_navigation_test(self, mock_login, mock_setup):
         """Test basic navigation functionality."""
         mock_login.return_value = True
+        
+        # Create a mock driver
+        mock_driver = Mock()
         mock_driver.current_url = "https://www.instagram.com/"
         mock_driver.get = Mock()
         
         scraper = InstagramProfileScraper()
         scraper.initialize()
+        
+        # Manually set the driver after initialization
+        scraper.scraper.driver = mock_driver
         
         with patch.object(scraper.scraper, 'take_screenshot'):
             result = scraper.test_basic_navigation()
@@ -97,15 +102,20 @@ class TestPhase1Integration:
     
     @patch('scraper.InstagramScraper._setup_driver')
     @patch('scraper.InstagramScraper.login_with_backup_support')
-    @patch('scraper.InstagramScraper.driver')
-    def test_basic_navigation_test_login_redirect(self, mock_driver, mock_login, mock_setup):
+    def test_basic_navigation_test_login_redirect(self, mock_login, mock_setup):
         """Test basic navigation with login redirect."""
         mock_login.return_value = True
+        
+        # Create a mock driver
+        mock_driver = Mock()
         mock_driver.current_url = "https://www.instagram.com/accounts/login/"
         mock_driver.get = Mock()
         
         scraper = InstagramProfileScraper()
         scraper.initialize()
+        
+        # Manually set the driver after initialization
+        scraper.scraper.driver = mock_driver
         
         with patch.object(scraper.scraper, 'take_screenshot'):
             result = scraper.test_basic_navigation()
@@ -209,11 +219,19 @@ class TestPhase1ScraperClass:
         assert "Virtual environment setup" in captured.out
         assert "ChromeDriver auto-detection" in captured.out
     
-    @patch.object(Phase1InstagramScraper, 'test_environment_setup')
+    @patch('scraper.InstagramScraper')
+    @patch('os.path.exists')
+    @patch('utils.detect_chromedriver_path')
     @patch('main.InstagramProfileScraper')
-    def test_run_phase1_development_success(self, mock_scraper_class, mock_env_test):
+    def test_run_phase1_development_success(self, mock_scraper_class, mock_detect_chrome, mock_exists, mock_instagram_scraper):
         """Test successful Phase 1 development run."""
-        mock_env_test.return_value = True
+        mock_exists.return_value = True
+        mock_detect_chrome.return_value = "/usr/bin/chromedriver"
+        
+        # Mock the underlying InstagramScraper
+        mock_scraper_obj = Mock()
+        mock_scraper_obj.login_with_backup_support.return_value = True
+        mock_instagram_scraper.return_value = mock_scraper_obj
         
         mock_scraper_instance = Mock()
         mock_scraper_instance.run_phase1_complete.return_value = True
@@ -228,8 +246,10 @@ class TestPhase1ScraperClass:
         mock_scraper_instance.__exit__ = Mock(return_value=None)
         mock_scraper_class.return_value = mock_scraper_instance
         
+        # Mock the environment setup to return True
         scraper = Phase1InstagramScraper()
-        result = scraper.run_phase1_development()
+        with patch.object(scraper, 'test_environment_setup', return_value=True):
+            result = scraper.run_phase1_development()
         
         assert result is True
     
@@ -267,18 +287,22 @@ class TestPhase1WorkflowIntegration:
     
     @patch('scraper.InstagramScraper._setup_driver')
     @patch('scraper.InstagramScraper.login_with_backup_support')
-    @patch('scraper.InstagramScraper.driver')
     @patch('builtins.open', create=True)
     @patch('json.dump')
-    def test_complete_phase1_workflow(self, mock_json_dump, mock_open, mock_driver, mock_login, mock_setup):
+    def test_complete_phase1_workflow(self, mock_json_dump, mock_open, mock_login, mock_setup):
         """Test complete Phase 1 workflow from start to finish."""
         mock_login.return_value = True
+        
+        # Create a mock driver
+        mock_driver = Mock()
         mock_driver.current_url = "https://www.instagram.com/"
         mock_driver.get = Mock()
         
         scraper = InstagramProfileScraper()
         
+        # Mock the scraper's methods
         with patch.object(scraper, 'scraper') as mock_scraper_obj:
+            mock_scraper_obj.driver = mock_driver
             mock_scraper_obj.take_screenshot = Mock()
             
             result = scraper.run_phase1_complete()
@@ -287,13 +311,19 @@ class TestPhase1WorkflowIntegration:
         # Verify that results were saved
         assert mock_json_dump.call_count >= 1
     
+    @patch('scraper.InstagramScraper')
     @patch('os.path.exists')
     @patch('utils.detect_chromedriver_path')
     @patch('main.InstagramProfileScraper')
-    def test_phase1_main_function_success(self, mock_scraper_class, mock_detect_chrome, mock_exists):
+    def test_phase1_main_function_success(self, mock_scraper_class, mock_detect_chrome, mock_exists, mock_instagram_scraper):
         """Test Phase 1 main function success path."""
         mock_exists.return_value = True
         mock_detect_chrome.return_value = "/usr/bin/chromedriver"
+        
+        # Mock the underlying InstagramScraper
+        mock_scraper_obj = Mock()
+        mock_scraper_obj.login_with_backup_support.return_value = True
+        mock_instagram_scraper.return_value = mock_scraper_obj
         
         mock_scraper_instance = Mock()
         mock_scraper_instance.run_phase1_complete.return_value = True
@@ -311,7 +341,8 @@ class TestPhase1WorkflowIntegration:
         phase1_scraper = Phase1InstagramScraper()
         
         with patch.object(phase1_scraper, 'show_phase1_summary'):
-            result = phase1_scraper.run_phase1_development()
+            with patch.object(phase1_scraper, 'test_environment_setup', return_value=True):
+                result = phase1_scraper.run_phase1_development()
         
         assert result is True
 

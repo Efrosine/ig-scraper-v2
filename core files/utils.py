@@ -222,12 +222,17 @@ def detect_chromedriver_path() -> str:
         "/usr/local/bin/chromedriver",
         "/opt/google/chrome/chromedriver",
         "/snap/bin/chromium.chromedriver",
-        "chromedriver"  # If in PATH
     ]
     
     for path in common_paths:
-        if os.path.exists(path) or path == "chromedriver":
+        if os.path.exists(path):
             return path
+    
+    # Check if chromedriver is in PATH
+    import shutil
+    which_result = shutil.which("chromedriver")
+    if which_result:
+        return which_result
     
     raise FileNotFoundError(
         "ChromeDriver not found. Please install it or set CHROMEDRIVER_PATH in .env file"

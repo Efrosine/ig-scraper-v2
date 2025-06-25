@@ -8,6 +8,7 @@ This module provides the core scraping functionality with Selenium WebDriver.
 import time
 import logging
 import os
+from typing import Dict, List, Optional
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -42,6 +43,9 @@ class InstagramScraper:
             chrome_options.add_argument("--disable-dev-shm-usage")
             chrome_options.add_argument("--disable-gpu")
             chrome_options.add_argument("--window-size=1920,1080")
+            
+            # DO NOT RUN HEADLESS - Keep GUI visible for Phase 2
+            # chrome_options.add_argument("--headless")  # Commented out to show GUI
             
             # Disable images to speed up loading
             prefs = {"profile.managed_default_content_settings.images": 2}
@@ -331,3 +335,195 @@ class InstagramScraper:
     def __exit__(self, exc_type, exc_val, exc_tb):
         """Context manager exit."""
         self.close()
+    
+    def navigate_to_profile(self, username: str) -> bool:
+        """
+        Navigate to a specific Instagram profile.
+        
+        Args:
+            username (str): Instagram username to navigate to
+            
+        Returns:
+            bool: True if navigation successful, False otherwise
+        """
+        try:
+            self.logger.info(f"Navigating to profile: @{username}")
+            
+            # Construct profile URL
+            profile_url = f"https://www.instagram.com/{username}/"
+            
+            # Navigate to profile
+            self.driver.get(profile_url)
+            self.rate_limiter.wait_for_request()
+            
+            # Wait for profile page to load
+            wait = WebDriverWait(self.driver, self.wait_timeout)
+            
+            # Check if profile exists by looking for profile header
+            try:
+                # Look for profile header elements
+                profile_header = wait.until(
+                    EC.any_of(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, "header section")),
+                        EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='user-avatar']")),
+                        EC.presence_of_element_located((By.CSS_SELECTOR, "h2"))
+                    )
+                )
+                
+                # Check if we're on a valid profile page
+                current_url = self.driver.current_url
+                if f"/{username}/" in current_url.lower():
+                    self.logger.info(f"Successfully navigated to profile: @{username}")
+                    return True
+                else:
+                    self.logger.warning(f"Navigation to @{username} may have failed - URL: {current_url}")
+                    return False
+                    
+            except TimeoutException:
+                # Check if profile doesn't exist
+                try:
+                    error_message = self.driver.find_element(By.CSS_SELECTOR, "h2")
+                    if "Sorry, this page isn't available" in error_message.text:
+                        self.logger.error(f"Profile @{username} does not exist or is private")
+                        return False
+                except NoSuchElementException:
+                    pass
+                
+                self.logger.error(f"Timeout waiting for profile @{username} to load")
+                return False
+                
+        except Exception as e:
+            self.logger.error(f"Error navigating to profile @{username}: {str(e)}")
+            return False
+    
+    def extract_profile_data(self, username: str) -> Dict:
+        """
+        Extract basic profile data from current profile page.
+        
+        Args:
+            username (str): Username of the profile
+            
+        Returns:
+            Dict: Profile data dictionary
+        """
+        try:
+            self.logger.info(f"Extracting profile data for @{username}")
+            
+            profile_data = {
+                "username": username,
+                "display_name": "",
+                "bio": "",
+                "followers_count": 0,
+                "following_count": 0,
+                "posts_count": 0,
+                "is_private": False,
+                "is_verified": False,
+                "profile_pic_url": "",
+                "external_url": "",
+                "extraction_timestamp": time.time()
+            }
+            
+            # Extract display name
+            try:
+                display_name_element = self.driver.find_element(By.CSS_SELECTOR, "h2")
+                profile_data["display_name"] = display_name_element.text.strip()
+                self.logger.info(f"Display name: {profile_data['display_name']}")
+            except NoSuchElementException:
+                self.logger.warning("Could not find display name")
+            
+            # Extract bio
+            try:
+                bio_element = self.driver.find_element(By.CSS_SELECTOR, "div._ac69 span")
+                profile_data["bio"] = bio_element.text.strip()
+                self.logger.info(f"Bio extracted: {len(profile_data['bio'])} characters")
+            except NoSuchElementException:
+                self.logger.warning("Could not find bio")
+            
+            # Extract follower/following/posts counts
+            try:
+                stats_elements = self.driver.find_elements(By.CSS_SELECTOR, "ul li span")
+                for element in stats_elements:
+                    text = element.text.strip()
+                    if 'post' in text.lower():
+                        profile_data["posts_count"] = self._extract_number_from_text(text)
+                    elif 'follower' in text.lower():
+                        profile_data["followers_count"] = self._extract_number_from_text(text)
+                    elif 'following' in text.lower():
+                        profile_data["following_count"] = self._extract_number_from_text(text)
+                        
+                self.logger.info(f"Stats - Posts: {profile_data['posts_count']}, "
+                               f"Followers: {profile_data['followers_count']}, "
+                               f"Following: {profile_data['following_count']}")
+            except Exception as e:
+                self.logger.warning(f"Could not extract stats: {str(e)}")
+            
+            # Check if profile is private
+            try:
+                private_indicator = self.driver.find_element(By.CSS_SELECTOR, "[data-testid='private-account-icon']")
+                profile_data["is_private"] = True
+                self.logger.info("Profile is private")
+            except NoSuchElementException:
+                profile_data["is_private"] = False
+                self.logger.info("Profile is public")
+            
+            # Check if profile is verified
+            try:
+                verified_indicator = self.driver.find_element(By.CSS_SELECTOR, "[data-testid='verified-icon']")
+                profile_data["is_verified"] = True
+                self.logger.info("Profile is verified")
+            except NoSuchElementException:
+                profile_data["is_verified"] = False
+            
+            # Extract profile picture URL
+            try:
+                profile_pic = self.driver.find_element(By.CSS_SELECTOR, "[data-testid='user-avatar'] img")
+                profile_data["profile_pic_url"] = profile_pic.get_attribute('src')
+                self.logger.info("Profile picture URL extracted")
+            except NoSuchElementException:
+                self.logger.warning("Could not find profile picture")
+            
+            # Extract external URL
+            try:
+                external_link = self.driver.find_element(By.CSS_SELECTOR, "a[href*='http']")
+                profile_data["external_url"] = external_link.get_attribute('href')
+                self.logger.info(f"External URL: {profile_data['external_url']}")
+            except NoSuchElementException:
+                self.logger.info("No external URL found")
+            
+            self.logger.info(f"Profile data extraction completed for @{username}")
+            return profile_data
+            
+        except Exception as e:
+            self.logger.error(f"Error extracting profile data for @{username}: {str(e)}")
+            return profile_data
+    
+    def _extract_number_from_text(self, text: str) -> int:
+        """
+        Extract number from text like '1,234 posts', '5.6M followers', etc.
+        
+        Args:
+            text (str): Text containing number
+            
+        Returns:
+            int: Extracted number
+        """
+        try:
+            # Remove common words and clean text
+            text = text.lower().replace('posts', '').replace('followers', '').replace('following', '').strip()
+            
+            # Handle different number formats
+            if 'k' in text:
+                # Convert 1.2k to 1200
+                number = float(text.replace('k', '').replace(',', ''))
+                return int(number * 1000)
+            elif 'm' in text:
+                # Convert 1.2m to 1200000
+                number = float(text.replace('m', '').replace(',', ''))
+                return int(number * 1000000)
+            else:
+                # Handle regular numbers with commas
+                number = text.replace(',', '').replace('.', '')
+                return int(''.join(filter(str.isdigit, number)))
+                
+        except (ValueError, TypeError):
+            return 0

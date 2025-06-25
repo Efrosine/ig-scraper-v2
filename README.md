@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-4.15.2-green)
-![Phase](https://img.shields.io/badge/Phase-1%20Complete-success)
+![Phase](https://img.shields.io/badge/Phase-2%20Complete-success)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ---
@@ -33,8 +33,8 @@ The Instagram Profile Scraper is a sophisticated automation tool built with Pyth
 | Phase       | Status           | Description        | Features                                              |
 | ----------- | ---------------- | ------------------ | ----------------------------------------------------- |
 | **Phase 1** | ✅ **COMPLETED** | Foundation & Login | Session management, backup accounts, login automation |
-| **Phase 2** | 🚧 _Next_        | Profile Extraction | Profile navigation, basic data extraction             |
-| **Phase 3** | ⏳ _Planned_     | Post Scraping      | Post data extraction, comments, captions              |
+| **Phase 2** | ✅ **COMPLETED** | Profile Extraction | Profile navigation, data extraction, JSON output     |
+| **Phase 3** | 🚧 _Next_        | Post Scraping      | Post data extraction, comments, captions              |
 | **Phase 4** | ⏳ _Planned_     | Advanced Parsing   | Data cleaning, text normalization                     |
 | **Phase 5** | ⏳ _Planned_     | Search Features    | Location-based and account-based search               |
 | **Phase 6** | ⏳ _Planned_     | Data Validation    | Real-world data comparison                            |
@@ -51,14 +51,17 @@ ig-scraper-v2/
 │   └── utils.py          # Session and backup account utilities
 │
 ├── 🚀 Phase Files
-│   └── phase1_scraper.py # Phase 1: Login & backup accounts
+│   ├── phase1_scraper.py # Phase 1: Login & backup accounts
+│   └── phase2_scraper.py # Phase 2: Profile extraction
 │
 ├── 🧪 Testing
 │   ├── test_login.py     # Login functionality tests
-│   └── test_phase1.py    # Phase 1 integration tests
+│   ├── test_phase1.py    # Phase 1 integration tests
+│   └── test_phase2.py    # Phase 2 profile extraction tests
 │
 ├── 📊 Output
-│   ├── phase1_results.json    # Main results
+│   ├── phase1_results.json    # Phase 1 results
+│   ├── phase2_*.json          # Phase 2 profile data
 │   ├── backup_*.json          # Timestamped backups
 │   └── *.png                  # Screenshots
 │
@@ -69,7 +72,8 @@ ig-scraper-v2/
 │
 ├── 📝 Documentation
 │   ├── README.md         # This file
-│   └── PHASE1_REPORT.md  # Phase 1 detailed report
+│   ├── PHASE1_REPORT.md  # Phase 1 detailed report
+│   └── PHASE2_REPORT.md  # Phase 2 detailed report
 │
 └── 📋 Logs
     ├── detailed_*.log    # Operation logs
@@ -123,6 +127,14 @@ ig-scraper-v2/
 # Run Phase 1 (Foundation & Login)
 source venv/bin/activate
 python "phase files/phase1_scraper.py"
+```
+
+#### Phase 2: Profile Extraction
+
+```bash
+# Run Phase 2 (Profile Extraction)
+source venv/bin/activate
+python "phase files/phase2_scraper.py"
 ```
 
 #### Direct Core Usage
@@ -214,6 +226,9 @@ python -m pytest testing/test_login.py -v
 # Run Phase 1 integration tests
 python -m pytest testing/test_phase1.py -v
 
+# Run Phase 2 profile extraction tests
+python testing/test_phase2.py
+
 # Run all tests
 python -m pytest testing/ -v
 ```
@@ -229,12 +244,13 @@ python -m pytest testing/ -v
 
 ## 📊 Performance Metrics
 
-### Phase 1 Results
+### Phase 1 & 2 Results
 
 | Metric                     | Value      | Status       |
 | -------------------------- | ---------- | ------------ |
 | **Login Success Rate**     | 100%       | ✅ Excellent |
 | **Session Persistence**    | 90%+       | ✅ Very Good |
+| **Profile Extraction**     | 100%       | ✅ Working   |
 | **Backup Account Support** | 2 accounts | ✅ Ready     |
 | **ChromeDriver Detection** | Auto       | ✅ Working   |
 | **Rate Limiting**          | Active     | ✅ Protected |
@@ -281,12 +297,21 @@ python -m pytest testing/ -v
 - [x] Comprehensive logging
 - [x] Error handling
 
-### 🚧 Phase 2: Profile Extraction (NEXT)
+### ✅ Phase 2: Profile Extraction (COMPLETED)
 
-- [ ] Profile navigation functionality
-- [ ] Basic profile data extraction
-- [ ] JSON output structure
-- [ ] Profile validation
+- [x] Profile navigation functionality
+- [x] Profile data extraction (username, followers, posts, etc.)
+- [x] JSON output structure
+- [x] Screenshot capture
+- [x] Real profile validation (@malangraya_info tested)
+- [x] Error handling for invalid profiles
+
+### 🚧 Phase 3: Post Scraping (NEXT)
+
+- [ ] Post data extraction
+- [ ] Comments and captions scraping
+- [ ] Dynamic content loading
+- [ ] Scroll functionality
 
 ### ⏳ Upcoming Phases
 
@@ -366,12 +391,13 @@ This project is for educational and research purposes only. Users are responsibl
 
 ## 📈 Project Status
 
-**Current Status**: Phase 1 Complete ✅  
-**Next Milestone**: Phase 2 - Profile Extraction  
+**Current Status**: Phase 2 Complete ✅  
+**Next Milestone**: Phase 3 - Post Scraping  
 **Estimated Completion**: June 27, 2025
 
 ---
 
-_Last Updated: June 25, 2025_  
-_Project Version: 1.0_  
-_Phase 1 Completion: 100%_
+_Last Updated: June 26, 2025_  
+_Project Version: 2.0_  
+_Phase 1 Completion: 100%_ ✅  
+_Phase 2 Completion: 100%_ ✅

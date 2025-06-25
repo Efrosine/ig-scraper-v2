@@ -176,6 +176,99 @@ class InstagramProfileScraper:
             # Keep the session active for next phases
             pass
     
+    def extract_profile(self, username: str) -> Dict:
+        """
+        Extract profile data for a specific username.
+        
+        Args:
+            username (str): Instagram username to extract data from
+            
+        Returns:
+            Dict: Profile extraction results
+        """
+        try:
+            if not self.scraper or not self.scraper.driver:
+                self.logger.error("Scraper not initialized")
+                return {"success": False, "error": "Scraper not initialized"}
+            
+            self.logger.info(f"=== Phase 2: Profile Extraction for @{username} ===")
+            
+            # Navigate to profile
+            navigation_success = self.scraper.navigate_to_profile(username)
+            if not navigation_success:
+                return {
+                    "success": False,
+                    "error": f"Failed to navigate to profile @{username}",
+                    "username": username
+                }
+            
+            # Take screenshot after navigation
+            self.scraper.take_screenshot(f"phase2_profile_{username}.png")
+            
+            # Extract profile data
+            profile_data = self.scraper.extract_profile_data(username)
+            
+            # Create Phase 2 JSON structure
+            phase2_results = {
+                "success": True,
+                "phase": "Phase 2 - Profile Extraction",
+                "extraction_timestamp": time.time(),
+                "profile_data": profile_data,
+                "session_info": {
+                    "current_account": self.session_data.get("current_account", "unknown"),
+                    "extraction_duration": time.time() - profile_data.get("extraction_timestamp", time.time())
+                }
+            }
+            
+            self.logger.info(f"Profile extraction completed for @{username}")
+            return phase2_results
+            
+        except Exception as e:
+            self.logger.error(f"Error during profile extraction for @{username}: {str(e)}")
+            return {
+                "success": False,
+                "error": str(e),
+                "username": username,
+                "phase": "Phase 2 - Profile Extraction"
+            }
+    
+    def save_phase2_results(self, results: Dict, username: str) -> str:
+        """
+        Save Phase 2 results to JSON file.
+        
+        Args:
+            results (Dict): Phase 2 extraction results
+            username (str): Username that was extracted
+            
+        Returns:
+            str: Path to saved results file
+        """
+        try:
+            # Create output directory
+            os.makedirs("output", exist_ok=True)
+            
+            # Generate filename
+            timestamp = int(time.time())
+            filename = f"phase2_profile_{username}_{timestamp}.json"
+            filepath = os.path.join("output", filename)
+            
+            # Save results
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(results, f, indent=2, ensure_ascii=False)
+            
+            self.logger.info(f"Phase 2 results saved to: {filepath}")
+            
+            # Also save as latest results
+            latest_filepath = os.path.join("output", "phase2_latest_results.json")
+            with open(latest_filepath, 'w', encoding='utf-8') as f:
+                json.dump(results, f, indent=2, ensure_ascii=False)
+            
+            return filepath
+            
+        except Exception as e:
+            self.logger.error(f"Error saving Phase 2 results: {str(e)}")
+            return ""
+
     def cleanup(self):
         """Clean up resources."""
         try:

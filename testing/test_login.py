@@ -9,6 +9,7 @@ import pytest
 import sys
 import os
 import time
+import shutil
 from unittest.mock import Mock, patch, MagicMock
 
 # Add core files to path
@@ -152,17 +153,28 @@ class TestRateLimiter:
     @patch('time.time')
     def test_wait_for_request(self, mock_time, mock_sleep):
         """Test request rate limiting."""
-        # Mock time progression
-        mock_time.side_effect = [0, 1, 2]  # Current time, last request, current time
+        # Mock time progression - first call for current_time, second for last_request_time calculation
+        mock_time.side_effect = [3.0, 5.0]  # current_time = 3.0, update time = 5.0
         
         rate_limiter = RateLimiter()
-        rate_limiter.last_request_time = 1  # Set last request time
+        rate_limiter.last_request_time = 1.0  # Set last request time
         rate_limiter.request_delay = 2.0
         
         rate_limiter.wait_for_request()
         
-        # Should sleep for 1 second (2.0 delay - 1.0 elapsed)
-        mock_sleep.assert_called_once_with(1.0)
+        # Should sleep for 0 seconds because 3.0 - 1.0 = 2.0, which equals request_delay
+        # But let's check if it was called at all
+        # Actually, let's fix the logic - if time_since_last >= request_delay, no sleep needed
+        # Let's set it up so sleep is needed
+        mock_time.side_effect = [1.5, 3.0]  # time_since_last = 1.5 - 1.0 = 0.5
+        rate_limiter = RateLimiter()
+        rate_limiter.last_request_time = 1.0
+        rate_limiter.request_delay = 2.0
+        
+        rate_limiter.wait_for_request()
+        
+        # Should sleep for 1.5 seconds (2.0 delay - 0.5 elapsed)
+        mock_sleep.assert_called_once_with(1.5)
 
 
 class TestUtilityFunctions:
@@ -189,8 +201,9 @@ class TestUtilityFunctions:
         """Test ChromeDriver detection failure."""
         with patch.dict(os.environ, {"CHROMEDRIVER_PATH": ""}):
             with patch('os.path.exists', return_value=False):
-                with pytest.raises(FileNotFoundError, match="ChromeDriver not found"):
-                    detect_chromedriver_path()
+                with patch('shutil.which', return_value=None):  # Mock shutil.which for PATH lookup
+                    with pytest.raises(FileNotFoundError, match="ChromeDriver not found"):
+                        detect_chromedriver_path()
     
     def test_setup_logging(self):
         """Test logging setup."""

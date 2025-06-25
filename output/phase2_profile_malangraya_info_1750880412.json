@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "phase": "Phase 2 - Profile Extraction",
+  "extraction_timestamp": 1750880412.5727873,
+  "profile_data": {
+    "username": "malangraya_info",
+    "display_name": "malangraya_info",
+    "bio": "",
+    "followers_count": 623000,
+    "following_count": 1968,
+    "posts_count": 24484,
+    "is_private": false,
+    "is_verified": false,
+    "profile_pic_url": "",
+    "external_url": "https://www.threads.com/@malangraya_info?xmt=AQF0gXAf1T6RvJg-EbzgCNQEb0a4f4NrZRp5X9wQlZ2bYlc",
+    "extraction_timestamp": 1750880412.0972495
+  },
+  "session_info": {
+    "current_account": "eprosine009",
+    "extraction_duration": 0.4755384922027588
+  }
+}

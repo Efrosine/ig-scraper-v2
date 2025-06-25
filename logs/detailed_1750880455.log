@@ -1,0 +1,44 @@
+2025-06-26 02:40:55,763 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 02:40:55,764 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 02:40:55,764 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 02:40:55,764 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 02:40:56,623 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 02:40:56,623 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 02:40:56,624 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 02:40:56,624 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 02:41:08,932 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 02:41:08,932 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 02:41:08,932 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 02:41:08,932 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 02:41:08,932 - ig_scraper - INFO - === Phase 2: Profile Extraction for @malangraya_info ===
+2025-06-26 02:41:08,932 - ig_scraper - INFO - === Phase 2: Profile Extraction for @malangraya_info ===
+2025-06-26 02:41:08,932 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 02:41:08,932 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 02:41:12,188 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 02:41:12,188 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 02:41:12,280 - ig_scraper - INFO - Screenshot saved: output/phase2_profile_malangraya_info.png
+2025-06-26 02:41:12,280 - ig_scraper - INFO - Screenshot saved: output/phase2_profile_malangraya_info.png
+2025-06-26 02:41:12,280 - ig_scraper - INFO - Extracting profile data for @malangraya_info
+2025-06-26 02:41:12,280 - ig_scraper - INFO - Extracting profile data for @malangraya_info
+2025-06-26 02:41:12,296 - ig_scraper - INFO - Display name: malangraya_info
+2025-06-26 02:41:12,296 - ig_scraper - INFO - Display name: malangraya_info
+2025-06-26 02:41:12,316 - ig_scraper - WARNING - Could not find bio
+2025-06-26 02:41:12,316 - ig_scraper - WARNING - Could not find bio
+2025-06-26 02:41:12,723 - ig_scraper - INFO - Stats - Posts: 24484, Followers: 623000, Following: 1968
+2025-06-26 02:41:12,723 - ig_scraper - INFO - Stats - Posts: 24484, Followers: 623000, Following: 1968
+2025-06-26 02:41:12,733 - ig_scraper - INFO - Profile is public
+2025-06-26 02:41:12,733 - ig_scraper - INFO - Profile is public
+2025-06-26 02:41:12,752 - ig_scraper - WARNING - Could not find profile picture
+2025-06-26 02:41:12,752 - ig_scraper - WARNING - Could not find profile picture
+2025-06-26 02:41:12,767 - ig_scraper - INFO - External URL: https://www.threads.com/@malangraya_info?xmt=AQF060zZc8BHjYzH3_AIR8EEgYcmyk6_wyoZc4xq8TpCfOo
+2025-06-26 02:41:12,767 - ig_scraper - INFO - External URL: https://www.threads.com/@malangraya_info?xmt=AQF060zZc8BHjYzH3_AIR8EEgYcmyk6_wyoZc4xq8TpCfOo
+2025-06-26 02:41:12,767 - ig_scraper - INFO - Profile data extraction completed for @malangraya_info
+2025-06-26 02:41:12,767 - ig_scraper - INFO - Profile data extraction completed for @malangraya_info
+2025-06-26 02:41:12,767 - ig_scraper - INFO - Profile extraction completed for @malangraya_info
+2025-06-26 02:41:12,767 - ig_scraper - INFO - Profile extraction completed for @malangraya_info
+2025-06-26 02:41:12,768 - ig_scraper - INFO - Phase 2 results saved to: output/phase2_profile_malangraya_info_1750880472.json
+2025-06-26 02:41:12,768 - ig_scraper - INFO - Phase 2 results saved to: output/phase2_profile_malangraya_info_1750880472.json
+2025-06-26 02:41:12,831 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 02:41:12,831 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 02:41:12,832 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 02:41:12,832 - ig_scraper - INFO - Scraper resources cleaned up

@@ -1,0 +1,24 @@
+2025-06-26 02:37:09,931 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 02:37:09,931 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 02:37:09,931 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 02:37:09,931 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 02:37:12,739 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 02:37:12,739 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 02:37:12,739 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 02:37:12,739 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 02:37:19,678 - ig_scraper - INFO - Login form submitted
+2025-06-26 02:37:19,678 - ig_scraper - INFO - Login form submitted
+2025-06-26 02:37:29,157 - ig_scraper - INFO - Successfully logged in with account: eprosine009
+2025-06-26 02:37:29,157 - ig_scraper - INFO - Successfully logged in with account: eprosine009
+2025-06-26 02:37:29,157 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 02:37:29,157 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 02:37:29,157 - ig_scraper - INFO - === Phase 2: Profile Extraction for @malangraya_info ===
+2025-06-26 02:37:29,157 - ig_scraper - INFO - === Phase 2: Profile Extraction for @malangraya_info ===
+2025-06-26 02:37:29,157 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 02:37:29,157 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 02:37:30,021 - ig_scraper - ERROR - Error navigating to profile @malangraya_info: 'RateLimiter' object has no attribute 'delay'
+2025-06-26 02:37:30,021 - ig_scraper - ERROR - Error navigating to profile @malangraya_info: 'RateLimiter' object has no attribute 'delay'
+2025-06-26 02:37:30,097 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 02:37:30,097 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 02:37:30,097 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 02:37:30,097 - ig_scraper - INFO - Scraper resources cleaned up
