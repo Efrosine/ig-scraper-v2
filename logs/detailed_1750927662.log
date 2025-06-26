@@ -1,0 +1,29 @@
+2025-06-26 15:47:42,800 - ig_scraper - INFO - Starting post extraction: 2 posts, 2 comments each
+2025-06-26 15:47:42,800 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:48:15,997 - ig_scraper - INFO - Scrolling completed after 10 attempts
+2025-06-26 15:48:26,231 - ig_scraper - ERROR - Error getting post links: Message: 
+Stacktrace:
+#0 0x6480a39ad67a <unknown>
+#1 0x6480a3479cd0 <unknown>
+#2 0x6480a34c9e07 <unknown>
+#3 0x6480a34ca001 <unknown>
+#4 0x6480a3518754 <unknown>
+#5 0x6480a34efc4d <unknown>
+#6 0x6480a3515b60 <unknown>
+#7 0x6480a34ef9f3 <unknown>
+#8 0x6480a34bc534 <unknown>
+#9 0x6480a34bd191 <unknown>
+#10 0x6480a3974eef <unknown>
+#11 0x6480a3978f98 <unknown>
+#12 0x6480a395c0f2 <unknown>
+#13 0x6480a397973e <unknown>
+#14 0x6480a39430be <unknown>
+#15 0x6480a399bc68 <unknown>
+#16 0x6480a399be78 <unknown>
+#17 0x6480a39ac11c <unknown>
+#18 0x74959fa94ac3 <unknown>
+
+2025-06-26 15:48:26,232 - ig_scraper - INFO - Found 0 post links
+2025-06-26 15:48:26,232 - ig_scraper - INFO - Successfully extracted 0 posts
+2025-06-26 15:48:26,338 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 15:48:26,338 - ig_scraper - INFO - Scraper resources cleaned up

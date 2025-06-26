@@ -114,23 +114,57 @@ class InstagramPostParser:
             self.logger.error(f"Error during scrolling: {str(e)}")
     
     def _get_post_links(self, driver, post_count: int) -> List[str]:
-        """Extract post URLs from the profile page."""
+        """Extract post URLs from the profile page using multiple strategies."""
         post_links = []
         
         try:
-            # Wait for posts to load
-            WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "article"))
-            )
+            self.logger.info("Extracting post links from profile page")
             
-            # Find all post links
-            link_elements = driver.find_elements(By.CSS_SELECTOR, "article a[href*='/p/'], article a[href*='/reel/']")
+            # Wait for page to load
+            time.sleep(3)
             
-            for element in link_elements[:post_count]:
-                href = element.get_attribute('href')
-                if href and href not in post_links:
-                    post_links.append(href)
-                    
+            # Strategy 1: Try modern Instagram selectors
+            selectors = [
+                "a[href*='/p/']",
+                "a[href*='/reel/']", 
+                "article a[href*='/p/']",
+                "article a[href*='/reel/']",
+                "div[role='button'] a[href*='/p/']",
+                "div[role='button'] a[href*='/reel/']",
+                "a.x1i10hfl[href*='/p/']",
+                "a.x1i10hfl[href*='/reel/']"
+            ]
+            
+            all_elements = []
+            
+            for selector in selectors:
+                try:
+                    elements = driver.find_elements(By.CSS_SELECTOR, selector)
+                    if elements:
+                        all_elements.extend(elements)
+                        self.logger.info(f"Found {len(elements)} elements with selector: {selector}")
+                except Exception as e:
+                    self.logger.debug(f"Selector {selector} failed: {str(e)}")
+                    continue
+            
+            # Remove duplicates and extract hrefs
+            seen_urls = set()
+            for element in all_elements:
+                try:
+                    href = element.get_attribute('href')
+                    if href and href not in seen_urls and ('/p/' in href or '/reel/' in href):
+                        post_links.append(href)
+                        seen_urls.add(href)
+                        
+                        if len(post_links) >= post_count:
+                            break
+                            
+                except Exception as e:
+                    self.logger.debug(f"Error extracting href from element: {str(e)}")
+                    continue
+            
+            self.logger.info(f"Successfully extracted {len(post_links)} post links")
+            
         except Exception as e:
             self.logger.error(f"Error getting post links: {str(e)}")
             

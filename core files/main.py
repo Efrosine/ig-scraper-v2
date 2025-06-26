@@ -11,6 +11,12 @@ import sys
 import os
 from typing import Dict, List, Optional
 
+# Selenium imports for web scraping
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
+
 # Add the core files directory to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "."))
 
@@ -354,14 +360,103 @@ class InstagramProfileScraper:
         """Context manager exit."""
         self.cleanup()
 
-
-if __name__ == "__main__":
-    # This allows the main module to be run directly for testing
-    with InstagramProfileScraper() as scraper:
-        success = scraper.run_phase1_complete()
-        if success:
-            print("Phase 1 completed successfully!")
-            print("Ready to proceed to Phase 2: Profile Extraction")
-        else:
-            print("Phase 1 failed. Please check the logs for details.")
-            sys.exit(1)
+    def scrape_profile(self, username: str) -> Optional[Dict]:
+        """
+        Navigate to and scrape basic profile information.
+        
+        Args:
+            username: Instagram username to scrape
+            
+        Returns:
+            Dictionary containing profile information or None if failed
+        """
+        try:
+            if not self.scraper:
+                self.logger.error("Scraper not initialized")
+                return None
+            
+            self.logger.info(f"Navigating to profile: {username}")
+            
+            # Use scraper's navigation method
+            navigation_success = self.scraper.navigate_to_profile(username)
+            if not navigation_success:
+                return {"username": username, "error": "Failed to navigate to profile"}
+            
+            # Extract basic profile info
+            try:
+                profile_data = {
+                    "username": username,
+                    "profile_url": f"https://www.instagram.com/{username}/",
+                    "posts_count": "0",
+                    "followers_count": "0",
+                    "following_count": "0",
+                    "bio": "",
+                    "full_name": ""
+                }
+                
+                # Try to get posts count
+                posts_link = self.scraper.driver.find_elements(By.XPATH, "//a[contains(@href, '/p/') or contains(@href, '/reel/')]")
+                if posts_link:
+                    profile_data["has_posts"] = True
+                    profile_data["posts_count"] = str(len(posts_link))
+                else:
+                    profile_data["has_posts"] = False
+                
+                # Try to get display name
+                try:
+                    name_element = self.scraper.driver.find_element(By.CSS_SELECTOR, "h1, h2")
+                    if name_element:
+                        profile_data["full_name"] = name_element.text.strip()
+                except:
+                    pass
+                
+                self.logger.info(f"Profile data extracted for {username}")
+                return profile_data
+                
+            except Exception as e:
+                self.logger.error(f"Error extracting profile data: {str(e)}")
+                return {"username": username, "profile_url": f"https://www.instagram.com/{username}/", "error": str(e)}
+                return profile_data
+                
+            except Exception as e:
+                self.logger.error(f"Error extracting profile data: {str(e)}")
+                return {"username": username, "profile_url": profile_url, "error": str(e)}
+                
+        except Exception as e:
+            self.logger.error(f"Error navigating to profile {username}: {str(e)}")
+            return None
+    
+    def scrape_posts(self, post_count: int = 10, comment_count: int = 5) -> List[Dict]:
+        """
+        Extract posts from current profile page.
+        
+        Args:
+            post_count: Number of posts to extract
+            comment_count: Number of comments per post
+            
+        Returns:
+            List of post data dictionaries
+        """
+        try:
+            if not self.scraper:
+                self.logger.error("Scraper not initialized")
+                return []
+            
+            # Import parser
+            from parser import InstagramPostParser
+            
+            # Create parser instance
+            parser = InstagramPostParser()
+            
+            # Extract posts
+            posts_data = parser.extract_post_data(
+                self.scraper.driver, 
+                post_count=post_count, 
+                comment_count=comment_count
+            )
+            
+            return posts_data
+            
+        except Exception as e:
+            self.logger.error(f"Error extracting posts: {str(e)}")
+            return []

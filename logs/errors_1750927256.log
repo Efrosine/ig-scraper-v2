@@ -1,0 +1,46 @@
+2025-06-26 15:41:54,406 - ig_scraper - ERROR - Error extracting profile data: name 'By' is not defined
+2025-06-26 15:41:54,406 - ig_scraper - ERROR - Error extracting profile data: name 'By' is not defined
+2025-06-26 15:42:37,857 - ig_scraper - ERROR - Error getting post links: Message: 
+Stacktrace:
+#0 0x5bb03982767a <unknown>
+#1 0x5bb0392f3cd0 <unknown>
+#2 0x5bb039343e07 <unknown>
+#3 0x5bb039344001 <unknown>
+#4 0x5bb039392754 <unknown>
+#5 0x5bb039369c4d <unknown>
+#6 0x5bb03938fb60 <unknown>
+#7 0x5bb0393699f3 <unknown>
+#8 0x5bb039336534 <unknown>
+#9 0x5bb039337191 <unknown>
+#10 0x5bb0397eeeef <unknown>
+#11 0x5bb0397f2f98 <unknown>
+#12 0x5bb0397d60f2 <unknown>
+#13 0x5bb0397f373e <unknown>
+#14 0x5bb0397bd0be <unknown>
+#15 0x5bb039815c68 <unknown>
+#16 0x5bb039815e78 <unknown>
+#17 0x5bb03982611c <unknown>
+#18 0x73320e094ac3 <unknown>
+
+2025-06-26 15:42:37,857 - ig_scraper - ERROR - Error getting post links: Message: 
+Stacktrace:
+#0 0x5bb03982767a <unknown>
+#1 0x5bb0392f3cd0 <unknown>
+#2 0x5bb039343e07 <unknown>
+#3 0x5bb039344001 <unknown>
+#4 0x5bb039392754 <unknown>
+#5 0x5bb039369c4d <unknown>
+#6 0x5bb03938fb60 <unknown>
+#7 0x5bb0393699f3 <unknown>
+#8 0x5bb039336534 <unknown>
+#9 0x5bb039337191 <unknown>
+#10 0x5bb0397eeeef <unknown>
+#11 0x5bb0397f2f98 <unknown>
+#12 0x5bb0397d60f2 <unknown>
+#13 0x5bb0397f373e <unknown>
+#14 0x5bb0397bd0be <unknown>
+#15 0x5bb039815c68 <unknown>
+#16 0x5bb039815e78 <unknown>
+#17 0x5bb03982611c <unknown>
+#18 0x73320e094ac3 <unknown>
+

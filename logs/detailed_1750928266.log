@@ -1,0 +1,127 @@
+2025-06-26 15:57:46,801 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 7 ===
+2025-06-26 15:57:46,801 - ig_scraper - INFO - HTTP Endpoint Implementation
+2025-06-26 15:57:46,801 - ig_scraper - INFO - Starting Flask API server...
+2025-06-26 15:57:46,804 - ig_scraper - INFO - Server configuration:
+2025-06-26 15:57:46,804 - ig_scraper - INFO - Server configuration:
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - Host: 0.0.0.0
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - Host: 0.0.0.0
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - Port: 5000
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - Port: 5000
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - Debug: False
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - Debug: False
+2025-06-26 15:57:46,804 - ig_scraper - INFO - Available endpoints:
+2025-06-26 15:57:46,804 - ig_scraper - INFO - Available endpoints:
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - GET  /health - Health check
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - GET  /health - Health check
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - POST /scrape - Scraping endpoint
+2025-06-26 15:57:46,804 - ig_scraper - INFO - - POST /scrape - Scraping endpoint
+2025-06-26 15:57:46,804 - ig_scraper - INFO - 
+2025-06-26 15:57:46,804 - ig_scraper - INFO - 
+2025-06-26 15:57:46,804 - ig_scraper - INFO - Example API usage:
+2025-06-26 15:57:46,804 - ig_scraper - INFO - Example API usage:
+2025-06-26 15:57:46,804 - ig_scraper - INFO - curl -X POST http://localhost:5000/scrape \
+2025-06-26 15:57:46,804 - ig_scraper - INFO - curl -X POST http://localhost:5000/scrape \
+2025-06-26 15:57:46,804 - ig_scraper - INFO -   -H 'Content-Type: application/json' \
+2025-06-26 15:57:46,804 - ig_scraper - INFO -   -H 'Content-Type: application/json' \
+2025-06-26 15:57:46,804 - ig_scraper - INFO -   -d '{
+2025-06-26 15:57:46,804 - ig_scraper - INFO -   -d '{
+2025-06-26 15:57:46,804 - ig_scraper - INFO -     "accounts": [{"username": "user1", "password": "pass1"}],
+2025-06-26 15:57:46,804 - ig_scraper - INFO -     "accounts": [{"username": "user1", "password": "pass1"}],
+2025-06-26 15:57:46,804 - ig_scraper - INFO -     "suspected_account": "malangraya_info",
+2025-06-26 15:57:46,804 - ig_scraper - INFO -     "suspected_account": "malangraya_info",
+2025-06-26 15:57:46,804 - ig_scraper - INFO -     "post_count": 10,
+2025-06-26 15:57:46,804 - ig_scraper - INFO -     "post_count": 10,
+2025-06-26 15:57:46,804 - ig_scraper - INFO -     "comment_count": 5
+2025-06-26 15:57:46,804 - ig_scraper - INFO -     "comment_count": 5
+2025-06-26 15:57:46,805 - ig_scraper - INFO -   }'
+2025-06-26 15:57:46,805 - ig_scraper - INFO -   }'
+2025-06-26 15:57:46,805 - ig_scraper - INFO - 
+2025-06-26 15:57:46,805 - ig_scraper - INFO - 
+2025-06-26 15:57:46,805 - ig_scraper - INFO - Starting Instagram Scraping API server on 0.0.0.0:5000
+2025-06-26 15:57:46,805 - ig_scraper - INFO - Starting Instagram Scraping API server on 0.0.0.0:5000
+2025-06-26 15:58:17,636 - ig_scraper - INFO - Processing scrape request: suspected_account=malangraya_info, post_count=5, comment_count=3
+2025-06-26 15:58:17,636 - ig_scraper - INFO - Processing scrape request: suspected_account=malangraya_info, post_count=5, comment_count=3
+2025-06-26 15:58:17,636 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 15:58:17,636 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 15:58:17,636 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 15:58:17,636 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 15:58:17,636 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 15:58:17,636 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 15:58:18,585 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 15:58:18,585 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 15:58:18,585 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 15:58:18,585 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 15:58:28,970 - ig_scraper - INFO - Login success confirmed
+2025-06-26 15:58:28,970 - ig_scraper - INFO - Login success confirmed
+2025-06-26 15:58:28,970 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 15:58:28,970 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 15:58:28,971 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 15:58:28,971 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 15:58:28,971 - ig_scraper - INFO - Navigating to profile: malangraya_info
+2025-06-26 15:58:28,971 - ig_scraper - INFO - Navigating to profile: malangraya_info
+2025-06-26 15:58:28,971 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 15:58:28,971 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 15:58:30,967 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 15:58:30,967 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 15:58:31,016 - ig_scraper - INFO - Profile data extracted for malangraya_info
+2025-06-26 15:58:31,016 - ig_scraper - INFO - Profile data extracted for malangraya_info
+2025-06-26 15:58:31,061 - ig_scraper - INFO - Starting post extraction: 5 posts, 3 comments each
+2025-06-26 15:58:31,061 - ig_scraper - INFO - Starting post extraction: 5 posts, 3 comments each
+2025-06-26 15:58:31,062 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:58:31,062 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:59:04,220 - ig_scraper - INFO - Scrolling completed after 10 attempts
+2025-06-26 15:59:04,220 - ig_scraper - INFO - Scrolling completed after 10 attempts
+2025-06-26 15:59:04,220 - ig_scraper - INFO - Extracting post links from profile page
+2025-06-26 15:59:04,220 - ig_scraper - INFO - Extracting post links from profile page
+2025-06-26 15:59:07,229 - ig_scraper - INFO - Found 23 elements with selector: a[href*='/p/']
+2025-06-26 15:59:07,229 - ig_scraper - INFO - Found 23 elements with selector: a[href*='/p/']
+2025-06-26 15:59:07,236 - ig_scraper - INFO - Found 19 elements with selector: a[href*='/reel/']
+2025-06-26 15:59:07,236 - ig_scraper - INFO - Found 19 elements with selector: a[href*='/reel/']
+2025-06-26 15:59:07,278 - ig_scraper - INFO - Found 23 elements with selector: a.x1i10hfl[href*='/p/']
+2025-06-26 15:59:07,278 - ig_scraper - INFO - Found 23 elements with selector: a.x1i10hfl[href*='/p/']
+2025-06-26 15:59:07,286 - ig_scraper - INFO - Found 19 elements with selector: a.x1i10hfl[href*='/reel/']
+2025-06-26 15:59:07,286 - ig_scraper - INFO - Found 19 elements with selector: a.x1i10hfl[href*='/reel/']
+2025-06-26 15:59:07,324 - ig_scraper - INFO - Successfully extracted 5 post links
+2025-06-26 15:59:07,324 - ig_scraper - INFO - Successfully extracted 5 post links
+2025-06-26 15:59:07,324 - ig_scraper - INFO - Found 5 post links
+2025-06-26 15:59:07,324 - ig_scraper - INFO - Found 5 post links
+2025-06-26 15:59:07,324 - ig_scraper - INFO - Processing post 1/5: https://www.instagram.com/malangraya_info/p/DLIP7WZhqfI/
+2025-06-26 15:59:07,324 - ig_scraper - INFO - Processing post 1/5: https://www.instagram.com/malangraya_info/p/DLIP7WZhqfI/
+2025-06-26 15:59:15,291 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:15,291 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:15,291 - ig_scraper - INFO - Successfully extracted post data for malangraya_info
+2025-06-26 15:59:15,291 - ig_scraper - INFO - Successfully extracted post data for malangraya_info
+2025-06-26 15:59:17,291 - ig_scraper - INFO - Processing post 2/5: https://www.instagram.com/aremamedia/p/DLIN0nAzsNX/
+2025-06-26 15:59:17,291 - ig_scraper - INFO - Processing post 2/5: https://www.instagram.com/aremamedia/p/DLIN0nAzsNX/
+2025-06-26 15:59:25,206 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:25,206 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:25,206 - ig_scraper - INFO - Successfully extracted post data for aremamedia
+2025-06-26 15:59:25,206 - ig_scraper - INFO - Successfully extracted post data for aremamedia
+2025-06-26 15:59:27,207 - ig_scraper - INFO - Processing post 3/5: https://www.instagram.com/rekomendasi.malangraya/p/DLIC6_zRbso/
+2025-06-26 15:59:27,207 - ig_scraper - INFO - Processing post 3/5: https://www.instagram.com/rekomendasi.malangraya/p/DLIC6_zRbso/
+2025-06-26 15:59:35,692 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:35,692 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:35,692 - ig_scraper - INFO - Successfully extracted post data for rekomendasi.malangraya
+2025-06-26 15:59:35,692 - ig_scraper - INFO - Successfully extracted post data for rekomendasi.malangraya
+2025-06-26 15:59:37,693 - ig_scraper - INFO - Processing post 4/5: https://www.instagram.com/malangraya_info/p/DLH2VlHhG3V/
+2025-06-26 15:59:37,693 - ig_scraper - INFO - Processing post 4/5: https://www.instagram.com/malangraya_info/p/DLH2VlHhG3V/
+2025-06-26 15:59:44,913 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:44,913 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:44,913 - ig_scraper - INFO - Successfully extracted post data for malangraya_info
+2025-06-26 15:59:44,913 - ig_scraper - INFO - Successfully extracted post data for malangraya_info
+2025-06-26 15:59:46,914 - ig_scraper - INFO - Processing post 5/5: https://www.instagram.com/malangraya_info/p/DLHxkpdB9c1/
+2025-06-26 15:59:46,914 - ig_scraper - INFO - Processing post 5/5: https://www.instagram.com/malangraya_info/p/DLHxkpdB9c1/
+2025-06-26 15:59:54,260 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:54,260 - ig_scraper - INFO - Extracted 3 comments
+2025-06-26 15:59:54,260 - ig_scraper - INFO - Successfully extracted post data for malangraya_info
+2025-06-26 15:59:54,260 - ig_scraper - INFO - Successfully extracted post data for malangraya_info
+2025-06-26 15:59:56,261 - ig_scraper - INFO - Successfully extracted 5 posts
+2025-06-26 15:59:56,261 - ig_scraper - INFO - Successfully extracted 5 posts
+2025-06-26 15:59:56,360 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 15:59:56,360 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 15:59:56,360 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 15:59:56,360 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 15:59:56,361 - ig_scraper - INFO - Results saved to /home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/phase files/../core files/../output/result.json and /home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/phase files/../core files/../output/backup_20250626_155956.json
+2025-06-26 15:59:56,361 - ig_scraper - INFO - Results saved to /home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/phase files/../core files/../output/result.json and /home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/phase files/../core files/../output/backup_20250626_155956.json
+2025-06-26 15:59:56,361 - ig_scraper - INFO - Scraping completed successfully: 5 posts extracted
+2025-06-26 15:59:56,361 - ig_scraper - INFO - Scraping completed successfully: 5 posts extracted

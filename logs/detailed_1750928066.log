@@ -1,0 +1,22 @@
+2025-06-26 15:54:26,199 - ig_scraper - INFO - Starting post extraction: 3 posts, 2 comments each
+2025-06-26 15:54:26,199 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:54:59,451 - ig_scraper - INFO - Scrolling completed after 10 attempts
+2025-06-26 15:54:59,451 - ig_scraper - INFO - Extracting post links from profile page
+2025-06-26 15:55:02,461 - ig_scraper - INFO - Found 23 elements with selector: a[href*='/p/']
+2025-06-26 15:55:02,470 - ig_scraper - INFO - Found 19 elements with selector: a[href*='/reel/']
+2025-06-26 15:55:02,524 - ig_scraper - INFO - Found 23 elements with selector: a.x1i10hfl[href*='/p/']
+2025-06-26 15:55:02,538 - ig_scraper - INFO - Found 19 elements with selector: a.x1i10hfl[href*='/reel/']
+2025-06-26 15:55:02,570 - ig_scraper - INFO - Successfully extracted 3 post links
+2025-06-26 15:55:02,570 - ig_scraper - INFO - Found 3 post links
+2025-06-26 15:55:02,570 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/p/DLIP7WZhqfI/
+2025-06-26 15:55:11,503 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:55:11,503 - ig_scraper - INFO - Successfully extracted post data for malangraya_info
+2025-06-26 15:55:13,503 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/aremamedia/p/DLIN0nAzsNX/
+2025-06-26 15:55:21,601 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:55:21,601 - ig_scraper - INFO - Successfully extracted post data for aremamedia
+2025-06-26 15:55:23,602 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/rekomendasi.malangraya/p/DLIC6_zRbso/
+2025-06-26 15:55:31,971 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:55:31,972 - ig_scraper - INFO - Successfully extracted post data for rekomendasi.malangraya
+2025-06-26 15:55:33,972 - ig_scraper - INFO - Successfully extracted 3 posts
+2025-06-26 15:55:34,108 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 15:55:34,109 - ig_scraper - INFO - Scraper resources cleaned up

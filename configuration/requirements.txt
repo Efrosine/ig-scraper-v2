@@ -4,7 +4,8 @@ selenium==4.15.2
 beautifulsoup4==4.12.2
 
 # HTTP server for API
-flask==2.0.1
+flask==2.3.3
+werkzeug==2.3.7
 
 # Environment and configuration
 python-dotenv==1.0.0

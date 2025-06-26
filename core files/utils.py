@@ -237,3 +237,39 @@ def detect_chromedriver_path() -> str:
     raise FileNotFoundError(
         "ChromeDriver not found. Please install it or set CHROMEDRIVER_PATH in .env file"
     )
+
+
+def load_environment_variables() -> Dict[str, str]:
+    """Load and return environment variables as a dictionary."""
+    try:
+        # Load from both .env files
+        load_dotenv(dotenv_path=".env")
+        load_dotenv(dotenv_path="configuration/.env")
+        
+        # Return commonly used environment variables
+        env_vars = {
+            'INSTAGRAM_ACCOUNTS': os.getenv('INSTAGRAM_ACCOUNTS', ''),
+            'DEFAULT_LOCATION': os.getenv('DEFAULT_LOCATION', 'Malang'),
+            'DEFAULT_SUSPECTED_ACCOUNT': os.getenv('DEFAULT_SUSPECTED_ACCOUNT', 'malangraya_info'),
+            'DEFAULT_POST_COUNT': os.getenv('DEFAULT_POST_COUNT', '10'),
+            'DEFAULT_COMMENT_COUNT': os.getenv('DEFAULT_COMMENT_COUNT', '5'),
+            'FORWARDING_PORT': os.getenv('FORWARDING_PORT', '5000'),
+            'CHROMEDRIVER_PATH': os.getenv('CHROMEDRIVER_PATH', ''),
+            'REQUEST_DELAY': os.getenv('REQUEST_DELAY', '2'),
+            'LOGIN_DELAY': os.getenv('LOGIN_DELAY', '4')
+        }
+        
+        return env_vars
+        
+    except Exception as e:
+        logging.error(f"Error loading environment variables: {str(e)}")
+        # Return defaults if loading fails
+        return {
+            'DEFAULT_LOCATION': 'Malang',
+            'DEFAULT_SUSPECTED_ACCOUNT': 'malangraya_info',
+            'DEFAULT_POST_COUNT': '10',
+            'DEFAULT_COMMENT_COUNT': '5',
+            'FORWARDING_PORT': '5000',
+            'REQUEST_DELAY': '2',
+            'LOGIN_DELAY': '4'
+        }

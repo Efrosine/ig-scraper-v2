@@ -1,0 +1,55 @@
+{
+  "status": "success",
+  "timestamp": "2025-06-26T15:55:33.000Z",
+  "parameters": {
+    "suspected_account": "malangraya_info",
+    "post_count": 3,
+    "comment_count": 2,
+    "accounts_used": "default"
+  },
+  "results": [
+    {
+      "usernamePost": "malangraya_info",
+      "urlPost": "https://www.instagram.com/malangraya_info/p/DLIP7WZhqfI/",
+      "releaseDate": "2025-06-20T16:13:08+00:00",
+      "caption": "Peristiwa pengrusakan mobil ambulans oleh massa demo ODOL (Over Dimension Over Loading) di Karanganyar berujung damai. Kedua pihak baik komunitas sopir truk dan komunitas ambulans sepakat menyelesaikan persoalan tersebut secara kekeluargaan. Pengrusakan terjadi saat ratusan sopir truk demo penerapan aturan ODOL di jalan Ringroad Kebakkramat, Karanganyar.Saat aksi digelar, mobil ambulans hendak melintas untuk menjemput pasien di RS Dr Oen Solo. Namun ambulans terhenti akibat penutupan jalan dan terjadi ketegangan saat salah satu peserta demo mengetahui ambulans dalam kondisi kosong tanpa pasien.Setelah insiden tersebut, kedua pihak melakukan pertemuan pada Kamis malam, 19 Juni 2025, di Polres Karanganyar. Kedua pihak berdialog dengan pendampingan dari Polres Karanganyar. Kedua pihak baik dari pihak komunitas ambulans maupun komunitas sopir truk menyepakati agar masalah tersebut tidak dibawa ke ranah hukum. Mereka sepakat untuk menempuh jalur damai untuk menjaga kondusifitas.Berita disadur dari: metrotvnews.com I Triawati Prihatsari I Jumat, 20 Juni 2025🎥 media sosial",
+      "comments": {
+        "0": "Pentingnya Pendidikan",
+        "1": "Apa hal yang bisa diganti untuk orang yang kehilangan nyawa?"
+      }
+    },
+    {
+      "usernamePost": "aremamedia",
+      "urlPost": "https://www.instagram.com/aremamedia/p/DLIN0nAzsNX/",
+      "releaseDate": "2025-06-20T15:54:44+00:00",
+      "caption": "malangraya_info",
+      "comments": {
+        "0": "🔥🔥🔥💙💙💙💙",
+        "1": "langganan"
+      }
+    },
+    {
+      "usernamePost": "rekomendasi.malangraya",
+      "urlPost": "https://www.instagram.com/rekomendasi.malangraya/p/DLIC6_zRbso/",
+      "releaseDate": "2025-06-20T14:19:29+00:00",
+      "caption": "7 rekomendasi kuliner bagi pecinta jeroan di Malang Raya yang wajib banget buat kalian cobain.Kalian biasanya langganan yang mana nih? Punya rekomendasi kuliner lainnya? Yuk, tulis aja langsung di kolom komentar.",
+      "comments": {
+        "0": "😍❤️😍❤️🔥🔥🔥",
+        "1": "❤️❤️❤️❤️"
+      }
+    }
+  ],
+  "metadata": {
+    "total_posts_extracted": 3,
+    "profile_info": {
+      "username": "malangraya_info",
+      "profile_url": "https://www.instagram.com/malangraya_info/",
+      "posts_count": "0",
+      "followers_count": "0",
+      "following_count": "0",
+      "bio": "",
+      "full_name": "malangraya_info",
+      "has_posts": false
+    }
+  }
+}

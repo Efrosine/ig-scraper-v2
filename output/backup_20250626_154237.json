@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "timestamp": "2025-06-26T15:42:37.939476",
+  "parameters": {
+    "suspected_account": "malangraya_info",
+    "post_count": 5,
+    "comment_count": 3,
+    "accounts_used": "default"
+  },
+  "results": [],
+  "metadata": {
+    "total_posts_extracted": 0,
+    "profile_info": {
+      "username": "malangraya_info",
+      "profile_url": "https://www.instagram.com/malangraya_info/",
+      "error": "name 'By' is not defined"
+    }
+  }
+}
