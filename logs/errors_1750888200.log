@@ -1,0 +1,2 @@
+2025-06-26 04:50:25,423 - ig_scraper - ERROR - Location search test failed: cannot import name 'LocationSearch' from 'location_search' (/home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/other/../core files/location_search.py)
+2025-06-26 04:50:25,423 - ig_scraper - ERROR - Location search test failed: cannot import name 'LocationSearch' from 'location_search' (/home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/other/../core files/location_search.py)

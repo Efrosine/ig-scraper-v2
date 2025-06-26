@@ -1,0 +1,20 @@
+2025-06-26 06:12:27,441 - ig_scraper - ERROR - Login failed - redirected to code entry page (security challenge)
+2025-06-26 06:12:27,441 - ig_scraper - ERROR - Login failed - redirected to code entry page (security challenge)
+2025-06-26 06:12:27,441 - ig_scraper - ERROR - This indicates account may be flagged or requires additional verification
+2025-06-26 06:12:27,441 - ig_scraper - ERROR - This indicates account may be flagged or requires additional verification
+2025-06-26 06:12:43,825 - ig_scraper - ERROR - Login failed - redirected to code entry page (security challenge)
+2025-06-26 06:12:43,825 - ig_scraper - ERROR - Login failed - redirected to code entry page (security challenge)
+2025-06-26 06:12:43,825 - ig_scraper - ERROR - This indicates account may be flagged or requires additional verification
+2025-06-26 06:12:43,825 - ig_scraper - ERROR - This indicates account may be flagged or requires additional verification
+2025-06-26 06:12:56,926 - ig_scraper - ERROR - Login failed - redirected to code entry page (security challenge)
+2025-06-26 06:12:56,926 - ig_scraper - ERROR - Login failed - redirected to code entry page (security challenge)
+2025-06-26 06:12:56,926 - ig_scraper - ERROR - This indicates account may be flagged or requires additional verification
+2025-06-26 06:12:56,926 - ig_scraper - ERROR - This indicates account may be flagged or requires additional verification
+2025-06-26 06:12:56,926 - ig_scraper - ERROR - Login failed for account: eprosine009 after 3 attempts
+2025-06-26 06:12:56,926 - ig_scraper - ERROR - Login failed for account: eprosine009 after 3 attempts
+2025-06-26 06:13:50,701 - ig_scraper - ERROR - Element not found: name=username
+2025-06-26 06:13:50,701 - ig_scraper - ERROR - Element not found: name=username
+2025-06-26 06:13:50,702 - ig_scraper - ERROR - Username input field not found
+2025-06-26 06:13:50,702 - ig_scraper - ERROR - Username input field not found
+2025-06-26 06:13:50,702 - ig_scraper - ERROR - All accounts failed to login
+2025-06-26 06:13:50,702 - ig_scraper - ERROR - All accounts failed to login

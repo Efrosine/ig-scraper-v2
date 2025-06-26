@@ -1,0 +1,282 @@
+2025-06-26 04:26:30,632 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 5 ===
+2025-06-26 04:26:30,632 - ig_scraper - INFO - Initializing scraper with search capabilities...
+2025-06-26 04:26:30,633 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:26:30,633 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:26:30,633 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:26:30,633 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:26:30,633 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:26:33,598 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:26:33,598 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:26:33,598 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:26:33,598 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:26:33,598 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:26:33,598 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:26:33,598 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:26:33,598 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:26:33,598 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:26:33,598 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:26:46,174 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:27:04,057 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:27:04,057 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:27:04,057 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:27:04,057 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:27:04,057 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:27:04,058 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:27:04,058 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:27:04,058 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:27:04,058 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:27:04,058 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:27:10,009 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:27:10,010 - ig_scraper - INFO - === Phase 5: Suspected Account Search ===
+2025-06-26 04:27:10,010 - ig_scraper - INFO - === Phase 5: Suspected Account Search ===
+2025-06-26 04:27:10,010 - ig_scraper - INFO - === Phase 5: Suspected Account Search ===
+2025-06-26 04:27:10,010 - ig_scraper - INFO - === Phase 5: Suspected Account Search ===
+2025-06-26 04:27:10,010 - ig_scraper - INFO - === Phase 5: Suspected Account Search ===
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Searching posts from suspected account: malangraya_info
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Searching posts from suspected account: malangraya_info
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Searching posts from suspected account: malangraya_info
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Searching posts from suspected account: malangraya_info
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Searching posts from suspected account: malangraya_info
+2025-06-26 04:27:10,010 - INFO - [detailed_1750886790] - === SESSION START ===
+2025-06-26 04:27:10,010 - INFO - [detailed_1750886790] - Session ID: 1750886790
+2025-06-26 04:27:10,010 - INFO - [detailed_1750886790] - Search Type: suspected_account
+2025-06-26 04:27:10,010 - INFO - [detailed_1750886790] - Search Target: malangraya_info
+2025-06-26 04:27:10,010 - INFO - [detailed_1750886790] - Parameters: {
+  "post_count": 3,
+  "comment_count": 2,
+  "account_username": "malangraya_info"
+}
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Retrieving account info for: malangraya_info
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Retrieving account info for: malangraya_info
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Retrieving account info for: malangraya_info
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Retrieving account info for: malangraya_info
+2025-06-26 04:27:10,010 - ig_scraper - INFO - Retrieving account info for: malangraya_info
+2025-06-26 04:27:24,170 - ig_scraper - INFO - Successfully retrieved account info for: malangraya_info
+2025-06-26 04:27:24,170 - ig_scraper - INFO - Successfully retrieved account info for: malangraya_info
+2025-06-26 04:27:24,170 - ig_scraper - INFO - Successfully retrieved account info for: malangraya_info
+2025-06-26 04:27:24,170 - ig_scraper - INFO - Successfully retrieved account info for: malangraya_info
+2025-06-26 04:27:24,170 - ig_scraper - INFO - Successfully retrieved account info for: malangraya_info
+2025-06-26 04:27:24,171 - INFO - [detailed_1750886790] - Search Operation: Account Information Retrieved
+2025-06-26 04:27:24,171 - INFO - [detailed_1750886790] - Details: {
+  "account": "malangraya_info",
+  "accessible": true
+}
+2025-06-26 04:27:24,171 - ig_scraper - INFO - Starting suspected account search for: malangraya_info
+2025-06-26 04:27:24,171 - ig_scraper - INFO - Starting suspected account search for: malangraya_info
+2025-06-26 04:27:24,171 - ig_scraper - INFO - Starting suspected account search for: malangraya_info
+2025-06-26 04:27:24,171 - ig_scraper - INFO - Starting suspected account search for: malangraya_info
+2025-06-26 04:27:24,171 - ig_scraper - INFO - Starting suspected account search for: malangraya_info
+2025-06-26 04:27:30,160 - ig_scraper - INFO - Collecting 3 posts from account: malangraya_info
+2025-06-26 04:27:30,160 - ig_scraper - INFO - Collecting 3 posts from account: malangraya_info
+2025-06-26 04:27:30,160 - ig_scraper - INFO - Collecting 3 posts from account: malangraya_info
+2025-06-26 04:27:30,160 - ig_scraper - INFO - Collecting 3 posts from account: malangraya_info
+2025-06-26 04:27:30,160 - ig_scraper - INFO - Collecting 3 posts from account: malangraya_info
+2025-06-26 04:27:35,321 - ig_scraper - INFO - Found 12 unique post elements on scroll 1
+2025-06-26 04:27:35,321 - ig_scraper - INFO - Found 12 unique post elements on scroll 1
+2025-06-26 04:27:35,321 - ig_scraper - INFO - Found 12 unique post elements on scroll 1
+2025-06-26 04:27:35,321 - ig_scraper - INFO - Found 12 unique post elements on scroll 1
+2025-06-26 04:27:35,321 - ig_scraper - INFO - Found 12 unique post elements on scroll 1
+2025-06-26 04:27:35,379 - ig_scraper - INFO - Successfully collected 3 posts from suspected account: malangraya_info
+2025-06-26 04:27:35,379 - ig_scraper - INFO - Successfully collected 3 posts from suspected account: malangraya_info
+2025-06-26 04:27:35,379 - ig_scraper - INFO - Successfully collected 3 posts from suspected account: malangraya_info
+2025-06-26 04:27:35,379 - ig_scraper - INFO - Successfully collected 3 posts from suspected account: malangraya_info
+2025-06-26 04:27:35,379 - ig_scraper - INFO - Successfully collected 3 posts from suspected account: malangraya_info
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Found 3 posts for account: malangraya_info
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Found 3 posts for account: malangraya_info
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Found 3 posts for account: malangraya_info
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Found 3 posts for account: malangraya_info
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Found 3 posts for account: malangraya_info
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Extracting post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Extracting post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Extracting post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Extracting post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:35,380 - ig_scraper - INFO - Extracting post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/ posts, 5 comments each
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/ posts, 5 comments each
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/ posts, 5 comments each
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/ posts, 5 comments each
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/ posts, 5 comments each
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:39,838 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:39,838 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:39,839 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:39,839 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:39,839 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:39,839 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:39,839 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Extracting post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Extracting post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Extracting post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Extracting post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:39,839 - ig_scraper - INFO - Extracting post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/ posts, 5 comments each
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/ posts, 5 comments each
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/ posts, 5 comments each
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/ posts, 5 comments each
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/ posts, 5 comments each
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:43,998 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:43,998 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:43,998 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:43,998 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:43,998 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:43,998 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Extracting post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Extracting post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Extracting post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Extracting post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:43,998 - ig_scraper - INFO - Extracting post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:47,823 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/ posts, 5 comments each
+2025-06-26 04:27:47,823 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/ posts, 5 comments each
+2025-06-26 04:27:47,823 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/ posts, 5 comments each
+2025-06-26 04:27:47,823 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/ posts, 5 comments each
+2025-06-26 04:27:47,823 - ig_scraper - INFO - Starting enhanced post extraction: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/ posts, 5 comments each
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error during scrolling: 'str' object has no attribute 'execute_script'
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error getting post links: 'str' object has no attribute 'find_element'
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Found 0 post links
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:47,824 - ig_scraper - ERROR - Error in post extraction: slice indices must be integers or None or have an __index__ method
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:47,824 - ig_scraper - INFO - Successfully extracted and cleaned 0 posts
+2025-06-26 04:27:47,824 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:47,824 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:47,824 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:47,824 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:47,824 - ig_scraper - WARNING - Failed to extract data from post: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 04:27:47,824 - INFO - [detailed_1750886790] - === SESSION END ===
+2025-06-26 04:27:47,824 - INFO - [detailed_1750886790] - Session ID: 1750886790
+2025-06-26 04:27:47,824 - INFO - [detailed_1750886790] - End Time: 2025-06-26T04:27:47.824927
+2025-06-26 04:27:47,825 - INFO - [detailed_1750886790] - Duration: 77.82 seconds
+2025-06-26 04:27:47,825 - INFO - [detailed_1750886790] - Results Count: 0
+2025-06-26 04:27:47,825 - INFO - [detailed_1750886790] - Success: False
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Suspected account search completed: 0 posts extracted
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Suspected account search completed: 0 posts extracted
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Suspected account search completed: 0 posts extracted
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Suspected account search completed: 0 posts extracted
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Suspected account search completed: 0 posts extracted
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_suspected_account_malangraya_info_1750886867.json
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_suspected_account_malangraya_info_1750886867.json
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_suspected_account_malangraya_info_1750886867.json
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_suspected_account_malangraya_info_1750886867.json
+2025-06-26 04:27:47,825 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_suspected_account_malangraya_info_1750886867.json
+2025-06-26 04:27:47,903 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:27:47,903 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:27:47,903 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:27:47,903 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:27:47,903 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:27:47,903 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 04:27:47,903 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 04:27:47,903 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 04:27:47,903 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 04:27:47,903 - ig_scraper - INFO - Scraper resources cleaned up

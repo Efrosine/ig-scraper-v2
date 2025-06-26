@@ -1,0 +1,42 @@
+2025-06-26 05:02:40,285 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 05:02:40,285 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 05:02:41,194 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 05:02:41,194 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 05:02:41,194 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 05:02:41,194 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 05:03:51,434 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 05:03:51,434 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 05:03:51,507 - ig_scraper - INFO - Screenshot saved: output/backup_account_logged_in.png
+2025-06-26 05:03:51,507 - ig_scraper - INFO - Screenshot saved: output/backup_account_logged_in.png
+2025-06-26 05:03:51,507 - ig_scraper - INFO - Starting improved location-based search for: Malang
+2025-06-26 05:03:51,507 - ig_scraper - INFO - Starting improved location-based search for: Malang
+2025-06-26 05:03:51,507 - ig_scraper - INFO - Trying location search approach 1
+2025-06-26 05:03:51,507 - ig_scraper - INFO - Trying location search approach 1
+2025-06-26 05:03:51,507 - ig_scraper - INFO - Approach 1: Using explore page search
+2025-06-26 05:03:51,507 - ig_scraper - INFO - Approach 1: Using explore page search
+2025-06-26 05:04:49,398 - ig_scraper - WARNING - Approach 1 failed: No search element found with any selector
+2025-06-26 05:04:49,398 - ig_scraper - WARNING - Approach 1 failed: No search element found with any selector
+2025-06-26 05:04:49,398 - ig_scraper - INFO - Trying location search approach 2
+2025-06-26 05:04:49,398 - ig_scraper - INFO - Trying location search approach 2
+2025-06-26 05:04:49,398 - ig_scraper - INFO - Approach 2: Using direct URL navigation
+2025-06-26 05:04:49,398 - ig_scraper - INFO - Approach 2: Using direct URL navigation
+2025-06-26 05:04:49,398 - ig_scraper - INFO - Trying URL: https://www.instagram.com/explore/search/keyword/?q=%23kotamalang
+2025-06-26 05:04:49,398 - ig_scraper - INFO - Trying URL: https://www.instagram.com/explore/search/keyword/?q=%23kotamalang
+2025-06-26 05:05:58,834 - ig_scraper - INFO - Trying URL: https://www.instagram.com/explore/search/keyword/?q=%23malang
+2025-06-26 05:05:58,834 - ig_scraper - INFO - Trying URL: https://www.instagram.com/explore/search/keyword/?q=%23malang
+2025-06-26 05:07:52,062 - ig_scraper - INFO - Trying URL: https://www.instagram.com/explore/search/keyword/?q=%23wisatamalang
+2025-06-26 05:07:52,062 - ig_scraper - INFO - Trying URL: https://www.instagram.com/explore/search/keyword/?q=%23wisatamalang
+2025-06-26 05:10:15,300 - ig_scraper - INFO - Trying URL: https://www.instagram.com/explore/search/keyword/?q=%23malangcity
+2025-06-26 05:10:15,300 - ig_scraper - INFO - Trying URL: https://www.instagram.com/explore/search/keyword/?q=%23malangcity
+2025-06-26 05:13:32,981 - ig_scraper - INFO - Found posts via direct URL: https://www.instagram.com/explore/search/keyword/?q=%23malangcity
+2025-06-26 05:13:32,981 - ig_scraper - INFO - Found posts via direct URL: https://www.instagram.com/explore/search/keyword/?q=%23malangcity
+2025-06-26 05:13:32,981 - ig_scraper - INFO - Collecting posts from current page, target: 5
+2025-06-26 05:13:32,981 - ig_scraper - INFO - Collecting posts from current page, target: 5
+2025-06-26 05:13:33,137 - ig_scraper - INFO - Found 18 unique post elements on scroll 1
+2025-06-26 05:13:33,137 - ig_scraper - INFO - Found 18 unique post elements on scroll 1
+2025-06-26 05:13:33,165 - ig_scraper - INFO - Successfully collected 5 posts from current page
+2025-06-26 05:13:33,165 - ig_scraper - INFO - Successfully collected 5 posts from current page
+2025-06-26 05:13:33,166 - ig_scraper - INFO - Approach 2 successful: found 5 posts
+2025-06-26 05:13:33,166 - ig_scraper - INFO - Approach 2 successful: found 5 posts
+2025-06-26 05:13:33,243 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 05:13:33,243 - ig_scraper - INFO - WebDriver closed successfully

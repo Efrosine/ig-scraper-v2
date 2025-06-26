@@ -1,9 +1,9 @@
 """
 Instagram Profile Scraper - Main Module
-Phase 4: Advanced Parsing & Cleaning
+Phase 5: Search by Location or Suspected Account
 
 This module serves as the main entry point for core functionality.
-Enhanced with data cleaning and quality scoring.
+Enhanced with location and suspected account search capabilities.
 """
 
 import json
@@ -18,24 +18,30 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "."))
 from scraper import InstagramScraper
 from parser import InstagramPostParser
 from data_cleaner import DataCleaner
+from location_search import LocationSearcher
+from suspected_account_search import SuspectedAccountSearcher
+from output_logger import OutputLogger
 from utils import setup_logging
 
 
 class InstagramProfileScraper:
-    """Main Instagram Profile Scraper class for Phase 4 with advanced parsing and cleaning."""
+    """Main Instagram Profile Scraper class for Phase 5 with search capabilities."""
     
     def __init__(self):
         self.logger = setup_logging()
+        self.output_logger = OutputLogger()
         self.scraper = None
         self.parser = None
         self.data_cleaner = None
+        self.location_searcher = None
+        self.suspected_account_searcher = None
         self.session_data = {}
         
     def initialize(self) -> bool:
         """Initialize the scraper and attempt login."""
         try:
-            self.logger.info("=== Instagram Profile Scraper - Phase 4 ===")
-            self.logger.info("Initializing scraper with advanced parsing and cleaning...")
+            self.logger.info("=== Instagram Profile Scraper - Phase 5 ===")
+            self.logger.info("Initializing scraper with search capabilities...")
             
             # Create scraper instance
             self.scraper = InstagramScraper()
@@ -48,16 +54,31 @@ class InstagramProfileScraper:
             login_success = self.scraper.login_with_backup_support()
             
             if login_success:
-                self.logger.info("Scraper initialized successfully with Phase 4 enhancements")
+                self.logger.info("Login successful - initializing search components...")
+                
+                # Initialize search components
+                self.location_searcher = LocationSearcher(self.scraper.driver, self.logger)
+                self.suspected_account_searcher = SuspectedAccountSearcher(self.scraper.driver, self.logger)
+                
+                # Verify search capabilities
+                location_capability = self.location_searcher.verify_location_search_capability()
+                account_capability = self.suspected_account_searcher.verify_account_search_capability()
+                
                 current_account = self.scraper.session_manager.get_current_account()
                 self.session_data = {
                     "current_account": current_account['username'],
                     "login_time": time.time(),
                     "total_accounts": self.scraper.session_manager.get_account_count(),
                     "remaining_accounts": self.scraper.session_manager.get_remaining_accounts(),
-                    "phase": "4",
-                    "features": ["advanced_parsing", "data_cleaning", "quality_scoring", "metadata_extraction"]
+                    "phase": "5",
+                    "location_search_available": location_capability,
+                    "account_search_available": account_capability,
+                    "features": ["location_search", "suspected_account_search", "enhanced_logging", "data_cleaning", "quality_scoring"]
                 }
+                
+                self.logger.info("Phase 5 initialization completed successfully")
+                self.logger.info(f"Location search available: {location_capability}")
+                self.logger.info(f"Account search available: {account_capability}")
                 return True
             else:
                 self.logger.error("Failed to initialize scraper - login unsuccessful")
@@ -97,6 +118,19 @@ class InstagramProfileScraper:
             # Check if we're still logged in
             if "instagram.com/accounts/login" in current_url:
                 self.logger.warning("Redirected to login page - session may have expired")
+                return False
+            
+            # Check for auth platform code entry - indicates login failure
+            if "instagram.com/auth_platform/codeentry" in current_url:
+                self.logger.error("Navigation test failed - at code entry page (login failed)")
+                return False
+            
+            # Check for other login-related issues
+            failed_login_patterns = ["challenge", "two_factor", "checkpoint", "suspend", "confirm"]
+            for pattern in failed_login_patterns:
+                if pattern in current_url.lower():
+                    self.logger.error(f"Navigation test failed - suspicious URL: {current_url}")
+                    return False
                 return False
             
             self.logger.info("Basic navigation test successful")
@@ -506,6 +540,350 @@ class InstagramProfileScraper:
             self.logger.error(f"Error saving Phase 4 results: {str(e)}")
             return ""
     
+    def search_by_location(self, location: str, post_count: int = 10, comment_count: int = 5) -> Dict:
+        """
+        Phase 5: Search Instagram posts by location.
+        
+        Args:
+            location: Location name to search for
+            post_count: Number of posts to retrieve
+            comment_count: Number of comments per post
+            
+        Returns:
+            Dictionary with search results
+        """
+        try:
+            self.logger.info(f"=== Phase 5: Location Search ===")
+            self.logger.info(f"Searching for posts in location: {location}")
+            
+            # Initialize search components if not already done
+            if not self.location_searcher:
+                self.location_searcher = LocationSearcher(self.scraper.driver, self.logger)
+            
+            # Start session logging
+            session_info = self.output_logger.log_session_start(
+                search_type="location",
+                search_target=location,
+                parameters={
+                    "post_count": post_count,
+                    "comment_count": comment_count,
+                    "location": location
+                }
+            )
+            
+            # Perform location search
+            self.output_logger.log_search_operation(
+                "Location Search Initialization",
+                {"location": location, "target_posts": post_count}
+            )
+            
+            post_links = self.location_searcher.search_by_location(location, post_count)
+            
+            if not post_links:
+                self.logger.warning(f"No posts found for location: {location}")
+                return self._create_empty_search_result("location", location, "No posts found")
+            
+            self.logger.info(f"Found {len(post_links)} posts for location: {location}")
+            
+            # Extract detailed post data
+            extracted_posts = []
+            for i, post_data in enumerate(post_links):
+                try:
+                    self.logger.info(f"Extracting post {i+1}/{len(post_links)}: {post_data['url']}")
+                    
+                    # Navigate to post
+                    self.scraper.driver.get(post_data['url'])
+                    time.sleep(3)
+                    
+                    # Extract post details
+                    post_details = self.parser.extract_post_data(
+                        self.scraper.driver.page_source,
+                        post_data['url']
+                    )
+                    
+                    if post_details:
+                        # Clean and enhance the data
+                        cleaned_post = self.data_cleaner.clean_post_data(post_details)
+                        
+                        # Add search metadata
+                        cleaned_post.update({
+                            'search_type': 'location',
+                            'search_target': location,
+                            'found_via': post_data.get('found_via', 'location_page')
+                        })
+                        
+                        # Extract comments if requested
+                        if comment_count > 0:
+                            comments = self.parser.extract_comments(
+                                self.scraper.driver.page_source,
+                                comment_count
+                            )
+                            cleaned_post['comments'] = comments
+                        
+                        extracted_posts.append(cleaned_post)
+                        
+                        self.output_logger.log_post_extraction(
+                            post_data['url'],
+                            {"success": True, "quality_score": cleaned_post.get("quality_score", 0)}
+                        )
+                    else:
+                        self.logger.warning(f"Failed to extract data from post: {post_data['url']}")
+                        
+                except Exception as e:
+                    self.logger.error(f"Error extracting post {i+1}: {str(e)}")
+                    self.output_logger.log_error(
+                        "PostExtractionError",
+                        str(e),
+                        {"post_url": post_data.get('url', 'Unknown'), "post_index": i+1}
+                    )
+                    continue
+            
+            # End session logging
+            session_info = self.output_logger.log_session_end(
+                session_info, len(extracted_posts), len(extracted_posts) > 0
+            )
+            
+            # Create standardized result
+            result = {
+                "phase": 5,
+                "search_type": "location",
+                "search_target": location,
+                "extraction_time": time.strftime("%Y-%m-%d %H:%M:%S"),
+                "session_id": self.output_logger.get_session_id(),
+                "total_posts_found": len(post_links),
+                "posts_extracted": len(extracted_posts),
+                "requested_posts": post_count,
+                "requested_comments_per_post": comment_count,
+                "search_algorithm": "location_based",
+                "results": extracted_posts,
+                "session_info": session_info
+            }
+            
+            self.logger.info(f"Location search completed: {len(extracted_posts)} posts extracted")
+            return result
+            
+        except Exception as e:
+            self.logger.error(f"Error in location search: {str(e)}")
+            self.output_logger.log_error("LocationSearchError", str(e), {"location": location})
+            return self._create_empty_search_result("location", location, str(e))
+    
+    def search_by_suspected_account(self, account_username: str, post_count: int = 10, comment_count: int = 5) -> Dict:
+        """
+        Phase 5: Search Instagram posts by suspected account.
+        
+        Args:
+            account_username: Username of suspected account
+            post_count: Number of posts to retrieve
+            comment_count: Number of comments per post
+            
+        Returns:
+            Dictionary with search results
+        """
+        try:
+            self.logger.info(f"=== Phase 5: Suspected Account Search ===")
+            self.logger.info(f"Searching posts from suspected account: {account_username}")
+            
+            # Initialize search components if not already done
+            if not self.suspected_account_searcher:
+                self.suspected_account_searcher = SuspectedAccountSearcher(self.scraper.driver, self.logger)
+            
+            # Start session logging
+            session_info = self.output_logger.log_session_start(
+                search_type="suspected_account",
+                search_target=account_username,
+                parameters={
+                    "post_count": post_count,
+                    "comment_count": comment_count,
+                    "account_username": account_username
+                }
+            )
+            
+            # Get account info first
+            account_info = self.suspected_account_searcher.get_account_info(account_username)
+            if not account_info:
+                self.logger.warning(f"Account not accessible: {account_username}")
+                return self._create_empty_search_result("suspected_account", account_username, "Account not accessible")
+            
+            self.output_logger.log_search_operation(
+                "Account Information Retrieved",
+                {"account": account_username, "accessible": account_info.get('is_accessible', False)}
+            )
+            
+            # Perform suspected account search
+            post_links = self.suspected_account_searcher.search_by_suspected_account(account_username, post_count)
+            
+            if not post_links:
+                self.logger.warning(f"No posts found for account: {account_username}")
+                return self._create_empty_search_result("suspected_account", account_username, "No posts found")
+            
+            self.logger.info(f"Found {len(post_links)} posts for account: {account_username}")
+            
+            # Extract detailed post data
+            extracted_posts = []
+            for i, post_data in enumerate(post_links):
+                try:
+                    self.logger.info(f"Extracting post {i+1}/{len(post_links)}: {post_data['url']}")
+                    
+                    # Navigate to post
+                    self.scraper.driver.get(post_data['url'])
+                    time.sleep(3)
+                    
+                    # Extract post details
+                    post_details = self.parser.extract_post_data(
+                        self.scraper.driver.page_source,
+                        post_data['url']
+                    )
+                    
+                    if post_details:
+                        # Clean and enhance the data
+                        cleaned_post = self.data_cleaner.clean_post_data(post_details)
+                        
+                        # Add search metadata
+                        cleaned_post.update({
+                            'search_type': 'suspected_account',
+                            'search_target': account_username,
+                            'found_via': post_data.get('found_via', 'profile_page'),
+                            'account_info': account_info
+                        })
+                        
+                        # Extract comments if requested
+                        if comment_count > 0:
+                            comments = self.parser.extract_comments(
+                                self.scraper.driver.page_source,
+                                comment_count
+                            )
+                            cleaned_post['comments'] = comments
+                        
+                        extracted_posts.append(cleaned_post)
+                        
+                        self.output_logger.log_post_extraction(
+                            post_data['url'],
+                            {"success": True, "quality_score": cleaned_post.get("quality_score", 0)}
+                        )
+                    else:
+                        self.logger.warning(f"Failed to extract data from post: {post_data['url']}")
+                        
+                except Exception as e:
+                    self.logger.error(f"Error extracting post {i+1}: {str(e)}")
+                    self.output_logger.log_error(
+                        "PostExtractionError",
+                        str(e),
+                        {"post_url": post_data.get('url', 'Unknown'), "post_index": i+1}
+                    )
+                    continue
+            
+            # End session logging
+            session_info = self.output_logger.log_session_end(
+                session_info, len(extracted_posts), len(extracted_posts) > 0
+            )
+            
+            # Create standardized result
+            result = {
+                "phase": 5,
+                "search_type": "suspected_account",
+                "search_target": account_username,
+                "extraction_time": time.strftime("%Y-%m-%d %H:%M:%S"),
+                "session_id": self.output_logger.get_session_id(),
+                "total_posts_found": len(post_links),
+                "posts_extracted": len(extracted_posts),
+                "requested_posts": post_count,
+                "requested_comments_per_post": comment_count,
+                "search_algorithm": "suspected_account_based",
+                "account_info": account_info,
+                "results": extracted_posts,
+                "session_info": session_info
+            }
+            
+            self.logger.info(f"Suspected account search completed: {len(extracted_posts)} posts extracted")
+            return result
+            
+        except Exception as e:
+            self.logger.error(f"Error in suspected account search: {str(e)}")
+            self.output_logger.log_error("SuspectedAccountSearchError", str(e), {"account": account_username})
+            return self._create_empty_search_result("suspected_account", account_username, str(e))
+    
+    def run_search_operation(self, search_type: str, search_target: str, post_count: int = 10, comment_count: int = 5) -> Dict:
+        """
+        Phase 5: Run search operation based on type.
+        
+        Args:
+            search_type: Either 'location' or 'suspected_account'
+            search_target: Location name or account username
+            post_count: Number of posts to retrieve
+            comment_count: Number of comments per post
+            
+        Returns:
+            Dictionary with search results
+        """
+        try:
+            if search_type == "location":
+                return self.search_by_location(search_target, post_count, comment_count)
+            elif search_type == "suspected_account":
+                return self.search_by_suspected_account(search_target, post_count, comment_count)
+            else:
+                raise ValueError(f"Invalid search type: {search_type}. Must be 'location' or 'suspected_account'")
+                
+        except Exception as e:
+            self.logger.error(f"Error in search operation: {str(e)}")
+            return self._create_empty_search_result(search_type, search_target, str(e))
+    
+    def _create_empty_search_result(self, search_type: str, search_target: str, error_message: str) -> Dict:
+        """Create an empty search result with error information."""
+        return {
+            "phase": 5,
+            "search_type": search_type,
+            "search_target": search_target,
+            "extraction_time": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "session_id": self.output_logger.get_session_id(),
+            "total_posts_found": 0,
+            "posts_extracted": 0,
+            "error": error_message,
+            "results": []
+        }
+    
+    def save_phase5_results(self, results: Dict) -> str:
+        """Save Phase 5 search results to JSON file."""
+        try:
+            timestamp = int(time.time())
+            search_type = results.get("search_type", "unknown")
+            search_target = results.get("search_target", "unknown")
+            
+            # Prepare results with enhanced metadata
+            output_data = {
+                "phase": 5,
+                "title": f"Search by {search_type.replace('_', ' ').title()}",
+                "timestamp": timestamp,
+                "search_type": search_type,
+                "search_target": search_target,
+                "scraping_results": results,
+                "status": "completed" if "error" not in results else "error",
+                "features": [
+                    "location_search" if search_type == "location" else "suspected_account_search",
+                    "enhanced_logging",
+                    "data_cleaning",
+                    "quality_scoring"
+                ]
+            }
+            
+            # Save main results
+            output_file = os.path.join("output", f"phase5_{search_type}_{search_target}_{timestamp}.json")
+            os.makedirs("output", exist_ok=True)
+            
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+            
+            # Also save in standard format for compatibility
+            latest_file = os.path.join("output", "phase5_latest_results.json")
+            with open(latest_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+            
+            self.logger.info(f"Phase 5 search results saved to {output_file}")
+            return output_file
+            
+        except Exception as e:
+            self.logger.error(f"Error saving Phase 5 results: {str(e)}")
+            return ""
+
     def cleanup(self):
         """Clean up resources."""
         try:
@@ -527,10 +905,10 @@ class InstagramProfileScraper:
 if __name__ == "__main__":
     # This allows the main module to be run directly for testing
     with InstagramProfileScraper() as scraper:
-        success = scraper.run_phase1_complete()
+        success = scraper.initialize()
         if success:
-            print("Phase 1 completed successfully!")
-            print("Ready to proceed to Phase 2: Profile Extraction")
+            print("Phase 5 initialized successfully!")
+            print("Ready for location or suspected account search")
         else:
-            print("Phase 1 failed. Please check the logs for details.")
+            print("Phase 5 initialization failed.")
             sys.exit(1)

@@ -1,0 +1,48 @@
+{
+  "phase": 5,
+  "title": "Search by Suspected Account",
+  "timestamp": 1750886867,
+  "search_type": "suspected_account",
+  "search_target": "malangraya_info",
+  "scraping_results": {
+    "phase": 5,
+    "search_type": "suspected_account",
+    "search_target": "malangraya_info",
+    "extraction_time": "2025-06-26 04:27:47",
+    "session_id": 1750886790,
+    "total_posts_found": 3,
+    "posts_extracted": 0,
+    "requested_posts": 3,
+    "requested_comments_per_post": 2,
+    "search_algorithm": "suspected_account_based",
+    "account_info": {
+      "username": "malangraya_info",
+      "profile_url": "https://www.instagram.com/malangraya_info/",
+      "is_accessible": true,
+      "full_name": "malangraya_info"
+    },
+    "results": [],
+    "session_info": {
+      "session_id": 1750886790,
+      "start_time": "2025-06-26T04:27:10.010465",
+      "search_type": "suspected_account",
+      "search_target": "malangraya_info",
+      "parameters": {
+        "post_count": 3,
+        "comment_count": 2,
+        "account_username": "malangraya_info"
+      },
+      "end_time": "2025-06-26T04:27:47.824927",
+      "duration_seconds": 77.82493543624878,
+      "results_count": 0,
+      "success": false
+    }
+  },
+  "status": "completed",
+  "features": [
+    "suspected_account_search",
+    "enhanced_logging",
+    "data_cleaning",
+    "quality_scoring"
+  ]
+}

@@ -33,7 +33,7 @@ class InstagramScraper:
         self.session_manager = SessionManager()
         self.rate_limiter = RateLimiter()
         self.logger = setup_logging()
-        self.wait_timeout = 10
+        self.wait_timeout = 15  # Increased from 10 to 15 seconds for longer waits
         
     def _setup_driver(self):
         """Set up Chrome WebDriver with appropriate options."""
@@ -44,8 +44,8 @@ class InstagramScraper:
             chrome_options.add_argument("--disable-gpu")
             chrome_options.add_argument("--window-size=1920,1080")
             
-            # DO NOT RUN HEADLESS - Keep GUI visible for Phase 2
-            # chrome_options.add_argument("--headless")  # Commented out to show GUI
+            # Enable headless mode for production testing
+            chrome_options.add_argument("--headless")  # Run in headless mode
             
             # Disable images to speed up loading
             prefs = {"profile.managed_default_content_settings.images": 2}
@@ -141,12 +141,19 @@ class InstagramScraper:
             self.logger.warning(f"Error handling popups: {str(e)}")
     
     def _check_login_success(self) -> bool:
-        """Check if login was successful."""
+        """Check if login was successful with extended wait times."""
         try:
-            # Wait a bit for page to load
-            time.sleep(3)
+            # Wait longer for page to load and process login
+            self.logger.info("Waiting for login page to fully load...")
+            time.sleep(5)  # Increased from 3 to 5 seconds
             
-            # Check for common indicators of successful login
+            # PRIMARY CHECK: If we're at the exact Instagram home URL, login is successful
+            current_url = self.driver.current_url
+            if current_url == "https://www.instagram.com/" or current_url == "https://www.instagram.com":
+                self.logger.info("Login success confirmed - at Instagram home page")
+                return True
+            
+            # Check for common indicators of successful login as secondary verification
             success_indicators = [
                 "//a[@href='/']",  # Home link
                 "//span[contains(text(), 'Search')]",  # Search text
@@ -158,7 +165,7 @@ class InstagramScraper:
                 try:
                     element = self.driver.find_element(By.XPATH, indicator)
                     if element:
-                        self.logger.info("Login success confirmed")
+                        self.logger.info("Login success confirmed via element detection")
                         return True
                 except:
                     continue
@@ -180,13 +187,44 @@ class InstagramScraper:
                 except:
                     continue
             
-            # If we can't find clear indicators, check URL
-            current_url = self.driver.current_url
+            # Check for failed login URLs
+            self.logger.info(f"Current URL: {current_url}")
+            
+            # If still on login page, login failed
             if "instagram.com/accounts/login" in current_url:
                 self.logger.warning("Still on login page, login may have failed")
                 return False
             
-            return True
+            # Check for auth platform code entry - indicates login failure or security challenge
+            if "instagram.com/auth_platform/codeentry" in current_url:
+                self.logger.error("Login failed - redirected to code entry page (security challenge)")
+                self.logger.error("This indicates account may be flagged or requires additional verification")
+                return False
+            
+            # Check for other suspicious login-related URLs
+            failed_login_patterns = [
+                "challenge",  # Instagram challenge pages
+                "two_factor",  # Two-factor authentication
+                "checkpoint",  # Security checkpoint
+                "suspend",  # Account suspended
+                "confirm",  # Email/phone confirmation
+            ]
+            
+            for pattern in failed_login_patterns:
+                if pattern in current_url.lower():
+                    self.logger.error(f"Login failed - suspicious URL detected: {current_url}")
+                    self.logger.error(f"Pattern '{pattern}' found in URL, indicating login issue")
+                    return False
+            
+            # If we reach here and are on instagram.com domain (but not login/error pages), 
+            # consider it a success even if we couldn't find specific indicators
+            if "instagram.com" in current_url and not any(pattern in current_url.lower() for pattern in ["login", "auth_platform", "challenge", "checkpoint"]):
+                self.logger.info(f"Login appears successful - on Instagram domain: {current_url}")
+                return True
+            
+            # Default to false if we couldn't determine success
+            self.logger.warning(f"Could not definitively determine login status. URL: {current_url}")
+            return False
             
         except Exception as e:
             self.logger.error(f"Error checking login success: {str(e)}")
@@ -214,7 +252,8 @@ class InstagramScraper:
             
             # Navigate to login page
             self.driver.get("https://www.instagram.com/accounts/login/")
-            time.sleep(3)
+            self.logger.info("Navigating to login page...")
+            time.sleep(5)  # Increased from 3 to 5 seconds to ensure page loads
             
             # Wait for and fill username
             username_input = self._wait_for_element(By.NAME, "username")
@@ -224,7 +263,7 @@ class InstagramScraper:
             
             username_input.clear()
             username_input.send_keys(username)
-            time.sleep(1)
+            time.sleep(2)  # Increased from 1 to 2 seconds
             
             # Wait for and fill password
             password_input = self._wait_for_element(By.NAME, "password")
@@ -234,7 +273,7 @@ class InstagramScraper:
             
             password_input.clear()
             password_input.send_keys(password)
-            time.sleep(1)
+            time.sleep(2)  # Increased from 1 to 2 seconds
             
             # Find and click submit button
             submit_button = self._wait_for_clickable(By.XPATH, "//button[@type='submit']")
@@ -258,20 +297,35 @@ class InstagramScraper:
             submit_button.click()
             self.logger.info("Login form submitted")
             
-            # Wait for login to process
-            time.sleep(5)
+            # Wait for login to process with longer timeout
+            self.logger.info("Waiting for login to process (extended timeout)...")
+            time.sleep(10)  # Increased from 5 to 10 seconds
             
             # Handle popups
             self._handle_login_popups()
             
-            # Check if login was successful
-            if self._check_login_success():
+            # Check if login was successful with retry logic
+            login_success = False
+            max_retries = 3
+            
+            for attempt in range(max_retries):
+                self.logger.info(f"Checking login success (attempt {attempt + 1}/{max_retries})")
+                
+                if self._check_login_success():
+                    login_success = True
+                    break
+                else:
+                    if attempt < max_retries - 1:  # Don't wait on last attempt
+                        self.logger.info(f"Login check failed, waiting longer before retry...")
+                        time.sleep(8)  # Wait 8 seconds before next check
+            
+            if login_success:
                 # Save session for future use
                 self.session_manager.save_session(self.driver, username)
                 self.logger.info(f"Successfully logged in with account: {username}")
                 return True
             else:
-                self.logger.error(f"Login failed for account: {username}")
+                self.logger.error(f"Login failed for account: {username} after {max_retries} attempts")
                 return False
                 
         except Exception as e:

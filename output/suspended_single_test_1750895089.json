@@ -1,0 +1,11 @@
+{
+  "phase": 5,
+  "search_type": "suspected_account",
+  "search_target": "suspended_user_test_123",
+  "extraction_time": "2025-06-26 06:44:49",
+  "session_id": 1750894410,
+  "total_posts_found": 0,
+  "posts_extracted": 0,
+  "error": "No posts found",
+  "results": []
+}

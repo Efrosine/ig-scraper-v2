@@ -1,0 +1,4 @@
+2025-06-26 04:26:07,761 - ERROR - [errors_1750886767] - TestError: This is a test error - /home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/testing/../core files/output_logger.py:156
+2025-06-26 04:26:07,761 - ERROR - [errors_1750886767] - Context: {
+  "context": "test"
+} - /home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/testing/../core files/output_logger.py:158

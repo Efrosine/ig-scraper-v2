@@ -1,0 +1,16 @@
+2025-06-26 04:26:07,756 - INFO - [detailed_1750886767] - === SESSION START ===
+2025-06-26 04:26:07,757 - INFO - [detailed_1750886767] - Session ID: 1750886767
+2025-06-26 04:26:07,757 - INFO - [detailed_1750886767] - Search Type: location
+2025-06-26 04:26:07,757 - INFO - [detailed_1750886767] - Search Target: Malang
+2025-06-26 04:26:07,758 - INFO - [detailed_1750886767] - Parameters: {
+  "post_count": 10,
+  "comment_count": 5
+}
+2025-06-26 04:26:07,759 - INFO - [detailed_1750886767] - === SESSION END ===
+2025-06-26 04:26:07,759 - INFO - [detailed_1750886767] - Session ID: 1750886767
+2025-06-26 04:26:07,759 - INFO - [detailed_1750886767] - End Time: 2025-06-26T04:26:07.759063
+2025-06-26 04:26:07,760 - INFO - [detailed_1750886767] - Duration: 0.76 seconds
+2025-06-26 04:26:07,760 - INFO - [detailed_1750886767] - Results Count: 5
+2025-06-26 04:26:07,761 - INFO - [detailed_1750886767] - Success: True
+2025-06-26 04:26:07,762 - ERROR - [detailed_1750886767] - ERROR - TestError: This is a test error
+2025-06-26 04:26:07,762 - DEBUG - [detailed_1750886767] - Performance - extraction_time: 5.5 seconds

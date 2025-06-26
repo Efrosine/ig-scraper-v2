@@ -1,0 +1,116 @@
+2025-06-26 04:29:52,968 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 5 ===
+2025-06-26 04:29:52,968 - ig_scraper - INFO - Initializing scraper with search capabilities...
+2025-06-26 04:29:52,968 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:29:52,968 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:29:52,968 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:29:52,968 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:29:52,968 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:29:55,892 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:29:55,892 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:29:55,892 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:29:55,892 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:29:55,892 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:29:55,893 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:29:55,893 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:29:55,893 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:29:55,893 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:29:55,893 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Login successful - initializing search components...
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:30:05,650 - ig_scraper - INFO - Verifying location search capability
+2025-06-26 04:30:26,121 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:30:26,121 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:30:26,121 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:30:26,121 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:30:26,121 - ig_scraper - WARNING - Location search capability not available
+2025-06-26 04:30:26,121 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:30:26,121 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:30:26,121 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:30:26,121 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:30:26,121 - ig_scraper - INFO - Verifying account search capability
+2025-06-26 04:30:32,370 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:30:32,370 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:30:32,370 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:30:32,370 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:30:32,370 - ig_scraper - INFO - Account search capability verified
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Phase 5 initialization completed successfully
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Location search available: False
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Account search available: True
+2025-06-26 04:30:32,371 - ig_scraper - INFO - === Phase 5: Location Search ===
+2025-06-26 04:30:32,371 - ig_scraper - INFO - === Phase 5: Location Search ===
+2025-06-26 04:30:32,371 - ig_scraper - INFO - === Phase 5: Location Search ===
+2025-06-26 04:30:32,371 - ig_scraper - INFO - === Phase 5: Location Search ===
+2025-06-26 04:30:32,371 - ig_scraper - INFO - === Phase 5: Location Search ===
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Searching for posts in location: Malang
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Searching for posts in location: Malang
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Searching for posts in location: Malang
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Searching for posts in location: Malang
+2025-06-26 04:30:32,371 - ig_scraper - INFO - Searching for posts in location: Malang
+2025-06-26 04:30:32,371 - INFO - [detailed_1750886992] - === SESSION START ===
+2025-06-26 04:30:32,371 - INFO - [detailed_1750886992] - Session ID: 1750886992
+2025-06-26 04:30:32,371 - INFO - [detailed_1750886992] - Search Type: location
+2025-06-26 04:30:32,372 - INFO - [detailed_1750886992] - Search Target: Malang
+2025-06-26 04:30:32,372 - INFO - [detailed_1750886992] - Parameters: {
+  "post_count": 3,
+  "comment_count": 2,
+  "location": "Malang"
+}
+2025-06-26 04:30:32,372 - INFO - [detailed_1750886992] - Search Operation: Location Search Initialization
+2025-06-26 04:30:32,372 - INFO - [detailed_1750886992] - Details: {
+  "location": "Malang",
+  "target_posts": 3
+}
+2025-06-26 04:30:32,372 - ig_scraper - INFO - Starting location-based search for: Malang
+2025-06-26 04:30:32,372 - ig_scraper - INFO - Starting location-based search for: Malang
+2025-06-26 04:30:32,372 - ig_scraper - INFO - Starting location-based search for: Malang
+2025-06-26 04:30:32,372 - ig_scraper - INFO - Starting location-based search for: Malang
+2025-06-26 04:30:32,372 - ig_scraper - INFO - Starting location-based search for: Malang
+2025-06-26 04:31:03,219 - ig_scraper - ERROR - Could not find search element
+2025-06-26 04:31:03,219 - ig_scraper - ERROR - Could not find search element
+2025-06-26 04:31:03,219 - ig_scraper - ERROR - Could not find search element
+2025-06-26 04:31:03,219 - ig_scraper - ERROR - Could not find search element
+2025-06-26 04:31:03,219 - ig_scraper - ERROR - Could not find search element
+2025-06-26 04:31:03,220 - ig_scraper - WARNING - No posts found for location: Malang
+2025-06-26 04:31:03,220 - ig_scraper - WARNING - No posts found for location: Malang
+2025-06-26 04:31:03,220 - ig_scraper - WARNING - No posts found for location: Malang
+2025-06-26 04:31:03,220 - ig_scraper - WARNING - No posts found for location: Malang
+2025-06-26 04:31:03,220 - ig_scraper - WARNING - No posts found for location: Malang
+2025-06-26 04:31:03,220 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_location_Malang_1750887063.json
+2025-06-26 04:31:03,220 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_location_Malang_1750887063.json
+2025-06-26 04:31:03,220 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_location_Malang_1750887063.json
+2025-06-26 04:31:03,220 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_location_Malang_1750887063.json
+2025-06-26 04:31:03,220 - ig_scraper - INFO - Phase 5 search results saved to output/phase5_location_Malang_1750887063.json
+2025-06-26 04:31:03,294 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:31:03,294 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:31:03,294 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:31:03,294 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:31:03,294 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:31:03,294 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 04:31:03,294 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 04:31:03,294 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 04:31:03,294 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 04:31:03,294 - ig_scraper - INFO - Scraper resources cleaned up

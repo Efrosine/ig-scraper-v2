@@ -1,0 +1,18 @@
+2025-06-26 04:50:00,902 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:50:00,902 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:50:01,768 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:50:01,768 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:50:01,768 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 04:50:01,768 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 04:50:11,503 - ig_scraper - INFO - Login form submitted
+2025-06-26 04:50:11,503 - ig_scraper - INFO - Login form submitted
+2025-06-26 04:50:19,702 - ig_scraper - INFO - Login success confirmed
+2025-06-26 04:50:19,702 - ig_scraper - INFO - Login success confirmed
+2025-06-26 04:50:19,706 - ig_scraper - INFO - Successfully logged in with account: eprosen2
+2025-06-26 04:50:19,706 - ig_scraper - INFO - Successfully logged in with account: eprosen2
+2025-06-26 04:50:25,419 - ig_scraper - INFO - Screenshot saved: output/backup_account_manual_test.png
+2025-06-26 04:50:25,419 - ig_scraper - INFO - Screenshot saved: output/backup_account_manual_test.png
+2025-06-26 04:50:25,423 - ig_scraper - ERROR - Location search test failed: cannot import name 'LocationSearch' from 'location_search' (/home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/other/../core files/location_search.py)
+2025-06-26 04:50:25,423 - ig_scraper - ERROR - Location search test failed: cannot import name 'LocationSearch' from 'location_search' (/home/bahrul_maghfiroh_4mzone/aiproject/ig-scraper-v2/other/../core files/location_search.py)
+2025-06-26 04:50:25,495 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:50:25,495 - ig_scraper - INFO - WebDriver closed successfully

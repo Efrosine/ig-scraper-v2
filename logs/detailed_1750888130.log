@@ -1,0 +1,14 @@
+2025-06-26 04:48:50,592 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:48:50,592 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 04:48:51,496 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:48:51,496 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 04:48:51,496 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:48:51,496 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 04:49:01,312 - ig_scraper - INFO - Login form submitted
+2025-06-26 04:49:01,312 - ig_scraper - INFO - Login form submitted
+2025-06-26 04:49:12,196 - ig_scraper - INFO - Successfully logged in with account: eprosine009
+2025-06-26 04:49:12,196 - ig_scraper - INFO - Successfully logged in with account: eprosine009
+2025-06-26 04:49:15,938 - ig_scraper - INFO - Screenshot saved: output/backup_account_login_test.png
+2025-06-26 04:49:15,938 - ig_scraper - INFO - Screenshot saved: output/backup_account_login_test.png
+2025-06-26 04:49:16,019 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 04:49:16,019 - ig_scraper - INFO - WebDriver closed successfully

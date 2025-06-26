@@ -1,0 +1,25 @@
+{
+  "phase": 5,
+  "title": "Search by Location",
+  "timestamp": 1750887063,
+  "search_type": "location",
+  "search_target": "Malang",
+  "scraping_results": {
+    "phase": 5,
+    "search_type": "location",
+    "search_target": "Malang",
+    "extraction_time": "2025-06-26 04:31:03",
+    "session_id": 1750886992,
+    "total_posts_found": 0,
+    "posts_extracted": 0,
+    "error": "No posts found",
+    "results": []
+  },
+  "status": "error",
+  "features": [
+    "location_search",
+    "enhanced_logging",
+    "data_cleaning",
+    "quality_scoring"
+  ]
+}
