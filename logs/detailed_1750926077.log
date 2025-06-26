@@ -1,0 +1,103 @@
+2025-06-26 15:21:17,950 - ig_scraper - INFO - === Starting Phase 3: Post Scraping ===
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Target: @malangraya_info
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Posts to extract: 1
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Comments per post: 1
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Step 1: Initializing scraper and login...
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Step 1: Initializing scraper and login...
+2025-06-26 15:21:17,950 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 15:21:17,950 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 15:21:17,950 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 15:21:18,901 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 15:21:18,901 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 15:21:18,901 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 15:21:18,901 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 15:21:18,901 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 15:21:18,901 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Login success confirmed
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Login success confirmed
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Login success confirmed
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Login successful, proceeding to post scraping...
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Login successful, proceeding to post scraping...
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Login successful, proceeding to post scraping...
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Step 3: Starting post scraping...
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Step 3: Starting post scraping...
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Step 3: Starting post scraping...
+2025-06-26 15:21:29,976 - ig_scraper - INFO - === Phase 3: Post Scraping ===
+2025-06-26 15:21:29,976 - ig_scraper - INFO - === Phase 3: Post Scraping ===
+2025-06-26 15:21:29,976 - ig_scraper - INFO - === Phase 3: Post Scraping ===
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Scraping posts from @malangraya_info
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Scraping posts from @malangraya_info
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Scraping posts from @malangraya_info
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Starting post scraping for @malangraya_info
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Starting post scraping for @malangraya_info
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Starting post scraping for @malangraya_info
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 15:21:29,976 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 15:21:32,017 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 15:21:32,017 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 15:21:32,017 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 15:21:32,017 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:21:32,017 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:21:32,017 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:21:32,017 - ig_scraper - INFO - Scrolling to load at least 1 posts
+2025-06-26 15:21:32,017 - ig_scraper - INFO - Scrolling to load at least 1 posts
+2025-06-26 15:21:32,017 - ig_scraper - INFO - Scrolling to load at least 1 posts
+2025-06-26 15:21:35,240 - ig_scraper - INFO - Scroll attempt 1, found 0 valid posts
+2025-06-26 15:21:35,240 - ig_scraper - INFO - Scroll attempt 1, found 0 valid posts
+2025-06-26 15:21:35,240 - ig_scraper - INFO - Scroll attempt 1, found 0 valid posts
+2025-06-26 15:21:35,492 - ig_scraper - INFO - Found 24 valid posts, sufficient for target 1
+2025-06-26 15:21:35,492 - ig_scraper - INFO - Found 24 valid posts, sufficient for target 1
+2025-06-26 15:21:35,492 - ig_scraper - INFO - Found 24 valid posts, sufficient for target 1
+2025-06-26 15:21:38,500 - ig_scraper - INFO - Strategy 1 found 46 elements
+2025-06-26 15:21:38,500 - ig_scraper - INFO - Strategy 1 found 46 elements
+2025-06-26 15:21:38,500 - ig_scraper - INFO - Strategy 1 found 46 elements
+2025-06-26 15:21:38,528 - ig_scraper - INFO - Extracted 1 unique post links
+2025-06-26 15:21:38,528 - ig_scraper - INFO - Extracted 1 unique post links
+2025-06-26 15:21:38,528 - ig_scraper - INFO - Extracted 1 unique post links
+2025-06-26 15:21:38,528 - ig_scraper - INFO - Found 1 post links
+2025-06-26 15:21:38,528 - ig_scraper - INFO - Found 1 post links
+2025-06-26 15:21:38,528 - ig_scraper - INFO - Found 1 post links
+2025-06-26 15:21:38,528 - ig_scraper - INFO - Scraping post 1/1: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 15:21:38,528 - ig_scraper - INFO - Scraping post 1/1: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 15:21:38,528 - ig_scraper - INFO - Scraping post 1/1: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 15:21:43,378 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926103.png
+2025-06-26 15:21:43,378 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926103.png
+2025-06-26 15:21:43,378 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926103.png
+2025-06-26 15:21:43,476 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:21:43,476 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:21:43,476 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:21:43,476 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:21:43,476 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:21:43,476 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:21:45,476 - ig_scraper - INFO - Successfully scraped 1 posts
+2025-06-26 15:21:45,476 - ig_scraper - INFO - Successfully scraped 1 posts
+2025-06-26 15:21:45,476 - ig_scraper - INFO - Successfully scraped 1 posts
+2025-06-26 15:21:45,477 - ig_scraper - INFO - Step 4: Saving Phase 3 results...
+2025-06-26 15:21:45,477 - ig_scraper - INFO - Step 4: Saving Phase 3 results...
+2025-06-26 15:21:45,477 - ig_scraper - INFO - Step 4: Saving Phase 3 results...
+2025-06-26 15:21:45,477 - ig_scraper - INFO - Phase 3 results saved to output/phase3_posts_malangraya_info_1750926105.json
+2025-06-26 15:21:45,477 - ig_scraper - INFO - Phase 3 results saved to output/phase3_posts_malangraya_info_1750926105.json
+2025-06-26 15:21:45,477 - ig_scraper - INFO - Phase 3 results saved to output/phase3_posts_malangraya_info_1750926105.json
+2025-06-26 15:21:45,478 - ig_scraper - INFO - === Phase 3 completed successfully ===
+2025-06-26 15:21:45,478 - ig_scraper - INFO - === Phase 3 completed successfully ===
+2025-06-26 15:21:45,478 - ig_scraper - INFO - === Phase 3 completed successfully ===
+2025-06-26 15:21:45,478 - ig_scraper - INFO - Phase 3 completed. Browser session will remain open for inspection.
+2025-06-26 15:21:45,478 - ig_scraper - INFO - Phase 3 completed. Browser session will remain open for inspection.
+2025-06-26 15:21:45,478 - ig_scraper - INFO - Phase 3 completed. Browser session will remain open for inspection.
+2025-06-26 15:22:00,081 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 15:22:00,081 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 15:22:00,081 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 15:22:00,081 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 15:22:00,081 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 15:22:00,081 - ig_scraper - INFO - Scraper resources cleaned up

@@ -56,12 +56,12 @@ class Phase3InstagramScraper:
             self.logger.info("Login successful, proceeding to post scraping...")
             
             # Step 2: Extract profile first (Phase 2 functionality)
-            self.logger.info("Step 2: Extracting profile information...")
-            profile_results = self.scraper.extract_profile(username)
-            if not profile_results.get("success", False):
-                self.logger.warning(f"Profile extraction failed, but continuing with post scraping...")
-            else:
-                self.logger.info("Profile extraction completed successfully")
+            # self.logger.info("Step 2: Extracting profile information...")
+            # profile_results = self.scraper.extract_profile(username)
+            # if not profile_results.get("success", False):
+            #     self.logger.warning(f"Profile extraction failed, but continuing with post scraping...")
+            # else:
+            #     self.logger.info("Profile extraction completed successfully")
             
             # Step 3: Scrape posts (Phase 3 core functionality)
             self.logger.info("Step 3: Starting post scraping...")

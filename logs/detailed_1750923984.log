@@ -1,0 +1,28 @@
+2025-06-26 14:46:24,690 - ig_scraper - INFO - === Starting Phase 3: Post Scraping ===
+2025-06-26 14:46:24,690 - ig_scraper - INFO - Target: @malangraya_info
+2025-06-26 14:46:24,690 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 14:46:24,690 - ig_scraper - INFO - Comments per post: 2
+2025-06-26 14:46:24,690 - ig_scraper - INFO - Step 1: Initializing scraper and login...
+2025-06-26 14:46:24,690 - ig_scraper - INFO - Step 1: Initializing scraper and login...
+2025-06-26 14:46:24,690 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 14:46:24,690 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 14:46:24,690 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 14:46:24,690 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 14:46:24,691 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 14:46:24,691 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 14:46:24,691 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 14:46:27,858 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 14:46:27,858 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 14:46:27,858 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 14:46:27,858 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 14:46:27,858 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 14:46:27,858 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 14:46:37,751 - ig_scraper - INFO - Phase 3 completed. Browser session will remain open for inspection.
+2025-06-26 14:46:37,751 - ig_scraper - INFO - Phase 3 completed. Browser session will remain open for inspection.
+2025-06-26 14:46:37,751 - ig_scraper - INFO - Phase 3 completed. Browser session will remain open for inspection.
+2025-06-26 14:46:38,776 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 14:46:38,776 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 14:46:38,776 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 14:46:38,776 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 14:46:38,776 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 14:46:38,776 - ig_scraper - INFO - Scraper resources cleaned up

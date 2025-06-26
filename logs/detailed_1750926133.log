@@ -1,0 +1,325 @@
+2025-06-26 15:22:13,959 - ig_scraper - INFO - === Starting Phase 3: Post Scraping ===
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Target: @malangraya_info
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Posts to extract: 20
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Comments per post: 10
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Step 1: Initializing scraper and login...
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Step 1: Initializing scraper and login...
+2025-06-26 15:22:13,959 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 15:22:13,959 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 15:22:13,959 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 15:22:14,918 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 15:22:14,918 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 15:22:14,918 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 15:22:14,918 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 15:22:14,918 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 15:22:14,918 - ig_scraper - INFO - Attempting login with account: eprosen2
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Login success confirmed
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Login success confirmed
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Login success confirmed
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Successfully loaded existing session for: eprosen2
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Login successful, proceeding to post scraping...
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Login successful, proceeding to post scraping...
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Login successful, proceeding to post scraping...
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Step 3: Starting post scraping...
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Step 3: Starting post scraping...
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Step 3: Starting post scraping...
+2025-06-26 15:22:25,438 - ig_scraper - INFO - === Phase 3: Post Scraping ===
+2025-06-26 15:22:25,438 - ig_scraper - INFO - === Phase 3: Post Scraping ===
+2025-06-26 15:22:25,438 - ig_scraper - INFO - === Phase 3: Post Scraping ===
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Scraping posts from @malangraya_info
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Scraping posts from @malangraya_info
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Scraping posts from @malangraya_info
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Starting post scraping for @malangraya_info
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Starting post scraping for @malangraya_info
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Starting post scraping for @malangraya_info
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 15:22:25,438 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 15:22:27,755 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 15:22:27,755 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 15:22:27,755 - ig_scraper - INFO - Successfully navigated to profile: @malangraya_info
+2025-06-26 15:22:27,755 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:22:27,755 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:22:27,755 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 15:22:27,755 - ig_scraper - INFO - Scrolling to load at least 20 posts
+2025-06-26 15:22:27,755 - ig_scraper - INFO - Scrolling to load at least 20 posts
+2025-06-26 15:22:27,755 - ig_scraper - INFO - Scrolling to load at least 20 posts
+2025-06-26 15:22:30,971 - ig_scraper - INFO - Scroll attempt 1, found 12 valid posts
+2025-06-26 15:22:30,971 - ig_scraper - INFO - Scroll attempt 1, found 12 valid posts
+2025-06-26 15:22:30,971 - ig_scraper - INFO - Scroll attempt 1, found 12 valid posts
+2025-06-26 15:22:31,224 - ig_scraper - INFO - Found 24 valid posts, sufficient for target 20
+2025-06-26 15:22:31,224 - ig_scraper - INFO - Found 24 valid posts, sufficient for target 20
+2025-06-26 15:22:31,224 - ig_scraper - INFO - Found 24 valid posts, sufficient for target 20
+2025-06-26 15:22:34,234 - ig_scraper - INFO - Strategy 1 found 46 elements
+2025-06-26 15:22:34,234 - ig_scraper - INFO - Strategy 1 found 46 elements
+2025-06-26 15:22:34,234 - ig_scraper - INFO - Strategy 1 found 46 elements
+2025-06-26 15:22:34,361 - ig_scraper - INFO - Extracted 20 unique post links
+2025-06-26 15:22:34,361 - ig_scraper - INFO - Extracted 20 unique post links
+2025-06-26 15:22:34,361 - ig_scraper - INFO - Extracted 20 unique post links
+2025-06-26 15:22:34,361 - ig_scraper - INFO - Found 20 post links
+2025-06-26 15:22:34,361 - ig_scraper - INFO - Found 20 post links
+2025-06-26 15:22:34,361 - ig_scraper - INFO - Found 20 post links
+2025-06-26 15:22:34,361 - ig_scraper - INFO - Scraping post 1/20: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 15:22:34,361 - ig_scraper - INFO - Scraping post 1/20: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 15:22:34,361 - ig_scraper - INFO - Scraping post 1/20: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 15:22:41,176 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926161.png
+2025-06-26 15:22:41,176 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926161.png
+2025-06-26 15:22:41,176 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926161.png
+2025-06-26 15:22:41,325 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:22:41,325 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:22:41,325 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:22:41,326 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:22:41,326 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:22:41,326 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:22:43,326 - ig_scraper - INFO - Scraping post 2/20: https://www.instagram.com/malangngopi/reel/DLW0-BJPfyC/
+2025-06-26 15:22:43,326 - ig_scraper - INFO - Scraping post 2/20: https://www.instagram.com/malangngopi/reel/DLW0-BJPfyC/
+2025-06-26 15:22:43,326 - ig_scraper - INFO - Scraping post 2/20: https://www.instagram.com/malangngopi/reel/DLW0-BJPfyC/
+2025-06-26 15:22:47,493 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926167.png
+2025-06-26 15:22:47,493 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926167.png
+2025-06-26 15:22:47,493 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926167.png
+2025-06-26 15:22:47,580 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:22:47,580 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:22:47,580 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:22:47,580 - ig_scraper - INFO - Successfully scraped post: malangngopi
+2025-06-26 15:22:47,580 - ig_scraper - INFO - Successfully scraped post: malangngopi
+2025-06-26 15:22:47,580 - ig_scraper - INFO - Successfully scraped post: malangngopi
+2025-06-26 15:22:49,580 - ig_scraper - INFO - Scraping post 3/20: https://www.instagram.com/malangraya_info/reel/DLWiPzYhhYY/
+2025-06-26 15:22:49,580 - ig_scraper - INFO - Scraping post 3/20: https://www.instagram.com/malangraya_info/reel/DLWiPzYhhYY/
+2025-06-26 15:22:49,580 - ig_scraper - INFO - Scraping post 3/20: https://www.instagram.com/malangraya_info/reel/DLWiPzYhhYY/
+2025-06-26 15:22:54,158 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926174.png
+2025-06-26 15:22:54,158 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926174.png
+2025-06-26 15:22:54,158 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926174.png
+2025-06-26 15:22:54,340 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:22:54,340 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:22:54,340 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:22:54,340 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:22:54,340 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:22:54,340 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:22:56,341 - ig_scraper - INFO - Scraping post 4/20: https://www.instagram.com/kuliner.malangraya/reel/DLWgeIoP-pk/
+2025-06-26 15:22:56,341 - ig_scraper - INFO - Scraping post 4/20: https://www.instagram.com/kuliner.malangraya/reel/DLWgeIoP-pk/
+2025-06-26 15:22:56,341 - ig_scraper - INFO - Scraping post 4/20: https://www.instagram.com/kuliner.malangraya/reel/DLWgeIoP-pk/
+2025-06-26 15:23:01,036 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926180.png
+2025-06-26 15:23:01,036 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926180.png
+2025-06-26 15:23:01,036 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926180.png
+2025-06-26 15:23:01,143 - ig_scraper - INFO - Extracted 5 comments
+2025-06-26 15:23:01,143 - ig_scraper - INFO - Extracted 5 comments
+2025-06-26 15:23:01,143 - ig_scraper - INFO - Extracted 5 comments
+2025-06-26 15:23:01,143 - ig_scraper - INFO - Successfully scraped post: kuliner.malangraya
+2025-06-26 15:23:01,143 - ig_scraper - INFO - Successfully scraped post: kuliner.malangraya
+2025-06-26 15:23:01,143 - ig_scraper - INFO - Successfully scraped post: kuliner.malangraya
+2025-06-26 15:23:03,144 - ig_scraper - INFO - Scraping post 5/20: https://www.instagram.com/malangraya_info/reel/DLWcO03Sn49/
+2025-06-26 15:23:03,144 - ig_scraper - INFO - Scraping post 5/20: https://www.instagram.com/malangraya_info/reel/DLWcO03Sn49/
+2025-06-26 15:23:03,144 - ig_scraper - INFO - Scraping post 5/20: https://www.instagram.com/malangraya_info/reel/DLWcO03Sn49/
+2025-06-26 15:23:07,838 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926187.png
+2025-06-26 15:23:07,838 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926187.png
+2025-06-26 15:23:07,838 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926187.png
+2025-06-26 15:23:07,915 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:23:07,915 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:23:07,915 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:23:07,916 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:23:07,916 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:23:07,916 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:23:09,916 - ig_scraper - INFO - Scraping post 6/20: https://www.instagram.com/malangraya_info/p/DLWTe5XBACH/
+2025-06-26 15:23:09,916 - ig_scraper - INFO - Scraping post 6/20: https://www.instagram.com/malangraya_info/p/DLWTe5XBACH/
+2025-06-26 15:23:09,916 - ig_scraper - INFO - Scraping post 6/20: https://www.instagram.com/malangraya_info/p/DLWTe5XBACH/
+2025-06-26 15:23:14,767 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926194.png
+2025-06-26 15:23:14,767 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926194.png
+2025-06-26 15:23:14,767 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926194.png
+2025-06-26 15:23:14,902 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:23:14,902 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:23:14,902 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:23:14,902 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:23:14,902 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:23:14,902 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:23:16,902 - ig_scraper - INFO - Scraping post 7/20: https://www.instagram.com/malangraya_info/reel/DLWME56S2Rj/
+2025-06-26 15:23:16,902 - ig_scraper - INFO - Scraping post 7/20: https://www.instagram.com/malangraya_info/reel/DLWME56S2Rj/
+2025-06-26 15:23:16,902 - ig_scraper - INFO - Scraping post 7/20: https://www.instagram.com/malangraya_info/reel/DLWME56S2Rj/
+2025-06-26 15:23:50,807 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926230.png
+2025-06-26 15:23:50,807 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926230.png
+2025-06-26 15:23:50,807 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926230.png
+2025-06-26 15:23:50,922 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:23:50,922 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:23:50,922 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:23:50,922 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:23:50,922 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:23:50,922 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:23:52,922 - ig_scraper - INFO - Scraping post 8/20: https://www.instagram.com/event.malangraya/p/DLWKEdBvMzz/
+2025-06-26 15:23:52,922 - ig_scraper - INFO - Scraping post 8/20: https://www.instagram.com/event.malangraya/p/DLWKEdBvMzz/
+2025-06-26 15:23:52,922 - ig_scraper - INFO - Scraping post 8/20: https://www.instagram.com/event.malangraya/p/DLWKEdBvMzz/
+2025-06-26 15:23:57,216 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926237.png
+2025-06-26 15:23:57,216 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926237.png
+2025-06-26 15:23:57,216 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926237.png
+2025-06-26 15:23:57,358 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:23:57,358 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:23:57,358 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:23:57,358 - ig_scraper - INFO - Successfully scraped post: event.malangraya
+2025-06-26 15:23:57,358 - ig_scraper - INFO - Successfully scraped post: event.malangraya
+2025-06-26 15:23:57,358 - ig_scraper - INFO - Successfully scraped post: event.malangraya
+2025-06-26 15:23:59,358 - ig_scraper - INFO - Scraping post 9/20: https://www.instagram.com/aremamedia/p/DLWHB85TZGa/
+2025-06-26 15:23:59,358 - ig_scraper - INFO - Scraping post 9/20: https://www.instagram.com/aremamedia/p/DLWHB85TZGa/
+2025-06-26 15:23:59,358 - ig_scraper - INFO - Scraping post 9/20: https://www.instagram.com/aremamedia/p/DLWHB85TZGa/
+2025-06-26 15:24:04,443 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926244.png
+2025-06-26 15:24:04,443 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926244.png
+2025-06-26 15:24:04,443 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926244.png
+2025-06-26 15:24:04,559 - ig_scraper - INFO - Extracted 8 comments
+2025-06-26 15:24:04,559 - ig_scraper - INFO - Extracted 8 comments
+2025-06-26 15:24:04,559 - ig_scraper - INFO - Extracted 8 comments
+2025-06-26 15:24:04,559 - ig_scraper - INFO - Successfully scraped post: aremamedia
+2025-06-26 15:24:04,559 - ig_scraper - INFO - Successfully scraped post: aremamedia
+2025-06-26 15:24:04,559 - ig_scraper - INFO - Successfully scraped post: aremamedia
+2025-06-26 15:24:06,559 - ig_scraper - INFO - Scraping post 10/20: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 15:24:06,559 - ig_scraper - INFO - Scraping post 10/20: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 15:24:06,559 - ig_scraper - INFO - Scraping post 10/20: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 15:24:11,364 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926251.png
+2025-06-26 15:24:11,364 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926251.png
+2025-06-26 15:24:11,364 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926251.png
+2025-06-26 15:24:11,521 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:11,521 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:11,521 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:11,521 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:11,521 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:11,521 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:13,521 - ig_scraper - INFO - Scraping post 11/20: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 15:24:13,521 - ig_scraper - INFO - Scraping post 11/20: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 15:24:13,521 - ig_scraper - INFO - Scraping post 11/20: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 15:24:18,805 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926258.png
+2025-06-26 15:24:18,805 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926258.png
+2025-06-26 15:24:18,805 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926258.png
+2025-06-26 15:24:18,924 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:18,924 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:18,924 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:18,924 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:18,924 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:18,924 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:20,925 - ig_scraper - INFO - Scraping post 12/20: https://www.instagram.com/aremamedia/p/DLVEGQ-TOAu/
+2025-06-26 15:24:20,925 - ig_scraper - INFO - Scraping post 12/20: https://www.instagram.com/aremamedia/p/DLVEGQ-TOAu/
+2025-06-26 15:24:20,925 - ig_scraper - INFO - Scraping post 12/20: https://www.instagram.com/aremamedia/p/DLVEGQ-TOAu/
+2025-06-26 15:24:25,185 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926265.png
+2025-06-26 15:24:25,185 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926265.png
+2025-06-26 15:24:25,185 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926265.png
+2025-06-26 15:24:25,385 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:25,385 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:25,385 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:25,385 - ig_scraper - INFO - Successfully scraped post: aremamedia
+2025-06-26 15:24:25,385 - ig_scraper - INFO - Successfully scraped post: aremamedia
+2025-06-26 15:24:25,385 - ig_scraper - INFO - Successfully scraped post: aremamedia
+2025-06-26 15:24:27,385 - ig_scraper - INFO - Scraping post 13/20: https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/
+2025-06-26 15:24:27,385 - ig_scraper - INFO - Scraping post 13/20: https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/
+2025-06-26 15:24:27,385 - ig_scraper - INFO - Scraping post 13/20: https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/
+2025-06-26 15:24:32,116 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926272.png
+2025-06-26 15:24:32,116 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926272.png
+2025-06-26 15:24:32,116 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926272.png
+2025-06-26 15:24:32,332 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:32,332 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:32,332 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:32,332 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:32,332 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:32,332 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:34,333 - ig_scraper - INFO - Scraping post 14/20: https://www.instagram.com/malangraya_info/reel/DLU4qr9S9F5/
+2025-06-26 15:24:34,333 - ig_scraper - INFO - Scraping post 14/20: https://www.instagram.com/malangraya_info/reel/DLU4qr9S9F5/
+2025-06-26 15:24:34,333 - ig_scraper - INFO - Scraping post 14/20: https://www.instagram.com/malangraya_info/reel/DLU4qr9S9F5/
+2025-06-26 15:24:40,339 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926280.png
+2025-06-26 15:24:40,339 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926280.png
+2025-06-26 15:24:40,339 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926280.png
+2025-06-26 15:24:40,472 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:24:40,472 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:24:40,472 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 15:24:40,473 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:40,473 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:40,473 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:42,473 - ig_scraper - INFO - Scraping post 15/20: https://www.instagram.com/malangraya_info/reel/DLU4JniSp6v/
+2025-06-26 15:24:42,473 - ig_scraper - INFO - Scraping post 15/20: https://www.instagram.com/malangraya_info/reel/DLU4JniSp6v/
+2025-06-26 15:24:42,473 - ig_scraper - INFO - Scraping post 15/20: https://www.instagram.com/malangraya_info/reel/DLU4JniSp6v/
+2025-06-26 15:24:48,156 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926288.png
+2025-06-26 15:24:48,156 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926288.png
+2025-06-26 15:24:48,156 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926288.png
+2025-06-26 15:24:48,287 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:48,287 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:48,287 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:48,287 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:48,287 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:48,287 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:50,288 - ig_scraper - INFO - Scraping post 16/20: https://www.instagram.com/malangraya_info/reel/DLUyKbuSVqo/
+2025-06-26 15:24:50,288 - ig_scraper - INFO - Scraping post 16/20: https://www.instagram.com/malangraya_info/reel/DLUyKbuSVqo/
+2025-06-26 15:24:50,288 - ig_scraper - INFO - Scraping post 16/20: https://www.instagram.com/malangraya_info/reel/DLUyKbuSVqo/
+2025-06-26 15:24:55,518 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926295.png
+2025-06-26 15:24:55,518 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926295.png
+2025-06-26 15:24:55,518 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926295.png
+2025-06-26 15:24:55,653 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:55,653 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:55,653 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:24:55,653 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:55,653 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:55,653 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:24:57,654 - ig_scraper - INFO - Scraping post 17/20: https://www.instagram.com/malangraya_info/p/DLUvFaSysCl/
+2025-06-26 15:24:57,654 - ig_scraper - INFO - Scraping post 17/20: https://www.instagram.com/malangraya_info/p/DLUvFaSysCl/
+2025-06-26 15:24:57,654 - ig_scraper - INFO - Scraping post 17/20: https://www.instagram.com/malangraya_info/p/DLUvFaSysCl/
+2025-06-26 15:25:01,972 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926301.png
+2025-06-26 15:25:01,972 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926301.png
+2025-06-26 15:25:01,972 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926301.png
+2025-06-26 15:25:02,102 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:25:02,102 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:25:02,102 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:25:02,102 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:25:02,102 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:25:02,102 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:25:04,102 - ig_scraper - INFO - Scraping post 18/20: https://www.instagram.com/malangraya_info/p/DLUs6lkB3WE/
+2025-06-26 15:25:04,102 - ig_scraper - INFO - Scraping post 18/20: https://www.instagram.com/malangraya_info/p/DLUs6lkB3WE/
+2025-06-26 15:25:04,102 - ig_scraper - INFO - Scraping post 18/20: https://www.instagram.com/malangraya_info/p/DLUs6lkB3WE/
+2025-06-26 15:25:08,369 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926308.png
+2025-06-26 15:25:08,369 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926308.png
+2025-06-26 15:25:08,369 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926308.png
+2025-06-26 15:25:08,534 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:25:08,534 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:25:08,534 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:25:08,534 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:25:08,534 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:25:08,534 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:25:10,534 - ig_scraper - INFO - Scraping post 19/20: https://www.instagram.com/juanadrian__/reel/DLUlzmDBL51/
+2025-06-26 15:25:10,534 - ig_scraper - INFO - Scraping post 19/20: https://www.instagram.com/juanadrian__/reel/DLUlzmDBL51/
+2025-06-26 15:25:10,534 - ig_scraper - INFO - Scraping post 19/20: https://www.instagram.com/juanadrian__/reel/DLUlzmDBL51/
+2025-06-26 15:25:14,956 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926314.png
+2025-06-26 15:25:14,956 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926314.png
+2025-06-26 15:25:14,956 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926314.png
+2025-06-26 15:25:15,109 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:25:15,109 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:25:15,109 - ig_scraper - INFO - Extracted 10 comments
+2025-06-26 15:25:15,109 - ig_scraper - INFO - Successfully scraped post: juanadrian__
+2025-06-26 15:25:15,109 - ig_scraper - INFO - Successfully scraped post: juanadrian__
+2025-06-26 15:25:15,109 - ig_scraper - INFO - Successfully scraped post: juanadrian__
+2025-06-26 15:25:17,110 - ig_scraper - INFO - Scraping post 20/20: https://www.instagram.com/malangraya_info/reel/DLUktmBSQCz/
+2025-06-26 15:25:17,110 - ig_scraper - INFO - Scraping post 20/20: https://www.instagram.com/malangraya_info/reel/DLUktmBSQCz/
+2025-06-26 15:25:17,110 - ig_scraper - INFO - Scraping post 20/20: https://www.instagram.com/malangraya_info/reel/DLUktmBSQCz/
+2025-06-26 15:25:22,135 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926322.png
+2025-06-26 15:25:22,135 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926322.png
+2025-06-26 15:25:22,135 - ig_scraper - INFO - Screenshot saved: output/post_scraping_1750926322.png
+2025-06-26 15:25:22,222 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:25:22,222 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:25:22,222 - ig_scraper - INFO - Extracted 1 comments
+2025-06-26 15:25:22,222 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:25:22,222 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:25:22,222 - ig_scraper - INFO - Successfully scraped post: malangraya_info
+2025-06-26 15:25:24,223 - ig_scraper - INFO - Successfully scraped 20 posts
+2025-06-26 15:25:24,223 - ig_scraper - INFO - Successfully scraped 20 posts
+2025-06-26 15:25:24,223 - ig_scraper - INFO - Successfully scraped 20 posts
+2025-06-26 15:25:24,223 - ig_scraper - INFO - Step 4: Saving Phase 3 results...
+2025-06-26 15:25:24,223 - ig_scraper - INFO - Step 4: Saving Phase 3 results...
+2025-06-26 15:25:24,223 - ig_scraper - INFO - Step 4: Saving Phase 3 results...
+2025-06-26 15:25:24,224 - ig_scraper - INFO - Phase 3 results saved to output/phase3_posts_malangraya_info_1750926324.json
+2025-06-26 15:25:24,224 - ig_scraper - INFO - Phase 3 results saved to output/phase3_posts_malangraya_info_1750926324.json
+2025-06-26 15:25:24,224 - ig_scraper - INFO - Phase 3 results saved to output/phase3_posts_malangraya_info_1750926324.json
+2025-06-26 15:25:24,224 - ig_scraper - INFO - === Phase 3 completed successfully ===
+2025-06-26 15:25:24,224 - ig_scraper - INFO - === Phase 3 completed successfully ===
+2025-06-26 15:25:24,224 - ig_scraper - INFO - === Phase 3 completed successfully ===
+2025-06-26 15:25:24,224 - ig_scraper - INFO - Phase 3 completed. Browser session will remain open for inspection.
+2025-06-26 15:25:24,224 - ig_scraper - INFO - Phase 3 completed. Browser session will remain open for inspection.
+2025-06-26 15:25:24,224 - ig_scraper - INFO - Phase 3 completed. Browser session will remain open for inspection.

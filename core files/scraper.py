@@ -41,15 +41,14 @@ class InstagramScraper:
             chrome_options = Options()
             chrome_options.add_argument("--no-sandbox")
             chrome_options.add_argument("--disable-dev-shm-usage")
-            chrome_options.add_argument("--disable-gpu")
-            chrome_options.add_argument("--window-size=1920,1080")
+            chrome_options.add_argument("--window-size=1280,720")
             
             # DO NOT RUN HEADLESS - Keep GUI visible for Phase 2
             # chrome_options.add_argument("--headless")  # Commented out to show GUI
             
             # Disable images to speed up loading
-            prefs = {"profile.managed_default_content_settings.images": 2}
-            chrome_options.add_experimental_option("prefs", prefs)
+            # prefs = {"profile.managed_default_content_settings.images": 2}
+            # chrome_options.add_experimental_option("prefs", prefs)
             
             # User agent to avoid detection
             chrome_options.add_argument(
@@ -587,25 +586,69 @@ class InstagramScraper:
             return {"error": str(e), "results": []}
     
     def _get_post_links(self, max_posts: int) -> List[str]:
-        """Extract post links from the profile page."""
+        """Extract post links from the profile page using multiple strategies."""
         try:
             # Wait for posts to load
             time.sleep(3)
             
-            # Find post links
+            post_links = []
+            
+            # Strategy 1: Use specific Instagram classes with role="link"
             post_elements = self.driver.find_elements(
                 By.CSS_SELECTOR, 
-                "article a[href*='/p/'], article a[href*='/reel/']"
+                "a.x1i10hfl.xjbqb8w.x1ejq31n[role='link']"
             )
+            self.logger.info(f"Strategy 1 found {len(post_elements)} elements")
             
-            post_links = []
-            for element in post_elements[:max_posts]:
-                href = element.get_attribute('href')
-                if href and (('/p/' in href) or ('/reel/' in href)):
-                    post_links.append(href)
+            # Strategy 2: Use broader class selector if first strategy fails
+            if not post_elements:
+                self.logger.info("Strategy 1 failed, trying Strategy 2")
+                post_elements = self.driver.find_elements(
+                    By.CSS_SELECTOR, 
+                    "a.x1i10hfl.xjbqb8w.x1ejq31n"
+                )
+                self.logger.info(f"Strategy 2 found {len(post_elements)} elements")
             
-            self.logger.info(f"Extracted {len(post_links)} post links")
-            return post_links
+            # Strategy 3: Fallback to original selector
+            if not post_elements:
+                self.logger.info("Strategy 2 failed, trying fallback selector")
+                post_elements = self.driver.find_elements(
+                    By.CSS_SELECTOR, 
+                    "article a[href*='/p/'], article a[href*='/reel/']"
+                )
+                self.logger.info(f"Strategy 3 found {len(post_elements)} elements")
+            
+            # Extract and validate hrefs
+            for element in post_elements:
+                try:
+                    href = element.get_attribute('href')
+                    if href:
+                        # Convert relative URLs to absolute URLs
+                        if href.startswith('/'):
+                            href = f"https://www.instagram.com{href}"
+                        
+                        # Validate that it's a post or reel URL
+                        if (('/p/' in href) or ('/reel/' in href)) and 'instagram.com' in href:
+                            post_links.append(href)
+                            
+                            # Stop when we have enough links
+                            if len(post_links) >= max_posts:
+                                break
+                                
+                except Exception as e:
+                    self.logger.warning(f"Error processing element: {str(e)}")
+                    continue
+            
+            # Remove duplicates while preserving order
+            seen = set()
+            unique_post_links = []
+            for link in post_links:
+                if link not in seen:
+                    seen.add(link)
+                    unique_post_links.append(link)
+            
+            self.logger.info(f"Extracted {len(unique_post_links)} unique post links")
+            return unique_post_links[:max_posts]
             
         except Exception as e:
             self.logger.error(f"Error getting post links: {str(e)}")
@@ -759,7 +802,7 @@ class InstagramScraper:
             return {}
 
     def _scroll_to_load_posts(self, target_count: int):
-        """Scroll to load enough posts for scraping."""
+        """Scroll to load enough posts for scraping using multi-strategy approach."""
         try:
             self.logger.info(f"Scrolling to load at least {target_count} posts")
             
@@ -768,19 +811,48 @@ class InstagramScraper:
             max_scrolls = 10
             
             while scroll_attempts < max_scrolls:
-                # Check current post count
+                # Check current post count using multiple strategies
+                posts = []
+                
+                # Strategy 1: Specific Instagram classes with role
                 posts = self.driver.find_elements(
                     By.CSS_SELECTOR, 
-                    "article a[href*='/p/'], article a[href*='/reel/']"
+                    "a.x1i10hfl.xjbqb8w.x1ejq31n[role='link']"
                 )
                 
-                if len(posts) >= target_count:
-                    self.logger.info(f"Found {len(posts)} posts, sufficient for target {target_count}")
+                # Strategy 2: Broader class selector
+                if not posts:
+                    posts = self.driver.find_elements(
+                        By.CSS_SELECTOR, 
+                        "a.x1i10hfl.xjbqb8w.x1ejq31n"
+                    )
+                
+                # Strategy 3: Fallback to original selector
+                if not posts:
+                    posts = self.driver.find_elements(
+                        By.CSS_SELECTOR, 
+                        "article a[href*='/p/'], article a[href*='/reel/']"
+                    )
+                
+                # Filter valid post links
+                valid_posts = []
+                for post in posts:
+                    try:
+                        href = post.get_attribute('href')
+                        if href and (('/p/' in href) or ('/reel/' in href)):
+                            valid_posts.append(post)
+                    except:
+                        continue
+                
+                current_post_count = len(valid_posts)
+                
+                if current_post_count >= target_count:
+                    self.logger.info(f"Found {current_post_count} valid posts, sufficient for target {target_count}")
                     break
                 
                 # Scroll down
                 self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                time.sleep(3)
+                time.sleep(3)  # Reduced wait time for faster scrolling
                 
                 # Check if we've reached the bottom
                 new_height = self.driver.execute_script("return document.body.scrollHeight")
@@ -791,7 +863,7 @@ class InstagramScraper:
                 last_height = new_height
                 scroll_attempts += 1
                 
-                self.logger.info(f"Scroll attempt {scroll_attempts}, found {len(posts)} posts")
+                self.logger.info(f"Scroll attempt {scroll_attempts}, found {current_post_count} valid posts")
             
         except Exception as e:
             self.logger.error(f"Error during post loading scroll: {str(e)}")

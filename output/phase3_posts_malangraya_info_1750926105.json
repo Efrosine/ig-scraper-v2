@@ -1,0 +1,30 @@
+{
+  "phase": 3,
+  "title": "Post Scraping",
+  "timestamp": 1750926105,
+  "target_username": "malangraya_info",
+  "scraping_results": {
+    "results": [
+      {
+        "usernamePost": "malangraya_info",
+        "urlPost": "https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/",
+        "releaseDate": "2025-04-02T07:12:19.000Z",
+        "caption": "malangraya_info",
+        "comments": {
+          "0": "10 tahun yg lalu Kotaku Malang tidak sperti ini😢, knapa skarang dimana2 jika hujan slalu banjir? 🤷‍♀️. Ini salah siapa....? 🤔🤔🤔"
+        }
+      }
+    ],
+    "total_scraped": 1,
+    "requested_count": 1,
+    "username": "malangraya_info",
+    "phase": 3,
+    "scraper_version": "1.0",
+    "extraction_settings": {
+      "post_count": 1,
+      "comment_count": 1,
+      "username": "malangraya_info"
+    }
+  },
+  "status": "completed"
+}
