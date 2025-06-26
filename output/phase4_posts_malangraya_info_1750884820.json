@@ -1,0 +1,116 @@
+{
+  "phase": 4,
+  "title": "Enhanced Post Scraping with Data Cleaning",
+  "timestamp": 1750884820,
+  "target_username": "malangraya_info",
+  "scraping_results": {
+    "phase": 4,
+    "title": "Enhanced Post Scraping with Data Cleaning",
+    "username": "malangraya_info",
+    "extraction_time": "2025-06-25T20:53:40.337641+00:00",
+    "total_posts_extracted": 3,
+    "posts_after_cleaning": 3,
+    "requested_posts": 3,
+    "requested_comments_per_post": 3,
+    "min_quality_threshold": 0.0,
+    "cleaning_stats": {
+      "original_count": 3,
+      "cleaned_count": 3,
+      "avg_quality_score": 0.8999999999999999,
+      "high_quality_count": 3,
+      "metadata_extracted": 3
+    },
+    "features_applied": [
+      "advanced_beautifulsoup_parsing",
+      "data_cleaning_normalization",
+      "quality_scoring",
+      "metadata_extraction",
+      "emoji_normalization",
+      "text_cleaning"
+    ],
+    "results": [
+      {
+        "usernamePost": "blog",
+        "urlPost": "https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/",
+        "releaseDate": "2025-04-02T07:12:19+00:00",
+        "caption": "42K likes, 2,100 comments - malangraya_info on March 15, 2025: \"10 rekomendasi wisata banjir di Kota Malang paling menantang dan wajib dikunjungi. Yuk, ada yang berminat lur? Mumpung tiketnha gratis loh. #malangtambahruwet #malangkaditmbois\".",
+        "comments": {
+          "0": "By using Meta AI, you agree to the AI terms. Your messages with AIs may be used to improve AI at Meta.",
+          "1": "By using Meta AI, you agree to the AI terms. Your messages with AIs may be used to improve AI at Meta.",
+          "2": "Soekarno Hatta waterpark ... Imbas dari pelebaran jalan . Jadi gorong2e menyempit dan terutamanya bnyak sampah .... Klu menurut ku 😂"
+        },
+        "quality_score": 0.8999999999999999,
+        "metadata": {
+          "hashtags": [
+            "#malangtambahruwet",
+            "#malangkaditmbois"
+          ],
+          "mentions": [],
+          "urls": [],
+          "emoji_count": 0,
+          "word_count": 33,
+          "has_location": false,
+          "post_type": "reel"
+        }
+      },
+      {
+        "usernamePost": "blog",
+        "urlPost": "https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/",
+        "releaseDate": "2025-06-25T17:53:06+00:00",
+        "caption": "765 likes, 16 comments - malangraya_info on June 25, 2025: \"Situs resmi milik Dinas Komunikasi dan Informatika (Diskominfo) Provinsi Jawa Timur diretas oleh pihak tidak dikenal pada Rabu (25/6). Dalam peretasan ini, sempat muncul artikel provokatif yang menyerang Gubernur Jawa Timur Khofifah Indar Parawansa. Artikel berjudul “Copot jabatan dan penjarakan Khofifah” muncul di hasil pencarian Google sekitar pukul 11.54 WIB. Namun saat tautan diakses, laman tersebut menampilkan pesan error, menandakan halaman telah dinonaktifkan atau dimodifikasi tak lama setelah tayang. Berita disadur dari: Merdeka.com I Tim Redaksi I Rabu, 25 Juni 2025 I 15:21 WIB 📷 Getty Images Signature/D-Keine & Tangkapan Layar\".",
+        "comments": {
+          "0": "By using Meta AI, you agree to the AI terms. Your messages with AIs may be used to improve AI at Meta.",
+          "1": "By using Meta AI, you agree to the AI terms. Your messages with AIs may be used to improve AI at Meta.",
+          "2": "dana gede buat website yg rawan hack"
+        },
+        "quality_score": 0.8999999999999999,
+        "metadata": {
+          "hashtags": [],
+          "mentions": [],
+          "urls": [],
+          "emoji_count": 1,
+          "word_count": 101,
+          "has_location": false,
+          "post_type": "post"
+        }
+      },
+      {
+        "usernamePost": "blog",
+        "urlPost": "https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/",
+        "releaseDate": "2025-06-25T15:57:02+00:00",
+        "caption": "2,490 likes, 155 comments - malangraya_info on June 25, 2025: \"Meneruskan laporan warga mengenai situasi di Terminal Arjosari yang dikirim pada Rabu malam (25/6/25). Untuk peraturan yang benar bagaimana ya? Cc @dishubmalangkota , terminal e nggak bisa di tag 🥲🙏\".",
+        "comments": {
+          "0": "By using Meta AI, you agree to the AI terms. Your messages with AIs may be used to improve AI at Meta.",
+          "1": "By using Meta AI, you agree to the AI terms. Your messages with AIs may be used to improve AI at Meta.",
+          "2": "Peeh ☕☕☕🙃"
+        },
+        "quality_score": 0.8999999999999999,
+        "metadata": {
+          "hashtags": [],
+          "mentions": [
+            "@dishubmalangkota"
+          ],
+          "urls": [],
+          "emoji_count": 2,
+          "word_count": 40,
+          "has_location": false,
+          "post_type": "post"
+        }
+      }
+    ],
+    "session_info": {
+      "current_account": "eprosine009",
+      "post_count": 3,
+      "comment_count": 3,
+      "username": "malangraya_info",
+      "phase": 4
+    }
+  },
+  "status": "completed",
+  "features": [
+    "advanced_parsing",
+    "data_cleaning",
+    "quality_scoring",
+    "metadata_extraction"
+  ]
+}

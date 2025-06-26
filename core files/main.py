@@ -1,8 +1,9 @@
 """
 Instagram Profile Scraper - Main Module
-Phase 1: Foundation, Login & Backup Accounts
+Phase 4: Advanced Parsing & Cleaning
 
 This module serves as the main entry point for core functionality.
+Enhanced with data cleaning and quality scoring.
 """
 
 import json
@@ -15,37 +16,47 @@ from typing import Dict, List, Optional
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "."))
 
 from scraper import InstagramScraper
+from parser import InstagramPostParser
+from data_cleaner import DataCleaner
 from utils import setup_logging
 
 
 class InstagramProfileScraper:
-    """Main Instagram Profile Scraper class for Phase 1."""
+    """Main Instagram Profile Scraper class for Phase 4 with advanced parsing and cleaning."""
     
     def __init__(self):
         self.logger = setup_logging()
         self.scraper = None
+        self.parser = None
+        self.data_cleaner = None
         self.session_data = {}
         
     def initialize(self) -> bool:
         """Initialize the scraper and attempt login."""
         try:
-            self.logger.info("=== Instagram Profile Scraper - Phase 1 ===")
-            self.logger.info("Initializing scraper with backup account support...")
+            self.logger.info("=== Instagram Profile Scraper - Phase 4 ===")
+            self.logger.info("Initializing scraper with advanced parsing and cleaning...")
             
             # Create scraper instance
             self.scraper = InstagramScraper()
+            
+            # Create parser and data cleaner instances
+            self.parser = InstagramPostParser()
+            self.data_cleaner = DataCleaner()
             
             # Attempt login with backup support
             login_success = self.scraper.login_with_backup_support()
             
             if login_success:
-                self.logger.info("Scraper initialized successfully")
+                self.logger.info("Scraper initialized successfully with Phase 4 enhancements")
                 current_account = self.scraper.session_manager.get_current_account()
                 self.session_data = {
                     "current_account": current_account['username'],
                     "login_time": time.time(),
                     "total_accounts": self.scraper.session_manager.get_account_count(),
-                    "remaining_accounts": self.scraper.session_manager.get_remaining_accounts()
+                    "remaining_accounts": self.scraper.session_manager.get_remaining_accounts(),
+                    "phase": "4",
+                    "features": ["advanced_parsing", "data_cleaning", "quality_scoring", "metadata_extraction"]
                 }
                 return True
             else:
@@ -335,6 +346,164 @@ class InstagramProfileScraper:
             
         except Exception as e:
             self.logger.error(f"Error saving Phase 3 results: {str(e)}")
+            return ""
+    
+    def scrape_posts_enhanced(self, username: str, post_count: int = 10, comment_count: int = 5, min_quality: float = 0.5) -> Dict:
+        """
+        Phase 4: Enhanced post scraping with advanced parsing, cleaning, and quality scoring.
+        
+        Args:
+            username: Instagram username to scrape
+            post_count: Number of posts to extract
+            comment_count: Number of comments per post
+            min_quality: Minimum quality score for posts (0.0-1.0)
+            
+        Returns:
+            Dictionary containing enhanced scraped posts with cleaning stats
+        """
+        try:
+            if not self.scraper or not self.parser or not self.data_cleaner:
+                raise Exception("Scraper not properly initialized for Phase 4")
+            
+            self.logger.info(f"=== Phase 4: Enhanced Post Scraping for @{username} ===")
+            self.logger.info(f"Extracting {post_count} posts with {comment_count} comments each")
+            self.logger.info(f"Minimum quality threshold: {min_quality}")
+            
+            # Extract posts using enhanced parser
+            posts_data = self.parser.extract_profile_posts(
+                self.scraper.driver, 
+                username, 
+                post_count, 
+                comment_count
+            )
+            
+            raw_posts = posts_data.get("results", [])
+            self.logger.info(f"Raw extraction completed: {len(raw_posts)} posts")
+            
+            if not raw_posts:
+                self.logger.warning("No posts extracted")
+                return {
+                    "phase": 4,
+                    "username": username,
+                    "error": "No posts found or extracted",
+                    "results": []
+                }
+            
+            # Apply data cleaning and enhancement
+            self.logger.info("Applying data cleaning and quality scoring...")
+            cleaned_posts = []
+            
+            for i, post in enumerate(raw_posts):
+                try:
+                    cleaned_post = self.data_cleaner.clean_post_data(post)
+                    cleaned_posts.append(cleaned_post)
+                    
+                    quality_score = cleaned_post.get("quality_score", 0.0)
+                    self.logger.debug(f"Post {i+1} quality score: {quality_score:.2f}")
+                    
+                except Exception as e:
+                    self.logger.error(f"Error cleaning post {i+1}: {str(e)}")
+                    # Keep original data if cleaning fails
+                    cleaned_posts.append(post)
+            
+            # Filter by quality if requested
+            if min_quality > 0.0:
+                filtered_posts = self.data_cleaner.filter_by_quality(cleaned_posts, min_quality)
+                self.logger.info(f"Quality filtering: {len(cleaned_posts)} -> {len(filtered_posts)} posts")
+            else:
+                filtered_posts = cleaned_posts
+            
+            # Generate cleaning statistics
+            cleaning_stats = self.data_cleaner.get_cleaning_stats(raw_posts, filtered_posts)
+            
+            # Take screenshot for verification
+            try:
+                self.scraper.take_screenshot(f"phase4_posts_{username}_{int(time.time())}.png")
+            except:
+                pass
+            
+            # Prepare enhanced results
+            result = {
+                "phase": 4,
+                "title": "Enhanced Post Scraping with Data Cleaning",
+                "username": username,
+                "extraction_time": posts_data.get("extraction_time"),
+                "total_posts_extracted": len(raw_posts),
+                "posts_after_cleaning": len(filtered_posts),
+                "requested_posts": post_count,
+                "requested_comments_per_post": comment_count,
+                "min_quality_threshold": min_quality,
+                "cleaning_stats": cleaning_stats,
+                "features_applied": [
+                    "advanced_beautifulsoup_parsing",
+                    "data_cleaning_normalization", 
+                    "quality_scoring",
+                    "metadata_extraction",
+                    "emoji_normalization",
+                    "text_cleaning"
+                ],
+                "results": filtered_posts,
+                "session_info": {
+                    "current_account": self.session_data.get("current_account"),
+                    "post_count": post_count,
+                    "comment_count": comment_count,
+                    "username": username,
+                    "phase": 4
+                }
+            }
+            
+            self.logger.info(f"Phase 4 enhanced post scraping completed for @{username}")
+            self.logger.info(f"Results: {len(filtered_posts)} quality posts with avg score {cleaning_stats.get('avg_quality_score', 0):.2f}")
+            
+            return result
+            
+        except Exception as e:
+            self.logger.error(f"Error in Phase 4 enhanced post scraping: {str(e)}")
+            return {
+                "phase": 4,
+                "error": str(e),
+                "username": username,
+                "results": []
+            }
+    
+    def save_phase4_results(self, results: Dict, username: str) -> str:
+        """Save Phase 4 enhanced results to JSON file."""
+        try:
+            timestamp = int(time.time())
+            
+            # Prepare results with enhanced metadata
+            output_data = {
+                "phase": 4,
+                "title": "Enhanced Post Scraping with Data Cleaning",
+                "timestamp": timestamp,
+                "target_username": username,
+                "scraping_results": results,
+                "status": "completed" if "error" not in results else "error",
+                "features": [
+                    "advanced_parsing",
+                    "data_cleaning", 
+                    "quality_scoring",
+                    "metadata_extraction"
+                ]
+            }
+            
+            # Save main results
+            output_file = os.path.join("output", f"phase4_posts_{username}_{timestamp}.json")
+            os.makedirs("output", exist_ok=True)
+            
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+            
+            # Also save in standard format for compatibility
+            latest_file = os.path.join("output", "phase4_latest_results.json")
+            with open(latest_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+            
+            self.logger.info(f"Phase 4 enhanced results saved to {output_file}")
+            return output_file
+            
+        except Exception as e:
+            self.logger.error(f"Error saving Phase 4 results: {str(e)}")
             return ""
     
     def cleanup(self):

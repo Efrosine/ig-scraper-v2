@@ -13,6 +13,10 @@ python-dotenv==1.0.0
 pyperclip==1.8.2
 requests==2.31.0
 
+# Data cleaning and text processing (Phase 4)
+emoji==2.8.0
+html5lib==1.1
+
 # Logging and data handling
 pyyaml==6.0.1
 

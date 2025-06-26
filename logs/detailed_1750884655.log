@@ -1,0 +1,1382 @@
+2025-06-26 03:50:55,666 - ig_scraper - INFO - ============================================================
+2025-06-26 03:50:55,666 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:50:55,666 - ig_scraper - INFO - ============================================================
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Posts to extract: 5
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Comments per post: 5
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Minimum quality score: 0.0
+2025-06-26 03:50:55,667 - ig_scraper - INFO - ============================================================
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:50:55,667 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:50:55,667 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:50:55,667 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:50:56,528 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:50:56,528 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:50:56,528 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:50:56,528 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:50:56,528 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:50:56,528 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:50:56,529 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:50:56,529 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:50:56,529 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:50:56,529 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:50:56,529 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:50:56,529 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:51:08,777 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:51:08,777 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:51:08,777 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:51:08,777 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:51:08,777 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:51:08,777 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:51:08,777 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:51:08,778 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:51:08,778 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:51:08,778 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:51:08,778 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:51:08,778 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:51:08,778 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:51:13,497 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:51:13,497 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:51:13,497 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:51:13,497 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:51:13,497 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:51:13,497 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:51:13,502 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:51:13,502 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:51:13,502 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:51:13,502 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:51:13,502 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:51:13,502 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Extracting 5 posts with 5 comments each
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Extracting 5 posts with 5 comments each
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Extracting 5 posts with 5 comments each
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Extracting 5 posts with 5 comments each
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Extracting 5 posts with 5 comments each
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Extracting 5 posts with 5 comments each
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:51:13,502 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:51:19,572 - ig_scraper - INFO - Starting enhanced post extraction: 5 posts, 5 comments each
+2025-06-26 03:51:19,572 - ig_scraper - INFO - Starting enhanced post extraction: 5 posts, 5 comments each
+2025-06-26 03:51:19,572 - ig_scraper - INFO - Starting enhanced post extraction: 5 posts, 5 comments each
+2025-06-26 03:51:19,572 - ig_scraper - INFO - Starting enhanced post extraction: 5 posts, 5 comments each
+2025-06-26 03:51:19,572 - ig_scraper - INFO - Starting enhanced post extraction: 5 posts, 5 comments each
+2025-06-26 03:51:19,572 - ig_scraper - INFO - Starting enhanced post extraction: 5 posts, 5 comments each
+2025-06-26 03:51:19,573 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:51:19,573 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:51:19,573 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:51:19,573 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:51:19,573 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:51:19,573 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:51:25,596 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:51:25,596 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:51:25,596 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:51:25,596 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:51:25,596 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:51:25,596 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Found 5 post links
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Found 5 post links
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Found 5 post links
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Found 5 post links
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Found 5 post links
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Found 5 post links
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Processing post 1/5: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Processing post 1/5: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Processing post 1/5: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Processing post 1/5: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Processing post 1/5: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:51:25,641 - ig_scraper - INFO - Processing post 1/5: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:33,164 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:35,173 - ig_scraper - INFO - Processing post 2/5: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:51:35,173 - ig_scraper - INFO - Processing post 2/5: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:51:35,173 - ig_scraper - INFO - Processing post 2/5: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:51:35,173 - ig_scraper - INFO - Processing post 2/5: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:51:35,173 - ig_scraper - INFO - Processing post 2/5: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:51:35,173 - ig_scraper - INFO - Processing post 2/5: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:51:44,602 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:44,602 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:44,602 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:44,602 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:44,602 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:44,602 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:44,603 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:44,603 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:44,603 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:44,603 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:44,603 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:44,603 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:46,603 - ig_scraper - INFO - Processing post 3/5: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:51:46,603 - ig_scraper - INFO - Processing post 3/5: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:51:46,603 - ig_scraper - INFO - Processing post 3/5: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:51:46,603 - ig_scraper - INFO - Processing post 3/5: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:51:46,603 - ig_scraper - INFO - Processing post 3/5: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:51:46,603 - ig_scraper - INFO - Processing post 3/5: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:51:53,426 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:53,426 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:53,426 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:53,426 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:53,426 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:53,426 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:51:53,427 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:53,427 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:53,427 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:53,427 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:53,427 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:53,427 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:51:55,427 - ig_scraper - INFO - Processing post 4/5: https://www.instagram.com/malangraya_info/p/DLVEGQ-TOAu/
+2025-06-26 03:51:55,427 - ig_scraper - INFO - Processing post 4/5: https://www.instagram.com/malangraya_info/p/DLVEGQ-TOAu/
+2025-06-26 03:51:55,427 - ig_scraper - INFO - Processing post 4/5: https://www.instagram.com/malangraya_info/p/DLVEGQ-TOAu/
+2025-06-26 03:51:55,427 - ig_scraper - INFO - Processing post 4/5: https://www.instagram.com/malangraya_info/p/DLVEGQ-TOAu/
+2025-06-26 03:51:55,427 - ig_scraper - INFO - Processing post 4/5: https://www.instagram.com/malangraya_info/p/DLVEGQ-TOAu/
+2025-06-26 03:51:55,427 - ig_scraper - INFO - Processing post 4/5: https://www.instagram.com/malangraya_info/p/DLVEGQ-TOAu/
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:03,157 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:05,161 - ig_scraper - INFO - Processing post 5/5: https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/
+2025-06-26 03:52:05,161 - ig_scraper - INFO - Processing post 5/5: https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/
+2025-06-26 03:52:05,161 - ig_scraper - INFO - Processing post 5/5: https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/
+2025-06-26 03:52:05,161 - ig_scraper - INFO - Processing post 5/5: https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/
+2025-06-26 03:52:05,161 - ig_scraper - INFO - Processing post 5/5: https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/
+2025-06-26 03:52:05,161 - ig_scraper - INFO - Processing post 5/5: https://www.instagram.com/malangraya_info/reel/DLVBDGESTTs/
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Extracted 5 enhanced comments
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:11,957 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Successfully extracted and cleaned 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Successfully extracted and cleaned 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Successfully extracted and cleaned 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Successfully extracted and cleaned 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Successfully extracted and cleaned 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Successfully extracted and cleaned 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Raw extraction completed: 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Raw extraction completed: 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Raw extraction completed: 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Raw extraction completed: 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Raw extraction completed: 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Raw extraction completed: 5 posts
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:52:16,516 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884736.png
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884736.png
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884736.png
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884736.png
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884736.png
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884736.png
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:52:16,596 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Results: 5 quality posts with avg score 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Results: 5 quality posts with avg score 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Results: 5 quality posts with avg score 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Results: 5 quality posts with avg score 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Results: 5 quality posts with avg score 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Results: 5 quality posts with avg score 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:52:16,597 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:52:16,597 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:52:16,597 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:52:16,597 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:52:16,597 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Posts extracted: 5
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Posts extracted: 5
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Posts extracted: 5
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Posts extracted: 5
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Posts extracted: 5
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Posts extracted: 5
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Average quality score: 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Average quality score: 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Average quality score: 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Average quality score: 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Average quality score: 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO -    Average quality score: 1.00
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:52:16,597 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:52:16,598 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884736.json
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:52:16,598 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:52:16,598 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:52:16,598 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:52:16,598 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:52:16,598 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,598 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Requested: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Requested: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Requested: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Requested: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Requested: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Requested: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Extracted: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Extracted: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Extracted: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Extracted: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Extracted: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts Extracted: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts After Cleaning: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts After Cleaning: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts After Cleaning: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts After Cleaning: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts After Cleaning: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Posts After Cleaning: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Average Quality Score: 1.00
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Average Quality Score: 1.00
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Average Quality Score: 1.00
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Average Quality Score: 1.00
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Average Quality Score: 1.00
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Average Quality Score: 1.00
+2025-06-26 03:52:16,599 - ig_scraper - INFO - High Quality Posts: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - High Quality Posts: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - High Quality Posts: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - High Quality Posts: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - High Quality Posts: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - High Quality Posts: 5
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:52:16,599 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 1: Quality=1.00, Caption=242 chars, Comments=5, Hashtags=2, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 1: Quality=1.00, Caption=242 chars, Comments=5, Hashtags=2, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 1: Quality=1.00, Caption=242 chars, Comments=5, Hashtags=2, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 1: Quality=1.00, Caption=242 chars, Comments=5, Hashtags=2, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 1: Quality=1.00, Caption=242 chars, Comments=5, Hashtags=2, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 1: Quality=1.00, Caption=242 chars, Comments=5, Hashtags=2, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 2: Quality=1.00, Caption=706 chars, Comments=5, Hashtags=0, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 2: Quality=1.00, Caption=706 chars, Comments=5, Hashtags=0, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 2: Quality=1.00, Caption=706 chars, Comments=5, Hashtags=0, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 2: Quality=1.00, Caption=706 chars, Comments=5, Hashtags=0, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 2: Quality=1.00, Caption=706 chars, Comments=5, Hashtags=0, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 2: Quality=1.00, Caption=706 chars, Comments=5, Hashtags=0, Mentions=0
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 3: Quality=1.00, Caption=263 chars, Comments=5, Hashtags=0, Mentions=1
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 3: Quality=1.00, Caption=263 chars, Comments=5, Hashtags=0, Mentions=1
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 3: Quality=1.00, Caption=263 chars, Comments=5, Hashtags=0, Mentions=1
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 3: Quality=1.00, Caption=263 chars, Comments=5, Hashtags=0, Mentions=1
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 3: Quality=1.00, Caption=263 chars, Comments=5, Hashtags=0, Mentions=1
+2025-06-26 03:52:16,599 - ig_scraper - INFO -    Post 3: Quality=1.00, Caption=263 chars, Comments=5, Hashtags=0, Mentions=1
+2025-06-26 03:52:16,599 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,599 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,599 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,599 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,599 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,599 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:52:16,599 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:52:16,600 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,600 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,600 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,600 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,600 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,600 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:16,673 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:52:16,673 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:52:16,673 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:52:16,673 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:52:16,673 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:52:16,673 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:52:16,674 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:52:16,674 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:52:16,674 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:52:16,674 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:52:16,674 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:52:16,674 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:52:39,220 - ig_scraper - INFO - 🔍 Phase 4 Feature Demonstration
+2025-06-26 03:52:39,220 - ig_scraper - INFO - 🔍 Phase 4 Feature Demonstration
+2025-06-26 03:52:39,220 - ig_scraper - INFO - 🔍 Phase 4 Feature Demonstration
+2025-06-26 03:52:39,220 - ig_scraper - INFO - 🔍 Phase 4 Feature Demonstration
+2025-06-26 03:52:39,220 - ig_scraper - INFO - 🔍 Phase 4 Feature Demonstration
+2025-06-26 03:52:39,220 - ig_scraper - INFO - 🔍 Phase 4 Feature Demonstration
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ==================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ==================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ==================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ==================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ==================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ==================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:52:39,221 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:52:39,221 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:52:39,221 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:52:39,221 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:52:39,221 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Minimum quality score: 0.0
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Minimum quality score: 0.0
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Minimum quality score: 0.0
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Minimum quality score: 0.0
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Minimum quality score: 0.0
+2025-06-26 03:52:39,221 - ig_scraper - INFO - Minimum quality score: 0.0
+2025-06-26 03:52:39,222 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,222 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,222 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,222 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,222 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,222 - ig_scraper - INFO - ============================================================
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:52:39,223 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:52:39,223 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:52:39,223 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:52:39,223 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:52:39,223 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:52:39,223 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:52:40,171 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:52:40,171 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:52:40,171 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:52:40,171 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:52:40,171 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:52:40,171 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:52:40,171 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:52:40,171 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:52:40,171 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:52:40,171 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:52:40,171 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:52:40,171 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:52:52,638 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:52:52,638 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:52:52,638 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:52:52,638 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:52:52,638 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:52:52,638 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:52:52,638 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:52:52,639 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:52:56,466 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:52:56,466 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:52:56,466 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:52:56,466 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:52:56,466 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:52:56,466 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:52:56,469 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:52:56,469 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:52:56,469 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:52:56,469 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:52:56,469 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:52:56,469 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:52:56,469 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Minimum quality threshold: 0.0
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:52:56,470 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:53:02,579 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:53:08,649 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:53:08,649 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:53:08,649 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:53:08,649 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:53:08,649 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:53:08,649 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:53:08,747 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:17,090 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:19,091 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:53:19,091 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:53:19,091 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:53:19,091 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:53:19,091 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:53:19,091 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:53:28,887 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:28,887 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:28,887 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:28,887 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:28,887 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:28,887 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:28,888 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:28,888 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:28,888 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:28,888 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:28,888 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:28,888 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:30,889 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:53:30,889 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:53:30,889 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:53:30,889 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:53:30,889 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:53:30,889 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:38,335 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:53:40,336 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:53:40,336 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:53:40,336 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:53:40,336 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:53:40,336 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:53:40,336 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:53:40,337 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:53:40,337 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:53:40,337 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:53:40,337 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:53:40,337 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:53:40,337 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:53:40,338 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:53:40,338 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:53:40,338 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:53:40,338 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:53:40,338 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:53:40,338 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:53:40,339 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:53:40,339 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:53:40,339 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:53:40,339 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:53:40,339 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:53:40,339 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884820.png
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884820.png
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884820.png
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884820.png
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884820.png
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884820.png
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:53:40,425 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:53:40,425 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:53:40,425 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:53:40,425 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:53:40,425 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:53:40,425 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884820.json
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:53:40,426 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:53:40,426 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:53:40,426 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:53:40,426 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:53:40,426 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:53:40,426 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:53:40,427 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:53:40,427 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:53:40,427 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:53:40,427 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,427 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,427 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,427 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,427 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,427 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:53:40,427 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:53:40,428 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,428 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,428 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,428 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,428 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,428 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,494 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:53:40,494 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:53:40,494 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:53:40,494 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:53:40,494 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:53:40,494 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:53:40,494 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:53:40,494 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:53:40,494 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:53:40,494 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:53:40,494 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:53:40,494 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:53:40,494 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,494 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,494 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,494 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,494 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,494 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:53:40,495 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:53:40,495 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:53:40,495 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:53:40,495 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:53:40,495 - ig_scraper - INFO - 🚀 Phase 4: Advanced Parsing & Cleaning
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Posts to extract: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Comments per post: 3
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Minimum quality score: 0.7
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Minimum quality score: 0.7
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Minimum quality score: 0.7
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Minimum quality score: 0.7
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Minimum quality score: 0.7
+2025-06-26 03:53:40,495 - ig_scraper - INFO - Minimum quality score: 0.7
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,495 - ig_scraper - INFO - ============================================================
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Step 1: Initializing scraper with Phase 4 enhancements...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:53:40,496 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:53:40,496 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:53:40,496 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:53:40,496 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:53:40,496 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 4 ===
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Initializing scraper with advanced parsing and cleaning...
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:53:40,496 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 03:53:41,368 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:53:41,368 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:53:41,368 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:53:41,368 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:53:41,368 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:53:41,368 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 03:53:41,369 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:53:41,369 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:53:41,369 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:53:41,369 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:53:41,369 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:53:41,369 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 03:54:05,396 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:54:05,396 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:54:05,396 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:54:05,396 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:54:05,396 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:54:05,396 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Scraper initialized successfully with Phase 4 enhancements
+2025-06-26 03:54:05,397 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:54:05,397 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:54:05,397 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:54:05,397 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:54:05,397 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:54:05,397 - ig_scraper - INFO - ✅ Scraper initialized successfully
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Step 2: Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:54:05,397 - ig_scraper - INFO - Testing basic navigation...
+2025-06-26 03:54:08,910 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:54:08,910 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:54:08,910 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:54:08,910 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:54:08,910 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:54:08,910 - ig_scraper - INFO - Screenshot saved: output/phase1_navigation_test.png
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Current URL: https://www.instagram.com/
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Basic navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - ✅ Navigation test successful
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Step 3: Enhanced post scraping for @malangraya_info...
+2025-06-26 03:54:08,914 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:54:08,914 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:54:08,914 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:54:08,914 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:54:08,914 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:54:08,914 - ig_scraper - INFO - === Phase 4: Enhanced Post Scraping for @malangraya_info ===
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:54:08,914 - ig_scraper - INFO - Extracting 3 posts with 3 comments each
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Minimum quality threshold: 0.7
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Minimum quality threshold: 0.7
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Minimum quality threshold: 0.7
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Minimum quality threshold: 0.7
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Minimum quality threshold: 0.7
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Minimum quality threshold: 0.7
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:54:08,915 - ig_scraper - INFO - Starting profile post extraction for @malangraya_info
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Starting enhanced post extraction: 3 posts, 3 comments each
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:54:15,076 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 03:54:21,158 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:54:21,158 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:54:21,158 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:54:21,158 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:54:21,158 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:54:21,158 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Found 3 post links
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:54:21,193 - ig_scraper - INFO - Processing post 1/3: https://www.instagram.com/malangraya_info/reel/DHNs4rdh4ha/
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:28,553 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:30,554 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:54:30,554 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:54:30,554 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:54:30,554 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:54:30,554 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:54:30,554 - ig_scraper - INFO - Processing post 2/3: https://www.instagram.com/malangraya_info/p/DLVTV9hS6cA/
+2025-06-26 03:54:39,601 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:39,601 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:39,601 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:39,601 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:39,601 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:39,601 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:39,602 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:39,602 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:39,602 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:39,602 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:39,602 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:39,602 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:41,603 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:54:41,603 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:54:41,603 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:54:41,603 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:54:41,603 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:54:41,603 - ig_scraper - INFO - Processing post 3/3: https://www.instagram.com/malangraya_info/p/DLVF9A-SEFR/
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Extracted 3 enhanced comments
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:48,833 - ig_scraper - INFO - Successfully extracted enhanced post data for blog
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Successfully extracted and cleaned 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Profile post extraction completed for @malangraya_info
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Raw extraction completed: 3 posts
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:54:50,834 - ig_scraper - INFO - Applying data cleaning and quality scoring...
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Filtered posts: 3 -> 3 (min quality: 0.7)
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Filtered posts: 3 -> 3 (min quality: 0.7)
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Filtered posts: 3 -> 3 (min quality: 0.7)
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Filtered posts: 3 -> 3 (min quality: 0.7)
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Filtered posts: 3 -> 3 (min quality: 0.7)
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Filtered posts: 3 -> 3 (min quality: 0.7)
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Quality filtering: 3 -> 3 posts
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Quality filtering: 3 -> 3 posts
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Quality filtering: 3 -> 3 posts
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Quality filtering: 3 -> 3 posts
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Quality filtering: 3 -> 3 posts
+2025-06-26 03:54:50,835 - ig_scraper - INFO - Quality filtering: 3 -> 3 posts
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884890.png
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884890.png
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884890.png
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884890.png
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884890.png
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Screenshot saved: output/phase4_posts_malangraya_info_1750884890.png
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Phase 4 enhanced post scraping completed for @malangraya_info
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Results: 3 quality posts with avg score 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:54:50,915 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:54:50,915 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:54:50,915 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:54:50,915 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:54:50,915 - ig_scraper - INFO - ✅ Enhanced post scraping completed
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Posts extracted: 3
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO -    Average quality score: 0.90
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:54:50,915 - ig_scraper - INFO - Step 4: Saving Phase 4 results...
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Phase 4 enhanced results saved to output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ✅ Results saved to: output/phase4_posts_malangraya_info_1750884890.json
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:54:50,916 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:54:50,916 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:54:50,916 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:54:50,916 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:54:50,916 - ig_scraper - INFO - 📊 Phase 4 Summary
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Current Account: eprosine009
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:54:50,916 - ig_scraper - INFO - Target Username: @malangraya_info
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Requested: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts Extracted: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Posts After Cleaning: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Average Quality Score: 0.90
+2025-06-26 03:54:50,917 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - High Quality Posts: 3
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:54:50,917 - ig_scraper - INFO - Features Applied: advanced_beautifulsoup_parsing, data_cleaning_normalization, quality_scoring, metadata_extraction, emoji_normalization, text_cleaning
+2025-06-26 03:54:50,917 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:54:50,917 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:54:50,917 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:54:50,917 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:54:50,917 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:54:50,917 - ig_scraper - INFO - 
+📝 Sample Posts Quality Analysis:
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 1: Quality=0.90, Caption=242 chars, Comments=3, Hashtags=2, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 2: Quality=0.90, Caption=706 chars, Comments=3, Hashtags=0, Mentions=0
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:54:50,917 - ig_scraper - INFO -    Post 3: Quality=0.90, Caption=263 chars, Comments=3, Hashtags=0, Mentions=1
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:54:50,918 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:54:50,918 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:54:50,918 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:54:50,918 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:54:50,918 - ig_scraper - INFO - 🎉 Phase 4 completed successfully!
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,918 - ig_scraper - INFO - ============================================================
+2025-06-26 03:54:50,987 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:54:50,987 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:54:50,987 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:54:50,987 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:54:50,987 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:54:50,987 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 03:54:50,987 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:54:50,987 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:54:50,987 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:54:50,987 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:54:50,987 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:54:50,987 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 03:54:50,987 - ig_scraper - INFO - 📈 Quality Filtering Demonstration:
+2025-06-26 03:54:50,987 - ig_scraper - INFO - 📈 Quality Filtering Demonstration:
+2025-06-26 03:54:50,987 - ig_scraper - INFO - 📈 Quality Filtering Demonstration:
+2025-06-26 03:54:50,987 - ig_scraper - INFO - 📈 Quality Filtering Demonstration:
+2025-06-26 03:54:50,987 - ig_scraper - INFO - 📈 Quality Filtering Demonstration:
+2025-06-26 03:54:50,987 - ig_scraper - INFO - 📈 Quality Filtering Demonstration:
+2025-06-26 03:54:50,987 - ig_scraper - INFO -    No quality filter: 3 posts
+2025-06-26 03:54:50,987 - ig_scraper - INFO -    No quality filter: 3 posts
+2025-06-26 03:54:50,987 - ig_scraper - INFO -    No quality filter: 3 posts
+2025-06-26 03:54:50,987 - ig_scraper - INFO -    No quality filter: 3 posts
+2025-06-26 03:54:50,987 - ig_scraper - INFO -    No quality filter: 3 posts
+2025-06-26 03:54:50,987 - ig_scraper - INFO -    No quality filter: 3 posts
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    High quality (>0.7): 3 posts
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    High quality (>0.7): 3 posts
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    High quality (>0.7): 3 posts
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    High quality (>0.7): 3 posts
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    High quality (>0.7): 3 posts
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    High quality (>0.7): 3 posts
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    Quality filtering effectiveness: 0.0% filtered
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    Quality filtering effectiveness: 0.0% filtered
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    Quality filtering effectiveness: 0.0% filtered
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    Quality filtering effectiveness: 0.0% filtered
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    Quality filtering effectiveness: 0.0% filtered
+2025-06-26 03:54:50,988 - ig_scraper - INFO -    Quality filtering effectiveness: 0.0% filtered
