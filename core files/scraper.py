@@ -42,13 +42,22 @@ class InstagramScraper:
             chrome_options.add_argument("--no-sandbox")
             chrome_options.add_argument("--disable-dev-shm-usage")
             chrome_options.add_argument("--window-size=1280,720")
+            chrome_options.add_argument("--disable-gpu")
+            chrome_options.add_argument("--disable-extensions")
+            chrome_options.add_argument("--remote-debugging-port=9222")
             
-            # DO NOT RUN HEADLESS - Keep GUI visible for Phase 2
-            # chrome_options.add_argument("--headless")  # Commented out to show GUI
+            # Check if running in Docker or headless environment
+            is_docker = os.path.exists('/.dockerenv') or os.getenv('DISPLAY') == ':99'
+            
+            if is_docker:
+                chrome_options.add_argument("--headless")
+                self.logger.info("Running in Docker/headless mode")
+            else:
+                self.logger.info("Running in GUI mode")
             
             # Disable images to speed up loading
-            # prefs = {"profile.managed_default_content_settings.images": 2}
-            # chrome_options.add_experimental_option("prefs", prefs)
+            prefs = {"profile.managed_default_content_settings.images": 2}
+            chrome_options.add_experimental_option("prefs", prefs)
             
             # User agent to avoid detection
             chrome_options.add_argument(

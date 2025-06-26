@@ -1,0 +1,21 @@
+2025-06-26 10:51:23,625 - ig_scraper - INFO - Starting post extraction: 2 posts, 2 comments each
+2025-06-26 10:51:23,625 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 10:51:58,532 - ig_scraper - INFO - Scrolling completed after 10 attempts
+2025-06-26 10:51:58,532 - ig_scraper - INFO - Extracting post links from profile page
+2025-06-26 10:52:01,548 - ig_scraper - INFO - Found 23 elements with selector: a[href*='/p/']
+2025-06-26 10:52:01,560 - ig_scraper - INFO - Found 19 elements with selector: a[href*='/reel/']
+2025-06-26 10:52:01,613 - ig_scraper - INFO - Found 23 elements with selector: a.x1i10hfl[href*='/p/']
+2025-06-26 10:52:01,626 - ig_scraper - INFO - Found 19 elements with selector: a.x1i10hfl[href*='/reel/']
+2025-06-26 10:52:01,645 - ig_scraper - INFO - Successfully extracted 2 post links
+2025-06-26 10:52:01,645 - ig_scraper - INFO - Found 2 post links
+2025-06-26 10:52:01,646 - ig_scraper - INFO - Processing post 1/2: https://www.instagram.com/malangraya_info/p/DLJjkRnhAt1/
+2025-06-26 10:52:11,301 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 10:52:11,301 - ig_scraper - INFO - Successfully extracted post data for malangraya_info
+2025-06-26 10:52:13,303 - ig_scraper - INFO - Processing post 2/2: https://www.instagram.com/malangraya_info/p/DLJgK_4htfK/
+2025-06-26 10:52:20,879 - ig_scraper - INFO - Extracted 2 comments
+2025-06-26 10:52:20,879 - ig_scraper - INFO - Successfully extracted post data for malangraya_info
+2025-06-26 10:52:22,880 - ig_scraper - INFO - Successfully extracted 2 posts
+2025-06-26 10:52:22,976 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 10:52:22,976 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 10:52:22,978 - ig_scraper - INFO - Results saved to /app/core/../output/result.json and /app/core/../output/backup_20250626_105222.json
+2025-06-26 10:52:22,978 - ig_scraper - INFO - Scraping completed successfully: 2 posts extracted

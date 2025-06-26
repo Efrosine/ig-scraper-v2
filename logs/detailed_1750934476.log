@@ -1,0 +1,11 @@
+2025-06-26 10:41:16,267 - ig_scraper - INFO - Starting post extraction: 2 posts, 2 comments each
+2025-06-26 10:41:16,268 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 10:41:22,385 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 10:41:22,386 - ig_scraper - INFO - Extracting post links from profile page
+2025-06-26 10:41:25,484 - ig_scraper - INFO - Successfully extracted 0 post links
+2025-06-26 10:41:25,484 - ig_scraper - INFO - Found 0 post links
+2025-06-26 10:41:25,484 - ig_scraper - INFO - Successfully extracted 0 posts
+2025-06-26 10:41:25,565 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 10:41:25,565 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 10:41:25,566 - ig_scraper - INFO - Results saved to /app/core/../output/result.json and /app/core/../output/backup_20250626_104125.json
+2025-06-26 10:41:25,566 - ig_scraper - INFO - Scraping completed successfully: 0 posts extracted

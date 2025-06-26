@@ -27,10 +27,11 @@ from utils import setup_logging
 class InstagramProfileScraper:
     """Main Instagram Profile Scraper class for Phase 1."""
     
-    def __init__(self):
+    def __init__(self, custom_accounts: Optional[List[Dict[str, str]]] = None):
         self.logger = setup_logging()
         self.scraper = None
         self.session_data = {}
+        self.custom_accounts = custom_accounts
         
     def initialize(self) -> bool:
         """Initialize the scraper and attempt login."""
@@ -40,6 +41,11 @@ class InstagramProfileScraper:
             
             # Create scraper instance
             self.scraper = InstagramScraper()
+            
+            # Override accounts if custom accounts provided
+            if self.custom_accounts:
+                self.scraper.session_manager.accounts = self.custom_accounts
+                self.logger.info(f"Using {len(self.custom_accounts)} custom accounts for login")
             
             # Attempt login with backup support
             login_success = self.scraper.login_with_backup_support()

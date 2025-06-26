@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "timestamp": "2025-06-26T10:41:25.565765",
+  "parameters": {
+    "suspected_account": "malangraya_info",
+    "post_count": 2,
+    "comment_count": 2,
+    "accounts_used": 2
+  },
+  "results": [],
+  "metadata": {
+    "total_posts_extracted": 0,
+    "profile_info": {
+      "username": "malangraya_info",
+      "error": "Failed to navigate to profile"
+    }
+  }
+}

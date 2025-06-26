@@ -80,14 +80,16 @@ class InstagramScrapingAPI:
         
         # Perform scraping
         try:
-            scraper = InstagramProfileScraper()
-            
-            # Override session manager accounts if provided
+            # Prepare custom accounts if provided
+            custom_accounts = None
             if accounts:
-                scraper.scraper.session_manager.accounts = [
+                custom_accounts = [
                     {"username": acc["username"], "password": acc["password"]}
                     for acc in accounts
                 ]
+            
+            # Create scraper with custom accounts
+            scraper = InstagramProfileScraper(custom_accounts=custom_accounts)
             
             # Initialize scraper
             if not scraper.initialize():

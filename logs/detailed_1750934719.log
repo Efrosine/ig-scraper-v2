@@ -1,0 +1,54 @@
+2025-06-26 10:45:19,454 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 10:45:19,454 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 10:45:19,455 - ig_scraper - INFO - Using 2 custom accounts for login
+2025-06-26 10:45:19,455 - ig_scraper - INFO - Using 2 custom accounts for login
+2025-06-26 10:45:19,455 - ig_scraper - INFO - Running in Docker/headless mode
+2025-06-26 10:45:19,455 - ig_scraper - INFO - Running in Docker/headless mode
+2025-06-26 10:45:19,455 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 10:45:19,455 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 10:45:20,870 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 10:45:20,870 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 10:45:20,871 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 10:45:20,871 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 10:45:33,499 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 10:45:33,499 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 10:45:33,499 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 10:45:33,499 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 10:45:33,499 - ig_scraper - INFO - Navigating to profile: malangraya_info
+2025-06-26 10:45:33,499 - ig_scraper - INFO - Navigating to profile: malangraya_info
+2025-06-26 10:45:33,499 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 10:45:33,499 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 10:45:45,467 - ig_scraper - ERROR - Timeout waiting for profile @malangraya_info to load
+2025-06-26 10:45:45,467 - ig_scraper - ERROR - Timeout waiting for profile @malangraya_info to load
+2025-06-26 10:45:45,530 - ig_scraper - INFO - Starting post extraction: 2 posts, 2 comments each
+2025-06-26 10:45:45,530 - ig_scraper - INFO - Starting post extraction: 2 posts, 2 comments each
+2025-06-26 10:45:45,530 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 10:45:45,530 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 10:45:51,607 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 10:45:51,607 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 10:45:51,607 - ig_scraper - INFO - Extracting post links from profile page
+2025-06-26 10:45:51,607 - ig_scraper - INFO - Extracting post links from profile page
+2025-06-26 10:45:54,690 - ig_scraper - INFO - Successfully extracted 0 post links
+2025-06-26 10:45:54,690 - ig_scraper - INFO - Successfully extracted 0 post links
+2025-06-26 10:45:54,690 - ig_scraper - INFO - Found 0 post links
+2025-06-26 10:45:54,690 - ig_scraper - INFO - Found 0 post links
+2025-06-26 10:45:54,690 - ig_scraper - INFO - Successfully extracted 0 posts
+2025-06-26 10:45:54,690 - ig_scraper - INFO - Successfully extracted 0 posts
+2025-06-26 10:45:54,766 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 10:45:54,766 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 10:45:54,767 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 10:45:54,767 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 10:45:54,767 - ig_scraper - INFO - Results saved to /app/core/../output/result.json and /app/core/../output/backup_20250626_104554.json
+2025-06-26 10:45:54,767 - ig_scraper - INFO - Results saved to /app/core/../output/result.json and /app/core/../output/backup_20250626_104554.json
+2025-06-26 10:45:54,767 - ig_scraper - INFO - Scraping completed successfully: 0 posts extracted
+2025-06-26 10:45:54,767 - ig_scraper - INFO - Scraping completed successfully: 0 posts extracted
+2025-06-26 10:49:38,558 - ig_scraper - INFO - Received signal 2, initiating graceful shutdown...
+2025-06-26 10:49:38,558 - ig_scraper - INFO - Received signal 2, initiating graceful shutdown...
+2025-06-26 10:49:38,559 - ig_scraper - INFO - Cleaning up resources...
+2025-06-26 10:49:38,559 - ig_scraper - INFO - Cleaning up resources...
+2025-06-26 10:49:38,559 - ig_scraper - INFO - Phase 7 cleanup completed
+2025-06-26 10:49:38,559 - ig_scraper - INFO - Phase 7 cleanup completed
+2025-06-26 10:49:38,560 - ig_scraper - INFO - Cleaning up resources...
+2025-06-26 10:49:38,560 - ig_scraper - INFO - Cleaning up resources...
+2025-06-26 10:49:38,560 - ig_scraper - INFO - Phase 7 cleanup completed
+2025-06-26 10:49:38,560 - ig_scraper - INFO - Phase 7 cleanup completed

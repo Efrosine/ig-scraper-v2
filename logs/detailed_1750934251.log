@@ -1,0 +1,89 @@
+2025-06-26 10:37:31,355 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 7 ===
+2025-06-26 10:37:31,355 - ig_scraper - INFO - HTTP Endpoint Implementation
+2025-06-26 10:37:31,355 - ig_scraper - INFO - Starting Flask API server...
+2025-06-26 10:37:31,358 - ig_scraper - INFO - Server configuration:
+2025-06-26 10:37:31,358 - ig_scraper - INFO - Server configuration:
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - Host: 0.0.0.0
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - Host: 0.0.0.0
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - Port: 5000
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - Port: 5000
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - Debug: False
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - Debug: False
+2025-06-26 10:37:31,358 - ig_scraper - INFO - Available endpoints:
+2025-06-26 10:37:31,358 - ig_scraper - INFO - Available endpoints:
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - GET  /health - Health check
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - GET  /health - Health check
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - POST /scrape - Scraping endpoint
+2025-06-26 10:37:31,358 - ig_scraper - INFO - - POST /scrape - Scraping endpoint
+2025-06-26 10:37:31,358 - ig_scraper - INFO - 
+2025-06-26 10:37:31,358 - ig_scraper - INFO - 
+2025-06-26 10:37:31,358 - ig_scraper - INFO - Example API usage:
+2025-06-26 10:37:31,358 - ig_scraper - INFO - Example API usage:
+2025-06-26 10:37:31,358 - ig_scraper - INFO - curl -X POST http://localhost:5000/scrape \
+2025-06-26 10:37:31,358 - ig_scraper - INFO - curl -X POST http://localhost:5000/scrape \
+2025-06-26 10:37:31,358 - ig_scraper - INFO -   -H 'Content-Type: application/json' \
+2025-06-26 10:37:31,358 - ig_scraper - INFO -   -H 'Content-Type: application/json' \
+2025-06-26 10:37:31,359 - ig_scraper - INFO -   -d '{
+2025-06-26 10:37:31,359 - ig_scraper - INFO -   -d '{
+2025-06-26 10:37:31,359 - ig_scraper - INFO -     "accounts": [{"username": "user1", "password": "pass1"}],
+2025-06-26 10:37:31,359 - ig_scraper - INFO -     "accounts": [{"username": "user1", "password": "pass1"}],
+2025-06-26 10:37:31,359 - ig_scraper - INFO -     "suspected_account": "malangraya_info",
+2025-06-26 10:37:31,359 - ig_scraper - INFO -     "suspected_account": "malangraya_info",
+2025-06-26 10:37:31,359 - ig_scraper - INFO -     "post_count": 10,
+2025-06-26 10:37:31,359 - ig_scraper - INFO -     "post_count": 10,
+2025-06-26 10:37:31,359 - ig_scraper - INFO -     "comment_count": 5
+2025-06-26 10:37:31,359 - ig_scraper - INFO -     "comment_count": 5
+2025-06-26 10:37:31,359 - ig_scraper - INFO -   }'
+2025-06-26 10:37:31,359 - ig_scraper - INFO -   }'
+2025-06-26 10:37:31,359 - ig_scraper - INFO - 
+2025-06-26 10:37:31,359 - ig_scraper - INFO - 
+2025-06-26 10:37:31,359 - ig_scraper - INFO - Starting Instagram Scraping API server on 0.0.0.0:5000
+2025-06-26 10:37:31,359 - ig_scraper - INFO - Starting Instagram Scraping API server on 0.0.0.0:5000
+2025-06-26 10:40:49,897 - ig_scraper - INFO - Processing scrape request: suspected_account=malangraya_info, post_count=2, comment_count=2
+2025-06-26 10:40:49,897 - ig_scraper - INFO - Processing scrape request: suspected_account=malangraya_info, post_count=2, comment_count=2
+2025-06-26 10:40:49,898 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 10:40:49,898 - ig_scraper - INFO - === Instagram Profile Scraper - Phase 1 ===
+2025-06-26 10:40:49,898 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 10:40:49,898 - ig_scraper - INFO - Initializing scraper with backup account support...
+2025-06-26 10:40:49,899 - ig_scraper - INFO - Using 2 custom accounts for login
+2025-06-26 10:40:49,899 - ig_scraper - INFO - Using 2 custom accounts for login
+2025-06-26 10:40:49,899 - ig_scraper - INFO - Running in Docker/headless mode
+2025-06-26 10:40:49,899 - ig_scraper - INFO - Running in Docker/headless mode
+2025-06-26 10:40:49,899 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 10:40:49,899 - ig_scraper - INFO - Using ChromeDriver at: /usr/bin/chromedriver
+2025-06-26 10:40:51,112 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 10:40:51,112 - ig_scraper - INFO - WebDriver initialized successfully
+2025-06-26 10:40:51,112 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 10:40:51,112 - ig_scraper - INFO - Attempting login with account: eprosine009
+2025-06-26 10:41:05,164 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 10:41:05,164 - ig_scraper - INFO - Successfully loaded existing session for: eprosine009
+2025-06-26 10:41:05,165 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 10:41:05,165 - ig_scraper - INFO - Scraper initialized successfully
+2025-06-26 10:41:05,165 - ig_scraper - INFO - Navigating to profile: malangraya_info
+2025-06-26 10:41:05,165 - ig_scraper - INFO - Navigating to profile: malangraya_info
+2025-06-26 10:41:05,165 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 10:41:05,165 - ig_scraper - INFO - Navigating to profile: @malangraya_info
+2025-06-26 10:41:16,178 - ig_scraper - ERROR - Timeout waiting for profile @malangraya_info to load
+2025-06-26 10:41:16,178 - ig_scraper - ERROR - Timeout waiting for profile @malangraya_info to load
+2025-06-26 10:41:16,267 - ig_scraper - INFO - Starting post extraction: 2 posts, 2 comments each
+2025-06-26 10:41:16,267 - ig_scraper - INFO - Starting post extraction: 2 posts, 2 comments each
+2025-06-26 10:41:16,268 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 10:41:16,268 - ig_scraper - INFO - Scrolling to load posts...
+2025-06-26 10:41:22,385 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 10:41:22,385 - ig_scraper - INFO - Scrolling completed after 0 attempts
+2025-06-26 10:41:22,386 - ig_scraper - INFO - Extracting post links from profile page
+2025-06-26 10:41:22,386 - ig_scraper - INFO - Extracting post links from profile page
+2025-06-26 10:41:25,484 - ig_scraper - INFO - Successfully extracted 0 post links
+2025-06-26 10:41:25,484 - ig_scraper - INFO - Successfully extracted 0 post links
+2025-06-26 10:41:25,484 - ig_scraper - INFO - Found 0 post links
+2025-06-26 10:41:25,484 - ig_scraper - INFO - Found 0 post links
+2025-06-26 10:41:25,484 - ig_scraper - INFO - Successfully extracted 0 posts
+2025-06-26 10:41:25,484 - ig_scraper - INFO - Successfully extracted 0 posts
+2025-06-26 10:41:25,565 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 10:41:25,565 - ig_scraper - INFO - WebDriver closed successfully
+2025-06-26 10:41:25,565 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 10:41:25,565 - ig_scraper - INFO - Scraper resources cleaned up
+2025-06-26 10:41:25,566 - ig_scraper - INFO - Results saved to /app/core/../output/result.json and /app/core/../output/backup_20250626_104125.json
+2025-06-26 10:41:25,566 - ig_scraper - INFO - Results saved to /app/core/../output/result.json and /app/core/../output/backup_20250626_104125.json
+2025-06-26 10:41:25,566 - ig_scraper - INFO - Scraping completed successfully: 0 posts extracted
+2025-06-26 10:41:25,566 - ig_scraper - INFO - Scraping completed successfully: 0 posts extracted
